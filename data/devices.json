@@ -1,0 +1,2124 @@
+[
+  {
+    "id": "45b369cf-0eec-4602-904d-49bcc82fe2d1",
+    "deviceCode": "DEV00001",
+    "name": "101投影仪",
+    "type": "PROJECTOR",
+    "location": "1层101教室",
+    "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-16T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-04T07:00:47.828Z",
+    "position3D": {
+      "x": 4,
+      "y": 3,
+      "z": 11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "38d3e9ee-21e8-4600-b4c0-6e3ae7ef3935",
+    "deviceCode": "DEV00002",
+    "name": "101空调",
+    "type": "AIR_CONDITION",
+    "location": "1层101教室",
+    "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-29T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-05T07:00:47.828Z",
+    "position3D": {
+      "x": 3,
+      "y": 2,
+      "z": 11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "9a189d20-f398-4ffd-88db-de793bc57d1e",
+    "deviceCode": "DEV00003",
+    "name": "101教学电脑",
+    "type": "COMPUTER",
+    "location": "1层101教室",
+    "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-08T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-26T07:00:47.828Z",
+    "position3D": {
+      "x": 0,
+      "y": 3,
+      "z": 8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "621eded4-1778-43c9-bb52-8642bd82ab89",
+    "deviceCode": "DEV00004",
+    "name": "101照明系统",
+    "type": "LIGHT",
+    "location": "1层101教室",
+    "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-02-16T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-04T07:00:47.828Z",
+    "position3D": {
+      "x": -1,
+      "y": 1,
+      "z": 8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "ee24fc2c-189e-48ba-9546-f2f8536ed121",
+    "deviceCode": "DEV00005",
+    "name": "101智能黑板",
+    "type": "BLACKBOARD",
+    "location": "1层101教室",
+    "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-10T07:00:47.828Z",
+    "position3D": {
+      "x": 2,
+      "y": 3,
+      "z": 9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "19ce449b-bac7-4c04-b59c-51545fca64ba",
+    "deviceCode": "DEV00006",
+    "name": "102投影仪",
+    "type": "PROJECTOR",
+    "location": "1层102教室",
+    "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-05-29T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-18T07:00:47.828Z",
+    "position3D": {
+      "x": 12,
+      "y": 1,
+      "z": 0,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "8a9d09c6-1449-4c3e-b04e-519d6e0281bc",
+    "deviceCode": "DEV00007",
+    "name": "102空调",
+    "type": "AIR_CONDITION",
+    "location": "1层102教室",
+    "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-30T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-25T07:00:47.828Z",
+    "position3D": {
+      "x": 10,
+      "y": 3,
+      "z": 0,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "66958ff0-4a4f-49c5-a407-d05f51bf128e",
+    "deviceCode": "DEV00008",
+    "name": "102教学电脑",
+    "type": "COMPUTER",
+    "location": "1层102教室",
+    "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2026-04-11T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-01T07:00:47.828Z",
+    "faultDescription": "风扇异响",
+    "faultTime": "2026-06-16T05:22:00.828Z",
+    "position3D": {
+      "x": 10,
+      "y": 3,
+      "z": 1,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "1e7efc4b-e554-45a3-951f-bb5ce711ead5",
+    "deviceCode": "DEV00009",
+    "name": "102照明系统",
+    "type": "LIGHT",
+    "location": "1层102教室",
+    "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-08T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-09T07:00:47.828Z",
+    "position3D": {
+      "x": 12,
+      "y": 2,
+      "z": 3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "ea4a1c28-0fc0-4e6b-a9b6-581df5451132",
+    "deviceCode": "DEV00010",
+    "name": "102智能黑板",
+    "type": "BLACKBOARD",
+    "location": "1层102教室",
+    "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-06-01T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-07T07:00:47.828Z",
+    "position3D": {
+      "x": 11,
+      "y": 1,
+      "z": -1,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "26dc3582-a581-40a1-8ef3-d352b6b4789a",
+    "deviceCode": "DEV00011",
+    "name": "103投影仪",
+    "type": "PROJECTOR",
+    "location": "1层103教室",
+    "classroomId": "3f5f054c-456b-47c4-a742-4fbc662669f4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-11T07:00:47.828Z",
+    "position3D": {
+      "x": 33,
+      "y": 1,
+      "z": 7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b890f864-9e42-4a35-bb5f-8c683d8241a5",
+    "deviceCode": "DEV00012",
+    "name": "103空调",
+    "type": "AIR_CONDITION",
+    "location": "1层103教室",
+    "classroomId": "3f5f054c-456b-47c4-a742-4fbc662669f4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-24T07:00:47.828Z",
+    "position3D": {
+      "x": 29,
+      "y": 3,
+      "z": 7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "d71ca4b6-2729-4f7b-ab47-cbbedfc142f9",
+    "deviceCode": "DEV00013",
+    "name": "103教学电脑",
+    "type": "COMPUTER",
+    "location": "1层103教室",
+    "classroomId": "3f5f054c-456b-47c4-a742-4fbc662669f4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-13T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-06T07:00:47.828Z",
+    "position3D": {
+      "x": 29,
+      "y": 1,
+      "z": 12,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "bb50a6b9-3dd5-45ca-9f44-1112f6a081e1",
+    "deviceCode": "DEV00014",
+    "name": "103照明系统",
+    "type": "LIGHT",
+    "location": "1层103教室",
+    "classroomId": "3f5f054c-456b-47c4-a742-4fbc662669f4",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-05-02T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-21T07:00:47.828Z",
+    "position3D": {
+      "x": 27,
+      "y": 2,
+      "z": 11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "fa96470f-d236-4baa-88d9-64b72b2dfb9b",
+    "deviceCode": "DEV00015",
+    "name": "103智能黑板",
+    "type": "BLACKBOARD",
+    "location": "1层103教室",
+    "classroomId": "3f5f054c-456b-47c4-a742-4fbc662669f4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-21T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-13T07:00:47.828Z",
+    "position3D": {
+      "x": 31,
+      "y": 2,
+      "z": 11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "620c58b2-cdb4-491d-b369-3623e5aea790",
+    "deviceCode": "DEV00016",
+    "name": "104投影仪",
+    "type": "PROJECTOR",
+    "location": "1层104教室",
+    "classroomId": "de6e0e87-00e5-4f33-b2f5-b1537a4d2823",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2026-05-13T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-25T07:00:47.828Z",
+    "faultDescription": "温度过高",
+    "faultTime": "2026-06-17T09:06:03.828Z",
+    "position3D": {
+      "x": 44,
+      "y": 3,
+      "z": 12,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "86127c45-fd16-4398-8ec2-fb7101b5a8c5",
+    "deviceCode": "DEV00017",
+    "name": "104空调",
+    "type": "AIR_CONDITION",
+    "location": "1层104教室",
+    "classroomId": "de6e0e87-00e5-4f33-b2f5-b1537a4d2823",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-05T07:00:47.828Z",
+    "position3D": {
+      "x": 47,
+      "y": 3,
+      "z": 9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "47701504-1f49-466f-ba5d-3540ea80d75b",
+    "deviceCode": "DEV00018",
+    "name": "104教学电脑",
+    "type": "COMPUTER",
+    "location": "1层104教室",
+    "classroomId": "de6e0e87-00e5-4f33-b2f5-b1537a4d2823",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-16T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-16T07:00:47.828Z",
+    "position3D": {
+      "x": 48,
+      "y": 3,
+      "z": 11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "d349fd61-56cc-4b03-88ba-f41501be2b12",
+    "deviceCode": "DEV00019",
+    "name": "104照明系统",
+    "type": "LIGHT",
+    "location": "1层104教室",
+    "classroomId": "de6e0e87-00e5-4f33-b2f5-b1537a4d2823",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2026-02-13T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-16T07:00:47.828Z",
+    "faultDescription": "遥控器失灵",
+    "faultTime": "2026-06-14T04:12:44.828Z",
+    "position3D": {
+      "x": 48,
+      "y": 1,
+      "z": 11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "6558cf15-7e24-46ec-8eae-bee4c49685ab",
+    "deviceCode": "DEV00020",
+    "name": "104智能黑板",
+    "type": "BLACKBOARD",
+    "location": "1层104教室",
+    "classroomId": "de6e0e87-00e5-4f33-b2f5-b1537a4d2823",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-06-01T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-21T07:00:47.828Z",
+    "position3D": {
+      "x": 48,
+      "y": 3,
+      "z": 11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "24a6ca6a-d254-4ac7-8cb5-1d9e401557ea",
+    "deviceCode": "DEV00021",
+    "name": "105投影仪",
+    "type": "PROJECTOR",
+    "location": "1层105教室",
+    "classroomId": "ae51f38b-5f45-48c4-82d1-6e5992e30ff7",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-23T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-26T07:00:47.828Z",
+    "position3D": {
+      "x": 64,
+      "y": 2,
+      "z": -1,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "4b5ca8da-4f7d-4ab1-a4ff-cd01bacb241b",
+    "deviceCode": "DEV00022",
+    "name": "105空调",
+    "type": "AIR_CONDITION",
+    "location": "1层105教室",
+    "classroomId": "ae51f38b-5f45-48c4-82d1-6e5992e30ff7",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-07T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-20T07:00:47.828Z",
+    "position3D": {
+      "x": 65,
+      "y": 3,
+      "z": -3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "f73e3da7-8d8e-4fd8-8ffb-8c42d2eb04f1",
+    "deviceCode": "DEV00023",
+    "name": "105教学电脑",
+    "type": "COMPUTER",
+    "location": "1层105教室",
+    "classroomId": "ae51f38b-5f45-48c4-82d1-6e5992e30ff7",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-10T07:00:47.828Z",
+    "position3D": {
+      "x": 64,
+      "y": 1,
+      "z": -3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "99bcf4f6-c622-40ee-a772-7da574bdc41a",
+    "deviceCode": "DEV00024",
+    "name": "105照明系统",
+    "type": "LIGHT",
+    "location": "1层105教室",
+    "classroomId": "ae51f38b-5f45-48c4-82d1-6e5992e30ff7",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-06-05T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-05T07:00:47.828Z",
+    "position3D": {
+      "x": 64,
+      "y": 3,
+      "z": -1,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "9ab68ab4-e1c6-45c2-8a1c-6937cdb46ded",
+    "deviceCode": "DEV00025",
+    "name": "105智能黑板",
+    "type": "BLACKBOARD",
+    "location": "1层105教室",
+    "classroomId": "ae51f38b-5f45-48c4-82d1-6e5992e30ff7",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-04-12T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-03T07:00:47.828Z",
+    "position3D": {
+      "x": 62,
+      "y": 1,
+      "z": -5,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "9e6be3e2-a1af-4316-951b-6ad0d242a45b",
+    "deviceCode": "DEV00026",
+    "name": "106投影仪",
+    "type": "PROJECTOR",
+    "location": "1层106教室",
+    "classroomId": "2e11246f-ef46-4e8a-abf2-73090d7780e3",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-12T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-02T07:00:47.828Z",
+    "position3D": {
+      "x": 71,
+      "y": 1,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "79956550-d1f6-4f6b-886a-0ec1b78f91dd",
+    "deviceCode": "DEV00027",
+    "name": "106空调",
+    "type": "AIR_CONDITION",
+    "location": "1层106教室",
+    "classroomId": "2e11246f-ef46-4e8a-abf2-73090d7780e3",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-05-30T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-11T07:00:47.828Z",
+    "position3D": {
+      "x": 76,
+      "y": 1,
+      "z": -6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "494910f9-a183-4ad3-a74b-d1ae97ebe388",
+    "deviceCode": "DEV00028",
+    "name": "106教学电脑",
+    "type": "COMPUTER",
+    "location": "1层106教室",
+    "classroomId": "2e11246f-ef46-4e8a-abf2-73090d7780e3",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-01T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-29T07:00:47.828Z",
+    "position3D": {
+      "x": 72,
+      "y": 2,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b03f1e82-4841-45a4-b919-918b288cbf4a",
+    "deviceCode": "DEV00029",
+    "name": "106照明系统",
+    "type": "LIGHT",
+    "location": "1层106教室",
+    "classroomId": "2e11246f-ef46-4e8a-abf2-73090d7780e3",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-23T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-12T07:00:47.828Z",
+    "position3D": {
+      "x": 70,
+      "y": 2,
+      "z": -9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "0d5379d8-e855-4ca1-b1eb-4294e8ee53cf",
+    "deviceCode": "DEV00030",
+    "name": "106智能黑板",
+    "type": "BLACKBOARD",
+    "location": "1层106教室",
+    "classroomId": "2e11246f-ef46-4e8a-abf2-73090d7780e3",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-28T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-23T07:00:47.828Z",
+    "position3D": {
+      "x": 73,
+      "y": 2,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "6341340f-2514-41e8-b549-242e39db33f4",
+    "deviceCode": "DEV00031",
+    "name": "201投影仪",
+    "type": "PROJECTOR",
+    "location": "2层201教室",
+    "classroomId": "c95ec76e-9a68-476b-b0f1-e3301f401941",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-08T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-09T07:00:47.828Z",
+    "position3D": {
+      "x": 3,
+      "y": 7,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "0deecbd1-0934-4d28-b162-cc082d2f6a0c",
+    "deviceCode": "DEV00032",
+    "name": "201空调",
+    "type": "AIR_CONDITION",
+    "location": "2层201教室",
+    "classroomId": "c95ec76e-9a68-476b-b0f1-e3301f401941",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-03-04T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-02T07:00:47.828Z",
+    "position3D": {
+      "x": -3,
+      "y": 6,
+      "z": -11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b92f856e-8cce-4a15-ab0d-176cc2c25d28",
+    "deviceCode": "DEV00033",
+    "name": "201教学电脑",
+    "type": "COMPUTER",
+    "location": "2层201教室",
+    "classroomId": "c95ec76e-9a68-476b-b0f1-e3301f401941",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-03T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-10T07:00:47.828Z",
+    "position3D": {
+      "x": 1,
+      "y": 7,
+      "z": -10,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "dfeac46d-ce31-416c-b4a5-c55b1215edd1",
+    "deviceCode": "DEV00034",
+    "name": "201照明系统",
+    "type": "LIGHT",
+    "location": "2层201教室",
+    "classroomId": "c95ec76e-9a68-476b-b0f1-e3301f401941",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-16T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-06-27T07:00:47.828Z",
+    "position3D": {
+      "x": -1,
+      "y": 5,
+      "z": -13,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "8eb11ec2-4267-4083-adc5-e19b6f1a7c13",
+    "deviceCode": "DEV00035",
+    "name": "201智能黑板",
+    "type": "BLACKBOARD",
+    "location": "2层201教室",
+    "classroomId": "c95ec76e-9a68-476b-b0f1-e3301f401941",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-04-18T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-13T07:00:47.828Z",
+    "position3D": {
+      "x": -1,
+      "y": 7,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "740a04f2-1efe-4b00-bdea-4cd166230c3a",
+    "deviceCode": "DEV00036",
+    "name": "202投影仪",
+    "type": "PROJECTOR",
+    "location": "2层202教室",
+    "classroomId": "d0c1f40c-f782-4c5a-9898-2e4645b7d5a4",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-04-02T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-08T07:00:47.828Z",
+    "position3D": {
+      "x": 13,
+      "y": 6,
+      "z": 2,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "dc3536f7-b1df-482f-8d32-16d3e3677898",
+    "deviceCode": "DEV00037",
+    "name": "202空调",
+    "type": "AIR_CONDITION",
+    "location": "2层202教室",
+    "classroomId": "d0c1f40c-f782-4c5a-9898-2e4645b7d5a4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-22T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-27T07:00:47.828Z",
+    "position3D": {
+      "x": 17,
+      "y": 6,
+      "z": 3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "9fd3ca1b-31d5-45f0-9478-cac603d11862",
+    "deviceCode": "DEV00038",
+    "name": "202教学电脑",
+    "type": "COMPUTER",
+    "location": "2层202教室",
+    "classroomId": "d0c1f40c-f782-4c5a-9898-2e4645b7d5a4",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-02-03T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-14T07:00:47.828Z",
+    "position3D": {
+      "x": 18,
+      "y": 5,
+      "z": -3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "8164ae67-9f19-49d9-ab21-1face2d8368c",
+    "deviceCode": "DEV00039",
+    "name": "202照明系统",
+    "type": "LIGHT",
+    "location": "2层202教室",
+    "classroomId": "d0c1f40c-f782-4c5a-9898-2e4645b7d5a4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-09T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-29T07:00:47.828Z",
+    "position3D": {
+      "x": 14,
+      "y": 5,
+      "z": 3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "2d8efd3e-195f-454a-8cd3-0578918389a4",
+    "deviceCode": "DEV00040",
+    "name": "202智能黑板",
+    "type": "BLACKBOARD",
+    "location": "2层202教室",
+    "classroomId": "d0c1f40c-f782-4c5a-9898-2e4645b7d5a4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-21T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-17T07:00:47.828Z",
+    "position3D": {
+      "x": 16,
+      "y": 7,
+      "z": 1,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "f21b0f86-a940-4507-bef3-420bc4d74861",
+    "deviceCode": "DEV00041",
+    "name": "203投影仪",
+    "type": "PROJECTOR",
+    "location": "2层203教室",
+    "classroomId": "9585fc88-c828-4388-bfcb-05e91389987d",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-06-02T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-06-28T07:00:47.828Z",
+    "position3D": {
+      "x": 31,
+      "y": 6,
+      "z": 6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "3c181964-c5e1-4da4-b120-2864f99b0210",
+    "deviceCode": "DEV00042",
+    "name": "203空调",
+    "type": "AIR_CONDITION",
+    "location": "2层203教室",
+    "classroomId": "9585fc88-c828-4388-bfcb-05e91389987d",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-29T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-08T07:00:47.828Z",
+    "position3D": {
+      "x": 34,
+      "y": 5,
+      "z": 7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "deeac021-4f0e-48eb-a1cc-70312813bf1b",
+    "deviceCode": "DEV00043",
+    "name": "203教学电脑",
+    "type": "COMPUTER",
+    "location": "2层203教室",
+    "classroomId": "9585fc88-c828-4388-bfcb-05e91389987d",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-24T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-05T07:00:47.828Z",
+    "position3D": {
+      "x": 31,
+      "y": 7,
+      "z": 10,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "9b897ca1-89f4-4540-9141-af8ee798f08e",
+    "deviceCode": "DEV00044",
+    "name": "203照明系统",
+    "type": "LIGHT",
+    "location": "2层203教室",
+    "classroomId": "9585fc88-c828-4388-bfcb-05e91389987d",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2025-12-22T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-30T07:00:47.828Z",
+    "faultDescription": "灯泡烧坏",
+    "faultTime": "2026-06-14T16:02:09.828Z",
+    "position3D": {
+      "x": 29,
+      "y": 7,
+      "z": 6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "be3cfdd5-929f-446f-aec7-edee7b871e8d",
+    "deviceCode": "DEV00045",
+    "name": "203智能黑板",
+    "type": "BLACKBOARD",
+    "location": "2层203教室",
+    "classroomId": "9585fc88-c828-4388-bfcb-05e91389987d",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-16T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-04T07:00:47.828Z",
+    "position3D": {
+      "x": 32,
+      "y": 6,
+      "z": 10,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "14c0a048-3d7b-4659-98e7-9d60103a86a8",
+    "deviceCode": "DEV00046",
+    "name": "204投影仪",
+    "type": "PROJECTOR",
+    "location": "2层204教室",
+    "classroomId": "5310b715-566a-4253-bd19-7936d14b37be",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-01T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-28T07:00:47.828Z",
+    "position3D": {
+      "x": 44,
+      "y": 6,
+      "z": -10,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "3199cc2c-5e1e-4f4e-8195-4bd530d51b57",
+    "deviceCode": "DEV00047",
+    "name": "204空调",
+    "type": "AIR_CONDITION",
+    "location": "2层204教室",
+    "classroomId": "5310b715-566a-4253-bd19-7936d14b37be",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-13T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-04T07:00:47.828Z",
+    "position3D": {
+      "x": 41,
+      "y": 7,
+      "z": -11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "1a9f54c1-25e0-4e40-b9df-15334add3dce",
+    "deviceCode": "DEV00048",
+    "name": "204教学电脑",
+    "type": "COMPUTER",
+    "location": "2层204教室",
+    "classroomId": "5310b715-566a-4253-bd19-7936d14b37be",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-04-12T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-30T07:00:47.828Z",
+    "position3D": {
+      "x": 42,
+      "y": 7,
+      "z": -6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "ee0e2ddc-1c3b-4f15-a7b6-ce2f83dbb8f3",
+    "deviceCode": "DEV00049",
+    "name": "204照明系统",
+    "type": "LIGHT",
+    "location": "2层204教室",
+    "classroomId": "5310b715-566a-4253-bd19-7936d14b37be",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-07T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-26T07:00:47.828Z",
+    "position3D": {
+      "x": 43,
+      "y": 6,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "f28d9a7f-cd5a-4cf5-a910-83efcf33e56b",
+    "deviceCode": "DEV00050",
+    "name": "204智能黑板",
+    "type": "BLACKBOARD",
+    "location": "2层204教室",
+    "classroomId": "5310b715-566a-4253-bd19-7936d14b37be",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-05T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-30T07:00:47.828Z",
+    "position3D": {
+      "x": 47,
+      "y": 5,
+      "z": -9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "18ab1fca-4cc5-4914-8502-6e179da90505",
+    "deviceCode": "DEV00051",
+    "name": "205投影仪",
+    "type": "PROJECTOR",
+    "location": "2层205教室",
+    "classroomId": "f18bb00c-e0a3-4da5-97cd-4dbdc8ddcc9b",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-22T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-02T07:00:47.828Z",
+    "position3D": {
+      "x": 58,
+      "y": 7,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "1d921c57-d6ea-4b46-aed6-77648422a6fc",
+    "deviceCode": "DEV00052",
+    "name": "205空调",
+    "type": "AIR_CONDITION",
+    "location": "2层205教室",
+    "classroomId": "f18bb00c-e0a3-4da5-97cd-4dbdc8ddcc9b",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-27T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-05T07:00:47.828Z",
+    "position3D": {
+      "x": 60,
+      "y": 6,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b6ed7d08-da5d-47fe-9df9-9441a09052cb",
+    "deviceCode": "DEV00053",
+    "name": "205教学电脑",
+    "type": "COMPUTER",
+    "location": "2层205教室",
+    "classroomId": "f18bb00c-e0a3-4da5-97cd-4dbdc8ddcc9b",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-01-16T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-24T07:00:47.828Z",
+    "position3D": {
+      "x": 58,
+      "y": 5,
+      "z": -9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "c0d4c1a8-e8ce-4667-8d94-49f98850ead0",
+    "deviceCode": "DEV00054",
+    "name": "205照明系统",
+    "type": "LIGHT",
+    "location": "2层205教室",
+    "classroomId": "f18bb00c-e0a3-4da5-97cd-4dbdc8ddcc9b",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-03-06T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-16T07:00:47.828Z",
+    "position3D": {
+      "x": 63,
+      "y": 5,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "7052cd6e-a63a-40aa-b655-f9f6fb1d7979",
+    "deviceCode": "DEV00055",
+    "name": "205智能黑板",
+    "type": "BLACKBOARD",
+    "location": "2层205教室",
+    "classroomId": "f18bb00c-e0a3-4da5-97cd-4dbdc8ddcc9b",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-19T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-24T07:00:47.828Z",
+    "position3D": {
+      "x": 63,
+      "y": 6,
+      "z": -4,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "e4eee868-e5d8-46f7-b34d-2e5a1cb51fdc",
+    "deviceCode": "DEV00056",
+    "name": "206投影仪",
+    "type": "PROJECTOR",
+    "location": "2层206教室",
+    "classroomId": "80c2f3cc-e3da-4b57-b625-78f051d6c5c7",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2026-04-26T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-11T07:00:47.828Z",
+    "faultDescription": "无法开机",
+    "faultTime": "2026-06-10T09:41:21.828Z",
+    "position3D": {
+      "x": 78,
+      "y": 7,
+      "z": -3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "7a678316-db68-4944-8342-984a4139c894",
+    "deviceCode": "DEV00057",
+    "name": "206空调",
+    "type": "AIR_CONDITION",
+    "location": "2层206教室",
+    "classroomId": "80c2f3cc-e3da-4b57-b625-78f051d6c5c7",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-28T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-31T07:00:47.828Z",
+    "position3D": {
+      "x": 77,
+      "y": 7,
+      "z": 3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b5ddc198-d9ae-4df3-a1b6-8f2b85c4bde2",
+    "deviceCode": "DEV00058",
+    "name": "206教学电脑",
+    "type": "COMPUTER",
+    "location": "2层206教室",
+    "classroomId": "80c2f3cc-e3da-4b57-b625-78f051d6c5c7",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-28T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-22T07:00:47.828Z",
+    "position3D": {
+      "x": 74,
+      "y": 7,
+      "z": 0,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "25191f58-fde5-46c6-b188-33fe159cf03d",
+    "deviceCode": "DEV00059",
+    "name": "206照明系统",
+    "type": "LIGHT",
+    "location": "2层206教室",
+    "classroomId": "80c2f3cc-e3da-4b57-b625-78f051d6c5c7",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-09T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-28T07:00:47.828Z",
+    "position3D": {
+      "x": 73,
+      "y": 6,
+      "z": 1,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "c24c4e9c-e4b5-4603-8b66-d249253a75e3",
+    "deviceCode": "DEV00060",
+    "name": "206智能黑板",
+    "type": "BLACKBOARD",
+    "location": "2层206教室",
+    "classroomId": "80c2f3cc-e3da-4b57-b625-78f051d6c5c7",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-07T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-09T07:00:47.828Z",
+    "position3D": {
+      "x": 77,
+      "y": 5,
+      "z": 2,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "79627c13-52c0-4014-9367-c899062190cf",
+    "deviceCode": "DEV00061",
+    "name": "301投影仪",
+    "type": "PROJECTOR",
+    "location": "3层301教室",
+    "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-22T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-22T07:00:47.828Z",
+    "position3D": {
+      "x": -3,
+      "y": 9,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "295886e4-e1ca-48b9-9263-6b5ffdbd450f",
+    "deviceCode": "DEV00062",
+    "name": "301空调",
+    "type": "AIR_CONDITION",
+    "location": "3层301教室",
+    "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-02-18T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-31T07:00:47.828Z",
+    "position3D": {
+      "x": -2,
+      "y": 11,
+      "z": -2,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "44548672-fccc-469a-89d7-eb05a4b2689d",
+    "deviceCode": "DEV00063",
+    "name": "301教学电脑",
+    "type": "COMPUTER",
+    "location": "3层301教室",
+    "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2025-12-20T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-22T07:00:47.828Z",
+    "position3D": {
+      "x": -2,
+      "y": 11,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "f322fa48-5f91-4ef4-b00f-7006864cb024",
+    "deviceCode": "DEV00064",
+    "name": "301照明系统",
+    "type": "LIGHT",
+    "location": "3层301教室",
+    "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-05-11T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-15T07:00:47.828Z",
+    "position3D": {
+      "x": 1,
+      "y": 9,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "e70c40fd-385d-4cdf-8b9f-0cf66749c45e",
+    "deviceCode": "DEV00065",
+    "name": "301智能黑板",
+    "type": "BLACKBOARD",
+    "location": "3层301教室",
+    "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-02-24T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-27T07:00:47.828Z",
+    "position3D": {
+      "x": -4,
+      "y": 9,
+      "z": -3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "ef4b9210-9c1a-4f62-a52d-ef34808c7aa9",
+    "deviceCode": "DEV00066",
+    "name": "302投影仪",
+    "type": "PROJECTOR",
+    "location": "3层302教室",
+    "classroomId": "1390d23b-0d61-449a-96b8-b97bdf564ecc",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-05-08T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-10T07:00:47.828Z",
+    "position3D": {
+      "x": 12,
+      "y": 9,
+      "z": -4,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "ae839c14-61dd-493f-ac9b-0cb2498a64f5",
+    "deviceCode": "DEV00067",
+    "name": "302空调",
+    "type": "AIR_CONDITION",
+    "location": "3层302教室",
+    "classroomId": "1390d23b-0d61-449a-96b8-b97bdf564ecc",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-20T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-15T07:00:47.828Z",
+    "position3D": {
+      "x": 11,
+      "y": 11,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "1cfbaa6a-1610-45e2-ad76-aba919073ad9",
+    "deviceCode": "DEV00068",
+    "name": "302教学电脑",
+    "type": "COMPUTER",
+    "location": "3层302教室",
+    "classroomId": "1390d23b-0d61-449a-96b8-b97bdf564ecc",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-11T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-18T07:00:47.828Z",
+    "position3D": {
+      "x": 12,
+      "y": 11,
+      "z": -6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "13095d11-8216-4d29-b6a9-4d7c727a7c8c",
+    "deviceCode": "DEV00069",
+    "name": "302照明系统",
+    "type": "LIGHT",
+    "location": "3层302教室",
+    "classroomId": "1390d23b-0d61-449a-96b8-b97bdf564ecc",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-08T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-06T07:00:47.828Z",
+    "position3D": {
+      "x": 11,
+      "y": 11,
+      "z": -3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "57413072-2a3f-4087-8203-8314f5e53a15",
+    "deviceCode": "DEV00070",
+    "name": "302智能黑板",
+    "type": "BLACKBOARD",
+    "location": "3层302教室",
+    "classroomId": "1390d23b-0d61-449a-96b8-b97bdf564ecc",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-11T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-11T07:00:47.828Z",
+    "position3D": {
+      "x": 16,
+      "y": 11,
+      "z": -3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "aedf3263-0935-431c-af49-bd5a564f910b",
+    "deviceCode": "DEV00071",
+    "name": "303投影仪",
+    "type": "PROJECTOR",
+    "location": "3层303教室",
+    "classroomId": "d80149f5-28b8-4f83-a9d8-0b282483c73a",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-17T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-24T07:00:47.828Z",
+    "position3D": {
+      "x": 30,
+      "y": 11,
+      "z": -11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "e4c7c6a8-53e5-4dbd-b386-c4d85b7869d3",
+    "deviceCode": "DEV00072",
+    "name": "303空调",
+    "type": "AIR_CONDITION",
+    "location": "3层303教室",
+    "classroomId": "d80149f5-28b8-4f83-a9d8-0b282483c73a",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-21T07:00:47.828Z",
+    "position3D": {
+      "x": 33,
+      "y": 10,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b91d78bb-8e8e-4c85-a98c-282c7e7b73ef",
+    "deviceCode": "DEV00073",
+    "name": "303教学电脑",
+    "type": "COMPUTER",
+    "location": "3层303教室",
+    "classroomId": "d80149f5-28b8-4f83-a9d8-0b282483c73a",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-08T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-30T07:00:47.828Z",
+    "position3D": {
+      "x": 32,
+      "y": 11,
+      "z": -6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "8257d7b0-7335-4097-8703-6515238f6e81",
+    "deviceCode": "DEV00074",
+    "name": "303照明系统",
+    "type": "LIGHT",
+    "location": "3层303教室",
+    "classroomId": "d80149f5-28b8-4f83-a9d8-0b282483c73a",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-27T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-13T07:00:47.828Z",
+    "position3D": {
+      "x": 35,
+      "y": 10,
+      "z": -6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "4899ecb5-c420-46c0-a0c5-8b9c70b4f661",
+    "deviceCode": "DEV00075",
+    "name": "303智能黑板",
+    "type": "BLACKBOARD",
+    "location": "3层303教室",
+    "classroomId": "d80149f5-28b8-4f83-a9d8-0b282483c73a",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-04-03T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-06-29T07:00:47.828Z",
+    "position3D": {
+      "x": 29,
+      "y": 9,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "533b4f4e-89d9-4af4-ab66-9948b996e46e",
+    "deviceCode": "DEV00076",
+    "name": "304投影仪",
+    "type": "PROJECTOR",
+    "location": "3层304教室",
+    "classroomId": "dc3dc997-7318-4e69-8a52-fcfb16149fd9",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-12T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-13T07:00:47.828Z",
+    "position3D": {
+      "x": 46,
+      "y": 9,
+      "z": 5,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "a00243e7-517a-40ff-9236-095f144ec293",
+    "deviceCode": "DEV00077",
+    "name": "304空调",
+    "type": "AIR_CONDITION",
+    "location": "3层304教室",
+    "classroomId": "dc3dc997-7318-4e69-8a52-fcfb16149fd9",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-04T07:00:47.828Z",
+    "position3D": {
+      "x": 48,
+      "y": 11,
+      "z": 3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "803c85c1-e437-4d98-907c-e2c64f7c1013",
+    "deviceCode": "DEV00078",
+    "name": "304教学电脑",
+    "type": "COMPUTER",
+    "location": "3层304教室",
+    "classroomId": "dc3dc997-7318-4e69-8a52-fcfb16149fd9",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-25T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-24T07:00:47.828Z",
+    "position3D": {
+      "x": 49,
+      "y": 11,
+      "z": 5,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "5af273c3-b73f-49a0-a0f9-1d174d2c2a78",
+    "deviceCode": "DEV00079",
+    "name": "304照明系统",
+    "type": "LIGHT",
+    "location": "3层304教室",
+    "classroomId": "dc3dc997-7318-4e69-8a52-fcfb16149fd9",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-11T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-14T07:00:47.828Z",
+    "position3D": {
+      "x": 45,
+      "y": 11,
+      "z": 3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "661a5aa4-f78c-40d0-a94e-f6b7feef46ae",
+    "deviceCode": "DEV00080",
+    "name": "304智能黑板",
+    "type": "BLACKBOARD",
+    "location": "3层304教室",
+    "classroomId": "dc3dc997-7318-4e69-8a52-fcfb16149fd9",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-01-26T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-31T07:00:47.828Z",
+    "position3D": {
+      "x": 45,
+      "y": 9,
+      "z": 1,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "96093e4e-9cad-4c45-8583-7e6f5ca1568d",
+    "deviceCode": "DEV00081",
+    "name": "305投影仪",
+    "type": "PROJECTOR",
+    "location": "3层305教室",
+    "classroomId": "68aa1b88-604e-4dc8-8365-015fcb2b1da6",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-07T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-08T07:00:47.828Z",
+    "position3D": {
+      "x": 60,
+      "y": 9,
+      "z": -9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "cf793221-cb9c-455f-8079-8519f59ec276",
+    "deviceCode": "DEV00082",
+    "name": "305空调",
+    "type": "AIR_CONDITION",
+    "location": "3层305教室",
+    "classroomId": "68aa1b88-604e-4dc8-8365-015fcb2b1da6",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2026-04-04T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-30T07:00:47.828Z",
+    "faultDescription": "灯泡烧坏",
+    "faultTime": "2026-06-17T15:13:31.828Z",
+    "position3D": {
+      "x": 57,
+      "y": 9,
+      "z": -11,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "94037759-12b3-44b2-a522-75afb4d3ac98",
+    "deviceCode": "DEV00083",
+    "name": "305教学电脑",
+    "type": "COMPUTER",
+    "location": "3层305教室",
+    "classroomId": "68aa1b88-604e-4dc8-8365-015fcb2b1da6",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-20T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-01T07:00:47.828Z",
+    "position3D": {
+      "x": 60,
+      "y": 11,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "bcc05b34-a9be-4df1-b18d-0611823b988b",
+    "deviceCode": "DEV00084",
+    "name": "305照明系统",
+    "type": "LIGHT",
+    "location": "3层305教室",
+    "classroomId": "68aa1b88-604e-4dc8-8365-015fcb2b1da6",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-16T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-01T07:00:47.828Z",
+    "position3D": {
+      "x": 61,
+      "y": 11,
+      "z": -10,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "c0ef5e61-74e2-42bd-9e00-151a4eafcbb9",
+    "deviceCode": "DEV00085",
+    "name": "305智能黑板",
+    "type": "BLACKBOARD",
+    "location": "3层305教室",
+    "classroomId": "68aa1b88-604e-4dc8-8365-015fcb2b1da6",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-30T07:00:47.828Z",
+    "position3D": {
+      "x": 60,
+      "y": 10,
+      "z": -13,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "c559d219-0f83-4c95-b6bc-81696e4d68c3",
+    "deviceCode": "DEV00086",
+    "name": "306投影仪",
+    "type": "PROJECTOR",
+    "location": "3层306教室",
+    "classroomId": "d8fea673-14ec-4f66-8f85-5320d907fafd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-10T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-20T07:00:47.828Z",
+    "position3D": {
+      "x": 76,
+      "y": 10,
+      "z": 8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "f66aa701-746d-4297-a45b-06788b6c9cc8",
+    "deviceCode": "DEV00087",
+    "name": "306空调",
+    "type": "AIR_CONDITION",
+    "location": "3层306教室",
+    "classroomId": "d8fea673-14ec-4f66-8f85-5320d907fafd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-02T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-01T07:00:47.828Z",
+    "position3D": {
+      "x": 76,
+      "y": 11,
+      "z": 7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "614e2868-4e23-4e25-8fe6-dbdfca3f92fb",
+    "deviceCode": "DEV00088",
+    "name": "306教学电脑",
+    "type": "COMPUTER",
+    "location": "3层306教室",
+    "classroomId": "d8fea673-14ec-4f66-8f85-5320d907fafd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-22T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-07T07:00:47.828Z",
+    "position3D": {
+      "x": 80,
+      "y": 10,
+      "z": 12,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "32d8ad0c-1561-4c41-b473-3f4a317ab6b2",
+    "deviceCode": "DEV00089",
+    "name": "306照明系统",
+    "type": "LIGHT",
+    "location": "3层306教室",
+    "classroomId": "d8fea673-14ec-4f66-8f85-5320d907fafd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-25T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-27T07:00:47.828Z",
+    "position3D": {
+      "x": 76,
+      "y": 9,
+      "z": 8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b6ba5651-ade4-496f-aedc-3adfe2f94e37",
+    "deviceCode": "DEV00090",
+    "name": "306智能黑板",
+    "type": "BLACKBOARD",
+    "location": "3层306教室",
+    "classroomId": "d8fea673-14ec-4f66-8f85-5320d907fafd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-30T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-14T07:00:47.828Z",
+    "position3D": {
+      "x": 75,
+      "y": 10,
+      "z": 8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "50f9e202-f005-4b88-b8bb-970238da7821",
+    "deviceCode": "DEV00091",
+    "name": "401投影仪",
+    "type": "PROJECTOR",
+    "location": "4层401教室",
+    "classroomId": "231c3fc0-6da6-4b62-b330-5b12cc15b9fe",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-06-02T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-02T07:00:47.828Z",
+    "position3D": {
+      "x": 1,
+      "y": 15,
+      "z": -9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "3c06d8ef-1407-4ff2-8353-08feb9df1a1f",
+    "deviceCode": "DEV00092",
+    "name": "401空调",
+    "type": "AIR_CONDITION",
+    "location": "4层401教室",
+    "classroomId": "231c3fc0-6da6-4b62-b330-5b12cc15b9fe",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2026-03-01T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-04T07:00:47.828Z",
+    "faultDescription": "风扇异响",
+    "faultTime": "2026-06-11T09:53:13.828Z",
+    "position3D": {
+      "x": 0,
+      "y": 15,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "fb4a77ae-9d38-4093-8849-2cd40d404bbd",
+    "deviceCode": "DEV00093",
+    "name": "401教学电脑",
+    "type": "COMPUTER",
+    "location": "4层401教室",
+    "classroomId": "231c3fc0-6da6-4b62-b330-5b12cc15b9fe",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2025-12-19T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-01T07:00:47.828Z",
+    "position3D": {
+      "x": 1,
+      "y": 13,
+      "z": -9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "9e26cf17-4d2c-4334-9e05-89653b33a751",
+    "deviceCode": "DEV00094",
+    "name": "401照明系统",
+    "type": "LIGHT",
+    "location": "4层401教室",
+    "classroomId": "231c3fc0-6da6-4b62-b330-5b12cc15b9fe",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-13T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-06-28T07:00:47.828Z",
+    "position3D": {
+      "x": 0,
+      "y": 13,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "0ead121e-9a52-4175-84c3-8f271eb15610",
+    "deviceCode": "DEV00095",
+    "name": "401智能黑板",
+    "type": "BLACKBOARD",
+    "location": "4层401教室",
+    "classroomId": "231c3fc0-6da6-4b62-b330-5b12cc15b9fe",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-24T07:00:47.828Z",
+    "position3D": {
+      "x": 3,
+      "y": 13,
+      "z": -6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "f1cfa267-3660-4d64-9d2b-b761d14b4143",
+    "deviceCode": "DEV00096",
+    "name": "402投影仪",
+    "type": "PROJECTOR",
+    "location": "4层402教室",
+    "classroomId": "5613d4cd-103e-411e-b58e-c5acf96d0a65",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-03-17T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-14T07:00:47.828Z",
+    "position3D": {
+      "x": 14,
+      "y": 14,
+      "z": 9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "a480ca9a-0de3-4ad6-a68a-7b3598d308b4",
+    "deviceCode": "DEV00097",
+    "name": "402空调",
+    "type": "AIR_CONDITION",
+    "location": "4层402教室",
+    "classroomId": "5613d4cd-103e-411e-b58e-c5acf96d0a65",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2025-12-19T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-14T07:00:47.828Z",
+    "faultDescription": "滤网堵塞",
+    "faultTime": "2026-06-13T23:28:29.828Z",
+    "position3D": {
+      "x": 11,
+      "y": 14,
+      "z": 4,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "7eaa2cbe-e719-4073-a5fa-bd89d3ed7516",
+    "deviceCode": "DEV00098",
+    "name": "402教学电脑",
+    "type": "COMPUTER",
+    "location": "4层402教室",
+    "classroomId": "5613d4cd-103e-411e-b58e-c5acf96d0a65",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2025-12-24T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-06-30T07:00:47.828Z",
+    "position3D": {
+      "x": 15,
+      "y": 15,
+      "z": 6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b3a5712d-a930-4ee1-9808-a07f187b2893",
+    "deviceCode": "DEV00099",
+    "name": "402照明系统",
+    "type": "LIGHT",
+    "location": "4层402教室",
+    "classroomId": "5613d4cd-103e-411e-b58e-c5acf96d0a65",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-20T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-27T07:00:47.828Z",
+    "position3D": {
+      "x": 16,
+      "y": 15,
+      "z": 9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "914dc7b1-db40-472b-8162-4f530542b82e",
+    "deviceCode": "DEV00100",
+    "name": "402智能黑板",
+    "type": "BLACKBOARD",
+    "location": "4层402教室",
+    "classroomId": "5613d4cd-103e-411e-b58e-c5acf96d0a65",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-18T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-29T07:00:47.828Z",
+    "position3D": {
+      "x": 17,
+      "y": 15,
+      "z": 9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "d2f9a39c-56f1-4a5b-ac44-8791dabb8149",
+    "deviceCode": "DEV00101",
+    "name": "403投影仪",
+    "type": "PROJECTOR",
+    "location": "4层403教室",
+    "classroomId": "bb253107-9aaf-43eb-9261-f780821ca1fd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-02T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-21T07:00:47.828Z",
+    "position3D": {
+      "x": 34,
+      "y": 15,
+      "z": -5,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "8d9daa71-3060-4689-8d4f-e3ad0f8410d5",
+    "deviceCode": "DEV00102",
+    "name": "403空调",
+    "type": "AIR_CONDITION",
+    "location": "4层403教室",
+    "classroomId": "bb253107-9aaf-43eb-9261-f780821ca1fd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-05T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-20T07:00:47.828Z",
+    "position3D": {
+      "x": 35,
+      "y": 14,
+      "z": -6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "f14114bf-1b92-4b1a-bd2d-395edad831e4",
+    "deviceCode": "DEV00103",
+    "name": "403教学电脑",
+    "type": "COMPUTER",
+    "location": "4层403教室",
+    "classroomId": "bb253107-9aaf-43eb-9261-f780821ca1fd",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-05-08T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-21T07:00:47.828Z",
+    "position3D": {
+      "x": 31,
+      "y": 15,
+      "z": -2,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "dece4a1d-917b-4293-b953-e874cc457bab",
+    "deviceCode": "DEV00104",
+    "name": "403照明系统",
+    "type": "LIGHT",
+    "location": "4层403教室",
+    "classroomId": "bb253107-9aaf-43eb-9261-f780821ca1fd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-15T07:00:47.828Z",
+    "position3D": {
+      "x": 35,
+      "y": 15,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "5122f6e0-01e8-46fc-aeac-916dccd02155",
+    "deviceCode": "DEV00105",
+    "name": "403智能黑板",
+    "type": "BLACKBOARD",
+    "location": "4层403教室",
+    "classroomId": "bb253107-9aaf-43eb-9261-f780821ca1fd",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-19T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-11T07:00:47.828Z",
+    "position3D": {
+      "x": 32,
+      "y": 15,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "4204d4c2-ee76-4b9d-b292-d130451afa2c",
+    "deviceCode": "DEV00106",
+    "name": "404投影仪",
+    "type": "PROJECTOR",
+    "location": "4层404教室",
+    "classroomId": "ac742170-9321-4628-b1e9-b58152a0f2bb",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-06-03T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-03T07:00:47.828Z",
+    "position3D": {
+      "x": 44,
+      "y": 14,
+      "z": 2,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "d73df6f3-f331-4388-8464-f80fa0d425c2",
+    "deviceCode": "DEV00107",
+    "name": "404空调",
+    "type": "AIR_CONDITION",
+    "location": "4层404教室",
+    "classroomId": "ac742170-9321-4628-b1e9-b58152a0f2bb",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-29T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-11T07:00:47.828Z",
+    "position3D": {
+      "x": 43,
+      "y": 15,
+      "z": 3,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "171319de-70d6-4014-bbb2-b40b24fff49d",
+    "deviceCode": "DEV00108",
+    "name": "404教学电脑",
+    "type": "COMPUTER",
+    "location": "4层404教室",
+    "classroomId": "ac742170-9321-4628-b1e9-b58152a0f2bb",
+    "status": "WARNING",
+    "lastMaintenanceDate": "2026-02-23T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-20T07:00:47.828Z",
+    "position3D": {
+      "x": 49,
+      "y": 13,
+      "z": 4,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "ebf86905-7631-4345-8c75-0754b6d0c664",
+    "deviceCode": "DEV00109",
+    "name": "404照明系统",
+    "type": "LIGHT",
+    "location": "4层404教室",
+    "classroomId": "ac742170-9321-4628-b1e9-b58152a0f2bb",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-31T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-24T07:00:47.828Z",
+    "position3D": {
+      "x": 44,
+      "y": 13,
+      "z": 4,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "2040bc54-4561-44cb-b84c-637c82d1fe76",
+    "deviceCode": "DEV00110",
+    "name": "404智能黑板",
+    "type": "BLACKBOARD",
+    "location": "4层404教室",
+    "classroomId": "ac742170-9321-4628-b1e9-b58152a0f2bb",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-06-04T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-03T07:00:47.828Z",
+    "position3D": {
+      "x": 49,
+      "y": 14,
+      "z": 2,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "c19f191d-fdf0-4e80-9e78-8aef6d90c4c9",
+    "deviceCode": "DEV00111",
+    "name": "405投影仪",
+    "type": "PROJECTOR",
+    "location": "4层405教室",
+    "classroomId": "5bad1a7c-5faf-41b7-b96c-ad5546d1a122",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-18T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-04T07:00:47.828Z",
+    "position3D": {
+      "x": 59,
+      "y": 15,
+      "z": 4,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "b4b528d7-2cf7-4f32-976d-5384478b03a7",
+    "deviceCode": "DEV00112",
+    "name": "405空调",
+    "type": "AIR_CONDITION",
+    "location": "4层405教室",
+    "classroomId": "5bad1a7c-5faf-41b7-b96c-ad5546d1a122",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-22T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-29T07:00:47.828Z",
+    "position3D": {
+      "x": 60,
+      "y": 13,
+      "z": 5,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "04ccfa03-7b3f-42d3-a05a-4606ef78ac39",
+    "deviceCode": "DEV00113",
+    "name": "405教学电脑",
+    "type": "COMPUTER",
+    "location": "4层405教室",
+    "classroomId": "5bad1a7c-5faf-41b7-b96c-ad5546d1a122",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-29T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-11T07:00:47.828Z",
+    "position3D": {
+      "x": 59,
+      "y": 13,
+      "z": 9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "a66d1296-888d-41f1-bd04-4f041a26e916",
+    "deviceCode": "DEV00114",
+    "name": "405照明系统",
+    "type": "LIGHT",
+    "location": "4层405教室",
+    "classroomId": "5bad1a7c-5faf-41b7-b96c-ad5546d1a122",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-05T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-10T07:00:47.828Z",
+    "position3D": {
+      "x": 60,
+      "y": 15,
+      "z": 9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "2c33193e-e87f-46da-a529-5640816fb9d5",
+    "deviceCode": "DEV00115",
+    "name": "405智能黑板",
+    "type": "BLACKBOARD",
+    "location": "4层405教室",
+    "classroomId": "5bad1a7c-5faf-41b7-b96c-ad5546d1a122",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-04-24T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-10-01T07:00:47.828Z",
+    "position3D": {
+      "x": 63,
+      "y": 15,
+      "z": 6,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "195d4e0a-61ef-4a72-a049-a771a1ae4bd9",
+    "deviceCode": "DEV00116",
+    "name": "406投影仪",
+    "type": "PROJECTOR",
+    "location": "4层406教室",
+    "classroomId": "eb0cbef6-176b-4178-aa6c-f039239b6ad4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-03-14T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-20T07:00:47.828Z",
+    "position3D": {
+      "x": 73,
+      "y": 14,
+      "z": -9,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "67e7aff5-112c-49f8-b0ff-3fc3993c938c",
+    "deviceCode": "DEV00117",
+    "name": "406空调",
+    "type": "AIR_CONDITION",
+    "location": "4层406教室",
+    "classroomId": "eb0cbef6-176b-4178-aa6c-f039239b6ad4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-25T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-07-03T07:00:47.828Z",
+    "position3D": {
+      "x": 75,
+      "y": 13,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "f297de81-520f-40f0-b0e6-0afed88ce16c",
+    "deviceCode": "DEV00118",
+    "name": "406教学电脑",
+    "type": "COMPUTER",
+    "location": "4层406教室",
+    "classroomId": "eb0cbef6-176b-4178-aa6c-f039239b6ad4",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-02-17T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-12-06T07:00:47.828Z",
+    "position3D": {
+      "x": 72,
+      "y": 13,
+      "z": -7,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "84017d8b-c571-40c5-813e-a0d6990b49e1",
+    "deviceCode": "DEV00119",
+    "name": "406照明系统",
+    "type": "LIGHT",
+    "location": "4层406教室",
+    "classroomId": "eb0cbef6-176b-4178-aa6c-f039239b6ad4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-20T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-30T07:00:47.828Z",
+    "position3D": {
+      "x": 77,
+      "y": 13,
+      "z": -8,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "776f1a5b-6483-488c-b55c-fbcf6a7ea5d7",
+    "deviceCode": "DEV00120",
+    "name": "406智能黑板",
+    "type": "BLACKBOARD",
+    "location": "4层406教室",
+    "classroomId": "eb0cbef6-176b-4178-aa6c-f039239b6ad4",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-01-29T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-11-28T07:00:47.828Z",
+    "position3D": {
+      "x": 71,
+      "y": 13,
+      "z": -5,
+      "scene": "teaching"
+    }
+  },
+  {
+    "id": "5262a0bb-c827-484e-baab-7c7e608f7af9",
+    "deviceCode": "DEV00121",
+    "name": "图书馆监控摄像头",
+    "type": "CCTV",
+    "location": "图书馆入口",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-05-09T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-08-26T07:00:47.828Z",
+    "position3D": {
+      "x": 87,
+      "y": 8,
+      "z": 38,
+      "scene": "library"
+    }
+  },
+  {
+    "id": "952d9a16-521a-42c2-831e-0b1588c1086d",
+    "deviceCode": "DEV00122",
+    "name": "食堂门禁系统",
+    "type": "ACCESS_DOOR",
+    "location": "食堂大厅",
+    "status": "NORMAL",
+    "lastMaintenanceDate": "2026-02-15T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-29T07:00:47.828Z",
+    "position3D": {
+      "x": 45,
+      "y": 6,
+      "z": 1,
+      "scene": "canteen"
+    }
+  },
+  {
+    "id": "2a4da6ad-8542-4ec5-90f5-efcc4e269731",
+    "deviceCode": "DEV00123",
+    "name": "宿舍火灾报警器",
+    "type": "FIRE_ALARM",
+    "location": "宿舍楼下",
+    "status": "MAINTENANCE",
+    "lastMaintenanceDate": "2026-04-18T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-06-30T07:00:47.828Z",
+    "position3D": {
+      "x": 25,
+      "y": 7,
+      "z": -44,
+      "scene": "dormitory"
+    }
+  },
+  {
+    "id": "7ad2c533-e7a3-44f2-81e4-2bfd8e3bb637",
+    "deviceCode": "DEV00124",
+    "name": "教学楼中央监控",
+    "type": "CCTV",
+    "location": "教学楼大厅",
+    "status": "FAULT",
+    "lastMaintenanceDate": "2025-12-27T07:00:47.828Z",
+    "nextMaintenanceDate": "2026-09-07T07:00:47.828Z",
+    "faultDescription": "画面丢失",
+    "faultTime": "2026-06-16T09:11:48.828Z",
+    "position3D": {
+      "x": 15,
+      "y": 9,
+      "z": 28,
+      "scene": "teaching"
+    }
+  }
+]

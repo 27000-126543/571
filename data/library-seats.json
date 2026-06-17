@@ -1,0 +1,1103 @@
+[
+  {
+    "id": "56677eed-2d4a-40c6-8d25-81d71a84ba81",
+    "seatNumber": "A001",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    "currentStudentId": "583a9e34-07ea-46fe-a275-7313252421f5",
+    "currentStudentName": "程鹏军",
+    "reservedUntil": "2026-06-17T10:47:00.000Z",
+    "usedMinutesToday": 281
+  },
+  {
+    "id": "7c39de96-90aa-4329-a0cd-18a0cc4f3d77",
+    "seatNumber": "A002",
+    "zone": "A安静区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 4,
+      "y": 0,
+      "z": 0
+    },
+    "usedMinutesToday": 27
+  },
+  {
+    "id": "3fd2202f-1a0f-4615-abc5-23f4ee381dce",
+    "seatNumber": "A003",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 7,
+      "y": 0,
+      "z": -1
+    },
+    "currentStudentId": "2c87d4f5-e459-4063-8f80-7ef4a873e533",
+    "currentStudentName": "吕悦",
+    "reservedUntil": "2026-06-17T12:05:00.000Z",
+    "usedMinutesToday": 108
+  },
+  {
+    "id": "9c268e63-6d40-4ead-9143-d5d42e676f9e",
+    "seatNumber": "A004",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 10,
+      "y": 0,
+      "z": 0
+    },
+    "currentStudentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+    "currentStudentName": "吴瑶",
+    "reservedUntil": "2026-06-17T10:14:00.000Z",
+    "usedMinutesToday": 194
+  },
+  {
+    "id": "c978d4a0-d46b-42f8-851b-c69dbf353528",
+    "seatNumber": "A005",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 11,
+      "y": 0,
+      "z": 1
+    },
+    "currentStudentId": "d5ed2706-33be-4b5e-99b3-5bad3122a4cf",
+    "currentStudentName": "曹伟",
+    "reservedUntil": "2026-06-17T07:52:00.000Z",
+    "usedMinutesToday": 272
+  },
+  {
+    "id": "aa4b7e73-cdca-4fbb-99a0-23776636af0c",
+    "seatNumber": "A006",
+    "zone": "A安静区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 0,
+      "y": 0,
+      "z": 3
+    },
+    "currentStudentId": "583a9e34-07ea-46fe-a275-7313252421f5",
+    "currentStudentName": "程鹏军",
+    "checkedInAt": "2026-06-17T00:17:00.000Z",
+    "usedMinutesToday": 239
+  },
+  {
+    "id": "4d2868e9-6098-4b64-af04-7716ca426833",
+    "seatNumber": "A007",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 2,
+      "y": 0,
+      "z": 3
+    },
+    "currentStudentId": "1401f6a1-6eb7-4020-a1f5-aa98b55a984e",
+    "currentStudentName": "刘梦",
+    "reservedUntil": "2026-06-17T06:41:00.000Z",
+    "usedMinutesToday": 231
+  },
+  {
+    "id": "a88fe7ea-8624-4c64-9d13-cfe5e7fc3c22",
+    "seatNumber": "A008",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 6,
+      "y": 0,
+      "z": 3
+    },
+    "currentStudentId": "a660bdcc-d74d-498c-a910-d53a44c5bacd",
+    "currentStudentName": "周怡雪",
+    "reservedUntil": "2026-06-17T06:59:00.000Z",
+    "usedMinutesToday": 237
+  },
+  {
+    "id": "6a7eeb49-e16a-4d5a-b253-8aa4b91bdf8a",
+    "seatNumber": "A009",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 10,
+      "y": 0,
+      "z": 3
+    },
+    "currentStudentId": "34cd36ef-c7c9-40fa-ab87-e28753dab546",
+    "currentStudentName": "陈军",
+    "reservedUntil": "2026-06-17T10:10:00.000Z",
+    "usedMinutesToday": 36
+  },
+  {
+    "id": "62112f83-d1ae-4684-9291-bfcfa046aae4",
+    "seatNumber": "A010",
+    "zone": "A安静区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 12,
+      "y": 0,
+      "z": 2
+    },
+    "currentStudentId": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
+    "currentStudentName": "张莉",
+    "checkedInAt": "2026-06-17T06:26:00.000Z",
+    "usedMinutesToday": 172
+  },
+  {
+    "id": "f6880ff4-1133-4e8f-81ca-74cb0617453e",
+    "seatNumber": "A011",
+    "zone": "A安静区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 1,
+      "y": 0,
+      "z": 7
+    },
+    "currentStudentId": "741f3dcc-c232-4667-81ee-0ec72d2e5518",
+    "currentStudentName": "唐婷",
+    "checkedInAt": "2026-06-17T01:39:00.000Z",
+    "usedMinutesToday": 131
+  },
+  {
+    "id": "6ae54151-7099-4da5-b1ba-1fac5fcd3d95",
+    "seatNumber": "A012",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 2,
+      "y": 0,
+      "z": 6
+    },
+    "currentStudentId": "889e15e3-2e90-4593-9ad8-307c9a66026d",
+    "currentStudentName": "杨艳芳",
+    "reservedUntil": "2026-06-17T08:01:00.000Z",
+    "usedMinutesToday": 260
+  },
+  {
+    "id": "f2466b36-5062-41c8-8f27-7487138d20be",
+    "seatNumber": "A013",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 7,
+      "y": 0,
+      "z": 7
+    },
+    "currentStudentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+    "currentStudentName": "吴瑶",
+    "reservedUntil": "2026-06-17T11:09:00.000Z",
+    "usedMinutesToday": 153
+  },
+  {
+    "id": "1b8f1a5c-1304-4f43-b3dc-96c59ee67db5",
+    "seatNumber": "A014",
+    "zone": "A安静区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 8,
+      "y": 0,
+      "z": 6
+    },
+    "currentStudentId": "3c873f8e-ed0f-4c81-889c-835362881aa7",
+    "currentStudentName": "宋瑶瑶",
+    "checkedInAt": "2026-06-17T02:37:00.000Z",
+    "usedMinutesToday": 43
+  },
+  {
+    "id": "cc7d1a82-7c25-4ac1-bb4b-51507bbd4a24",
+    "seatNumber": "A015",
+    "zone": "A安静区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 13,
+      "y": 0,
+      "z": 5
+    },
+    "usedMinutesToday": 8
+  },
+  {
+    "id": "ea349252-a323-4412-ba15-19e8e678ea89",
+    "seatNumber": "A016",
+    "zone": "A安静区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 1,
+      "y": 0,
+      "z": 8
+    },
+    "currentStudentId": "8d405000-ff68-4ed1-977f-21ab29f28268",
+    "currentStudentName": "郭芳",
+    "checkedInAt": "2026-06-17T05:57:00.000Z",
+    "usedMinutesToday": 153
+  },
+  {
+    "id": "33238d54-937a-4b65-934e-1d0e45645a22",
+    "seatNumber": "A017",
+    "zone": "A安静区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 4,
+      "y": 0,
+      "z": 10
+    },
+    "usedMinutesToday": 101
+  },
+  {
+    "id": "8096cede-abc2-45f9-aec3-7bc285e08cfe",
+    "seatNumber": "A018",
+    "zone": "A安静区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 5,
+      "y": 0,
+      "z": 9
+    },
+    "currentStudentId": "148cc139-cdd6-4a12-bbc8-0668ae1932c6",
+    "currentStudentName": "唐鑫",
+    "reservedUntil": "2026-06-17T09:59:00.000Z",
+    "usedMinutesToday": 226
+  },
+  {
+    "id": "d90952c7-ed03-487e-813e-7dc8021c339b",
+    "seatNumber": "A019",
+    "zone": "A安静区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 8,
+      "y": 0,
+      "z": 9
+    },
+    "usedMinutesToday": 194
+  },
+  {
+    "id": "ddcd9ad3-0d07-4e17-bbe2-426e955700fd",
+    "seatNumber": "A020",
+    "zone": "A安静区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 13,
+      "y": 0,
+      "z": 10
+    },
+    "usedMinutesToday": 116
+  },
+  {
+    "id": "676a58d9-cf43-4151-8f1e-157417f7f8ed",
+    "seatNumber": "B021",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 31,
+      "y": 0,
+      "z": 0
+    },
+    "usedMinutesToday": 123
+  },
+  {
+    "id": "32db3158-1a4d-47ab-9280-206127e0bf24",
+    "seatNumber": "B022",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 33,
+      "y": 0,
+      "z": 0
+    },
+    "usedMinutesToday": 275
+  },
+  {
+    "id": "4c87e010-5aee-4170-94e6-f4c147d6073d",
+    "seatNumber": "B023",
+    "zone": "B讨论区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 36,
+      "y": 0,
+      "z": -1
+    },
+    "currentStudentId": "e853c49a-6204-4585-b206-136e971e266c",
+    "currentStudentName": "罗杰",
+    "reservedUntil": "2026-06-17T08:35:00.000Z",
+    "usedMinutesToday": 62
+  },
+  {
+    "id": "61e1ee11-52bb-4f80-9c54-8157fe10cb58",
+    "seatNumber": "B024",
+    "zone": "B讨论区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 38,
+      "y": 0,
+      "z": 1
+    },
+    "currentStudentId": "0f101afe-2f9a-4fd3-9934-260ee9c4968e",
+    "currentStudentName": "吕帆",
+    "reservedUntil": "2026-06-17T11:02:00.000Z",
+    "usedMinutesToday": 262
+  },
+  {
+    "id": "30d69ff9-c91b-4285-bee1-614528ad5b60",
+    "seatNumber": "B025",
+    "zone": "B讨论区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 42,
+      "y": 0,
+      "z": 0
+    },
+    "currentStudentId": "d0dae81a-d8e0-4654-a723-85249d4fd5cb",
+    "currentStudentName": "高涛",
+    "checkedInAt": "2026-06-17T04:53:00.000Z",
+    "usedMinutesToday": 31
+  },
+  {
+    "id": "5e9a2e9a-84ab-4fef-af1f-b1a0c10adffd",
+    "seatNumber": "B026",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 31,
+      "y": 0,
+      "z": 2
+    },
+    "usedMinutesToday": 203
+  },
+  {
+    "id": "ae6cdbdb-52c3-4a2f-9c05-d4d0b6fe8b5f",
+    "seatNumber": "B027",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 33,
+      "y": 0,
+      "z": 3
+    },
+    "usedMinutesToday": 288
+  },
+  {
+    "id": "54184a68-f4bf-41f1-b964-8611ed154511",
+    "seatNumber": "B028",
+    "zone": "B讨论区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 35,
+      "y": 0,
+      "z": 2
+    },
+    "currentStudentId": "1be632fc-4139-4195-b41f-08491d84ca37",
+    "currentStudentName": "韩玲紫",
+    "reservedUntil": "2026-06-17T11:19:00.000Z",
+    "usedMinutesToday": 31
+  },
+  {
+    "id": "caedf73b-34ca-4176-b3f3-f774cd5b5861",
+    "seatNumber": "B029",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 39,
+      "y": 0,
+      "z": 2
+    },
+    "usedMinutesToday": 169
+  },
+  {
+    "id": "8f2c6de4-4ffd-48d0-b019-3ed5ead291f5",
+    "seatNumber": "B030",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 42,
+      "y": 0,
+      "z": 3
+    },
+    "usedMinutesToday": 251
+  },
+  {
+    "id": "fd1b70f6-7fe7-4072-b7d0-3ae7cba08ff9",
+    "seatNumber": "B031",
+    "zone": "B讨论区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 29,
+      "y": 0,
+      "z": 7
+    },
+    "currentStudentId": "740d9437-2a18-4124-abc5-f207f36ea72d",
+    "currentStudentName": "吴晨",
+    "reservedUntil": "2026-06-17T09:04:00.000Z",
+    "usedMinutesToday": 194
+  },
+  {
+    "id": "449f51cf-3986-4c79-820a-f0ed9cde3e23",
+    "seatNumber": "B032",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 33,
+      "y": 0,
+      "z": 7
+    },
+    "usedMinutesToday": 104
+  },
+  {
+    "id": "2310d249-dc87-452c-8f70-d829ed68a76a",
+    "seatNumber": "B033",
+    "zone": "B讨论区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 37,
+      "y": 0,
+      "z": 6
+    },
+    "currentStudentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
+    "currentStudentName": "许涛晨",
+    "checkedInAt": "2026-06-17T05:23:00.000Z",
+    "usedMinutesToday": 133
+  },
+  {
+    "id": "14cf8152-d3ec-4e1c-9823-e1c21833f80a",
+    "seatNumber": "B034",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 38,
+      "y": 0,
+      "z": 6
+    },
+    "usedMinutesToday": 18
+  },
+  {
+    "id": "e86d1a99-3683-4314-b5db-ab9994fc43a1",
+    "seatNumber": "B035",
+    "zone": "B讨论区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 42,
+      "y": 0,
+      "z": 6
+    },
+    "currentStudentId": "2a66fb41-e467-44d5-8d24-7e459af3c6fe",
+    "currentStudentName": "朱轩涛",
+    "checkedInAt": "2026-06-17T07:25:00.000Z",
+    "usedMinutesToday": 148
+  },
+  {
+    "id": "fea718e3-a399-4224-895d-eb432aef8d7b",
+    "seatNumber": "B036",
+    "zone": "B讨论区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 31,
+      "y": 0,
+      "z": 10
+    },
+    "currentStudentId": "583a9e34-07ea-46fe-a275-7313252421f5",
+    "currentStudentName": "程鹏军",
+    "reservedUntil": "2026-06-17T07:16:00.000Z",
+    "usedMinutesToday": 263
+  },
+  {
+    "id": "1cc4dc32-2df4-48d6-9d8c-0c87caf2d483",
+    "seatNumber": "B037",
+    "zone": "B讨论区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 34,
+      "y": 0,
+      "z": 10
+    },
+    "currentStudentId": "d5d6a525-f7c1-4e07-83c7-d7253f23eab1",
+    "currentStudentName": "孙平",
+    "checkedInAt": "2026-06-17T07:48:00.000Z",
+    "usedMinutesToday": 227
+  },
+  {
+    "id": "f3ebe7cf-8d74-47a8-8c41-fd723bbf88d6",
+    "seatNumber": "B038",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 36,
+      "y": 0,
+      "z": 9
+    },
+    "usedMinutesToday": 90
+  },
+  {
+    "id": "fd24ea63-ab83-46dc-9468-0d0d551a6871",
+    "seatNumber": "B039",
+    "zone": "B讨论区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 40,
+      "y": 0,
+      "z": 8
+    },
+    "usedMinutesToday": 156
+  },
+  {
+    "id": "96d5b745-2e6a-4604-8dde-61ec915dc1f6",
+    "seatNumber": "B040",
+    "zone": "B讨论区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 43,
+      "y": 0,
+      "z": 8
+    },
+    "currentStudentId": "1401f6a1-6eb7-4020-a1f5-aa98b55a984e",
+    "currentStudentName": "刘梦",
+    "checkedInAt": "2026-06-17T02:48:00.000Z",
+    "usedMinutesToday": 233
+  },
+  {
+    "id": "66643fbd-a365-4c63-8250-6849abf39f55",
+    "seatNumber": "C041",
+    "zone": "C电子阅览区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 1,
+      "y": 0,
+      "z": 25
+    },
+    "usedMinutesToday": 166
+  },
+  {
+    "id": "0d94be9d-7d59-4b4d-8a9c-66ec33813bb0",
+    "seatNumber": "C042",
+    "zone": "C电子阅览区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 2,
+      "y": 0,
+      "z": 26
+    },
+    "usedMinutesToday": 33
+  },
+  {
+    "id": "2ff92bf4-417a-44f0-be27-33916fc4f533",
+    "seatNumber": "C043",
+    "zone": "C电子阅览区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 5,
+      "y": 0,
+      "z": 26
+    },
+    "currentStudentId": "7d4cbf47-6adf-45dd-ab0e-aa0c3bbccecb",
+    "currentStudentName": "袁梦",
+    "checkedInAt": "2026-06-17T05:59:00.000Z",
+    "usedMinutesToday": 161
+  },
+  {
+    "id": "7e04434d-a242-4640-b5e4-9b3f8d52d611",
+    "seatNumber": "C044",
+    "zone": "C电子阅览区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 9,
+      "y": 0,
+      "z": 26
+    },
+    "usedMinutesToday": 189
+  },
+  {
+    "id": "9abca1c4-4697-4182-a7e8-721c8e0aea9c",
+    "seatNumber": "C045",
+    "zone": "C电子阅览区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 13,
+      "y": 0,
+      "z": 25
+    },
+    "currentStudentId": "feeb7000-9e54-4869-b319-ef9f3cdfc4ca",
+    "currentStudentName": "宋宇",
+    "checkedInAt": "2026-06-17T07:19:00.000Z",
+    "usedMinutesToday": 113
+  },
+  {
+    "id": "06ecc268-674c-4857-a641-da1117c7ca92",
+    "seatNumber": "C046",
+    "zone": "C电子阅览区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 0,
+      "y": 0,
+      "z": 27
+    },
+    "usedMinutesToday": 118
+  },
+  {
+    "id": "be19f2d2-cda4-4051-bd58-a02baf8a9203",
+    "seatNumber": "C047",
+    "zone": "C电子阅览区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 4,
+      "y": 0,
+      "z": 28
+    },
+    "currentStudentId": "889e15e3-2e90-4593-9ad8-307c9a66026d",
+    "currentStudentName": "杨艳芳",
+    "reservedUntil": "2026-06-17T08:36:00.000Z",
+    "usedMinutesToday": 233
+  },
+  {
+    "id": "2d00ff74-bf20-4503-b1ca-6e6a85789100",
+    "seatNumber": "C048",
+    "zone": "C电子阅览区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 6,
+      "y": 0,
+      "z": 28
+    },
+    "usedMinutesToday": 249
+  },
+  {
+    "id": "00d65bb7-3e17-47e2-956a-641d50d2e5f3",
+    "seatNumber": "C049",
+    "zone": "C电子阅览区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 9,
+      "y": 0,
+      "z": 27
+    },
+    "currentStudentId": "e24117ad-ad4d-4525-b678-3c8995d4f41e",
+    "currentStudentName": "罗辉",
+    "checkedInAt": "2026-06-17T00:38:00.000Z",
+    "usedMinutesToday": 213
+  },
+  {
+    "id": "1fcf0697-7456-423d-8db7-f2a405b1bea4",
+    "seatNumber": "C050",
+    "zone": "C电子阅览区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 11,
+      "y": 0,
+      "z": 27
+    },
+    "currentStudentId": "1a2de151-2104-4967-985c-275ec180dc64",
+    "currentStudentName": "谢怡雪",
+    "checkedInAt": "2026-06-17T04:26:00.000Z",
+    "usedMinutesToday": 74
+  },
+  {
+    "id": "d5308032-1dc3-4e0a-a1d7-684c38e0b967",
+    "seatNumber": "C051",
+    "zone": "C电子阅览区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": -1,
+      "y": 0,
+      "z": 31
+    },
+    "usedMinutesToday": 42
+  },
+  {
+    "id": "b3973b8d-e01c-482f-81f7-2b1238eb9b47",
+    "seatNumber": "C052",
+    "zone": "C电子阅览区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 3,
+      "y": 0,
+      "z": 30
+    },
+    "usedMinutesToday": 41
+  },
+  {
+    "id": "021c088f-1fc4-4625-bfe0-03687869b4e7",
+    "seatNumber": "C053",
+    "zone": "C电子阅览区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 7,
+      "y": 0,
+      "z": 32
+    },
+    "currentStudentId": "8a31b09b-f4f4-4700-ab8f-c8890af76a4b",
+    "currentStudentName": "孙强",
+    "checkedInAt": "2026-06-17T00:28:00.000Z",
+    "usedMinutesToday": 128
+  },
+  {
+    "id": "b63f44f0-d019-4fb1-a1c5-e5296d6c6cd4",
+    "seatNumber": "C054",
+    "zone": "C电子阅览区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 9,
+      "y": 0,
+      "z": 31
+    },
+    "currentStudentId": "e24117ad-ad4d-4525-b678-3c8995d4f41e",
+    "currentStudentName": "罗辉",
+    "reservedUntil": "2026-06-17T12:13:00.000Z",
+    "usedMinutesToday": 124
+  },
+  {
+    "id": "9ee29a01-fd39-499e-abc9-cec242a70d9c",
+    "seatNumber": "C055",
+    "zone": "C电子阅览区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 13,
+      "y": 0,
+      "z": 31
+    },
+    "currentStudentId": "0f101afe-2f9a-4fd3-9934-260ee9c4968e",
+    "currentStudentName": "吕帆",
+    "reservedUntil": "2026-06-17T08:28:00.000Z",
+    "usedMinutesToday": 87
+  },
+  {
+    "id": "39fa88bf-9595-411c-91a7-6ffadf3f25bf",
+    "seatNumber": "C056",
+    "zone": "C电子阅览区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": -1,
+      "y": 0,
+      "z": 34
+    },
+    "currentStudentId": "31eebd3d-3314-4365-90cf-0bac7c656f31",
+    "currentStudentName": "傅娥莹",
+    "reservedUntil": "2026-06-17T10:17:00.000Z",
+    "usedMinutesToday": 63
+  },
+  {
+    "id": "598374ec-7f86-4424-8e2f-9fb0f0293e98",
+    "seatNumber": "C057",
+    "zone": "C电子阅览区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 3,
+      "y": 0,
+      "z": 35
+    },
+    "currentStudentId": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
+    "currentStudentName": "张莉",
+    "checkedInAt": "2026-06-17T07:01:00.000Z",
+    "usedMinutesToday": 121
+  },
+  {
+    "id": "0545be01-aeb5-424a-abdb-f5c101b5c48e",
+    "seatNumber": "C058",
+    "zone": "C电子阅览区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 6,
+      "y": 0,
+      "z": 34
+    },
+    "currentStudentId": "740d9437-2a18-4124-abc5-f207f36ea72d",
+    "currentStudentName": "吴晨",
+    "checkedInAt": "2026-06-17T06:30:00.000Z",
+    "usedMinutesToday": 155
+  },
+  {
+    "id": "507127ee-c332-4bdf-a83f-afa046fdcb66",
+    "seatNumber": "C059",
+    "zone": "C电子阅览区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 8,
+      "y": 0,
+      "z": 35
+    },
+    "usedMinutesToday": 7
+  },
+  {
+    "id": "92497f73-b077-4bc7-84e0-6ecb6271e0fe",
+    "seatNumber": "C060",
+    "zone": "C电子阅览区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 13,
+      "y": 0,
+      "z": 35
+    },
+    "currentStudentId": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
+    "currentStudentName": "张莉",
+    "checkedInAt": "2026-06-17T01:37:00.000Z",
+    "usedMinutesToday": 203
+  },
+  {
+    "id": "016b5925-79c0-4c78-a6b5-8250f591c326",
+    "seatNumber": "D061",
+    "zone": "D靠窗区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 30,
+      "y": 0,
+      "z": 25
+    },
+    "currentStudentId": "9a05114f-6cbb-4234-a59e-47489a075c33",
+    "currentStudentName": "朱睿斌",
+    "reservedUntil": "2026-06-17T10:02:00.000Z",
+    "usedMinutesToday": 282
+  },
+  {
+    "id": "e6ebdcec-d7d9-44b9-84be-6f8213aac8e5",
+    "seatNumber": "D062",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 32,
+      "y": 0,
+      "z": 26
+    },
+    "usedMinutesToday": 132
+  },
+  {
+    "id": "fdbcb448-b888-48d9-a46d-8b06d568e55a",
+    "seatNumber": "D063",
+    "zone": "D靠窗区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 37,
+      "y": 0,
+      "z": 25
+    },
+    "currentStudentId": "c559a85b-d092-4a7a-ab0d-0968699e3404",
+    "currentStudentName": "于浩明",
+    "reservedUntil": "2026-06-17T07:27:00.000Z",
+    "usedMinutesToday": 230
+  },
+  {
+    "id": "eef7fb70-c9c7-4891-9910-8ae1017afe67",
+    "seatNumber": "D064",
+    "zone": "D靠窗区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 39,
+      "y": 0,
+      "z": 26
+    },
+    "currentStudentId": "34cd36ef-c7c9-40fa-ab87-e28753dab546",
+    "currentStudentName": "陈军",
+    "reservedUntil": "2026-06-17T07:02:00.000Z",
+    "usedMinutesToday": 152
+  },
+  {
+    "id": "64bfd880-9b93-4b9f-a425-b99675830157",
+    "seatNumber": "D065",
+    "zone": "D靠窗区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 42,
+      "y": 0,
+      "z": 26
+    },
+    "currentStudentId": "9a05114f-6cbb-4234-a59e-47489a075c33",
+    "currentStudentName": "朱睿斌",
+    "checkedInAt": "2026-06-17T05:15:00.000Z",
+    "usedMinutesToday": 175
+  },
+  {
+    "id": "c5cd8dae-ace3-437f-af71-4d94b9804322",
+    "seatNumber": "D066",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 29,
+      "y": 0,
+      "z": 28
+    },
+    "usedMinutesToday": 20
+  },
+  {
+    "id": "88a0a90d-176e-48bb-b678-55f34571d873",
+    "seatNumber": "D067",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 33,
+      "y": 0,
+      "z": 27
+    },
+    "usedMinutesToday": 124
+  },
+  {
+    "id": "9de7fa5b-27ce-4817-b5cf-67bf75d2683a",
+    "seatNumber": "D068",
+    "zone": "D靠窗区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 35,
+      "y": 0,
+      "z": 29
+    },
+    "currentStudentId": "8a31b09b-f4f4-4700-ab8f-c8890af76a4b",
+    "currentStudentName": "孙强",
+    "reservedUntil": "2026-06-17T08:58:00.000Z",
+    "usedMinutesToday": 52
+  },
+  {
+    "id": "d42216f8-e6f7-4c35-8306-783eedf640ce",
+    "seatNumber": "D069",
+    "zone": "D靠窗区",
+    "status": "RESERVED",
+    "position3D": {
+      "x": 40,
+      "y": 0,
+      "z": 29
+    },
+    "currentStudentId": "52c7895d-b25a-440d-8cd0-beb88529ead2",
+    "currentStudentName": "郑俊博",
+    "reservedUntil": "2026-06-17T08:59:00.000Z",
+    "usedMinutesToday": 59
+  },
+  {
+    "id": "602310b6-567e-4efe-a546-1ef02090c3ab",
+    "seatNumber": "D070",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 42,
+      "y": 0,
+      "z": 29
+    },
+    "usedMinutesToday": 90
+  },
+  {
+    "id": "f662c490-0b86-48db-b361-640acd2e8b98",
+    "seatNumber": "D071",
+    "zone": "D靠窗区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 31,
+      "y": 0,
+      "z": 31
+    },
+    "currentStudentId": "feeb7000-9e54-4869-b319-ef9f3cdfc4ca",
+    "currentStudentName": "宋宇",
+    "checkedInAt": "2026-06-17T04:26:00.000Z",
+    "usedMinutesToday": 70
+  },
+  {
+    "id": "bf2123bf-7223-4166-88af-440f65a83d34",
+    "seatNumber": "D072",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 34,
+      "y": 0,
+      "z": 31
+    },
+    "usedMinutesToday": 135
+  },
+  {
+    "id": "09a49484-ba23-4796-b534-c03f0544e849",
+    "seatNumber": "D073",
+    "zone": "D靠窗区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 36,
+      "y": 0,
+      "z": 30
+    },
+    "currentStudentId": "4f0c5ffb-74c4-463b-a218-dd4dc9e6e9e7",
+    "currentStudentName": "唐琳英",
+    "checkedInAt": "2026-06-17T07:53:00.000Z",
+    "usedMinutesToday": 64
+  },
+  {
+    "id": "b0a74b75-dc8e-4c3d-b008-8d37deb44596",
+    "seatNumber": "D074",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 38,
+      "y": 0,
+      "z": 31
+    },
+    "usedMinutesToday": 276
+  },
+  {
+    "id": "63f765e1-6c5d-4b45-9f3c-2d240c23e9d7",
+    "seatNumber": "D075",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 43,
+      "y": 0,
+      "z": 30
+    },
+    "usedMinutesToday": 120
+  },
+  {
+    "id": "6fba509a-e7df-4dbf-9e9c-88ca1a70458a",
+    "seatNumber": "D076",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 29,
+      "y": 0,
+      "z": 34
+    },
+    "usedMinutesToday": 158
+  },
+  {
+    "id": "78c94512-f363-455e-ba88-860219208d36",
+    "seatNumber": "D077",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 33,
+      "y": 0,
+      "z": 34
+    },
+    "usedMinutesToday": 258
+  },
+  {
+    "id": "1fd321a7-8446-4b79-b41a-b26e97588120",
+    "seatNumber": "D078",
+    "zone": "D靠窗区",
+    "status": "AVAILABLE",
+    "position3D": {
+      "x": 37,
+      "y": 0,
+      "z": 35
+    },
+    "usedMinutesToday": 157
+  },
+  {
+    "id": "32bedf96-b335-4285-a6a9-2214ce06e4bb",
+    "seatNumber": "D079",
+    "zone": "D靠窗区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 40,
+      "y": 0,
+      "z": 34
+    },
+    "currentStudentId": "31eebd3d-3314-4365-90cf-0bac7c656f31",
+    "currentStudentName": "傅娥莹",
+    "checkedInAt": "2026-06-17T00:24:00.000Z",
+    "usedMinutesToday": 164
+  },
+  {
+    "id": "2ad25040-9b01-4b11-90e4-c3d6e5d48162",
+    "seatNumber": "D080",
+    "zone": "D靠窗区",
+    "status": "IN_USE",
+    "position3D": {
+      "x": 41,
+      "y": 0,
+      "z": 33
+    },
+    "currentStudentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+    "currentStudentName": "吴瑶",
+    "checkedInAt": "2026-06-17T01:58:00.000Z",
+    "usedMinutesToday": 196
+  }
+]

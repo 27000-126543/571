@@ -1,0 +1,703 @@
+[
+  {
+    "id": "f46b1897-4774-494c-8f8e-805350113ae9",
+    "orderNo": "PO202606001",
+    "title": "食堂食材采购·第1批",
+    "items": [
+      {
+        "itemId": "6c177414-4511-483e-adf0-45f8835837c4",
+        "itemName": "鸡蛋",
+        "quantity": 37,
+        "unit": "kg",
+        "estimatedPrice": 6.38
+      },
+      {
+        "itemId": "ca875dd4-3fb6-493f-b0a1-e3d6cfee1bd3",
+        "itemName": "生抽",
+        "quantity": 110,
+        "unit": "瓶",
+        "estimatedPrice": 1650
+      },
+      {
+        "itemId": "6c177414-4511-483e-adf0-45f8835837c4",
+        "itemName": "鸡蛋",
+        "quantity": 93,
+        "unit": "kg",
+        "estimatedPrice": 37.31
+      },
+      {
+        "itemId": "4d203fb3-2dd7-4bdf-8aff-eaf36cf3c0ac",
+        "itemName": "冻带鱼",
+        "quantity": 170,
+        "unit": "箱",
+        "estimatedPrice": 5950
+      },
+      {
+        "itemId": "47038bc8-2457-4747-825c-37a0dc82ccf0",
+        "itemName": "猪五花肉",
+        "quantity": 56,
+        "unit": "kg",
+        "estimatedPrice": 61.46
+      },
+      {
+        "itemId": "d4168300-e073-4ae1-a1b3-15e2d02c20ef",
+        "itemName": "豆角",
+        "quantity": 12,
+        "unit": "kg",
+        "estimatedPrice": 72.51
+      },
+      {
+        "itemId": "abd91f1c-9607-4323-85da-1e328e695949",
+        "itemName": "西红柿",
+        "quantity": 80,
+        "unit": "kg",
+        "estimatedPrice": 400
+      },
+      {
+        "itemId": "c8225cb1-bfa7-4780-988b-1b8c9c6f786e",
+        "itemName": "茄子",
+        "quantity": 71,
+        "unit": "kg",
+        "estimatedPrice": 42.52
+      },
+      {
+        "itemId": "6298f9ba-5351-4b4c-b94e-9f1a67de308a",
+        "itemName": "冻牛排",
+        "quantity": 120,
+        "unit": "箱",
+        "estimatedPrice": 4200
+      },
+      {
+        "itemId": "cb822da4-edf4-48b9-ba30-58d4ffa396ba",
+        "itemName": "甜面酱",
+        "quantity": 170,
+        "unit": "瓶",
+        "estimatedPrice": 2550
+      },
+      {
+        "itemId": "32579f3c-a842-480b-8635-5cb06f9f8a66",
+        "itemName": "芝麻油",
+        "quantity": 140,
+        "unit": "桶",
+        "estimatedPrice": 2800
+      },
+      {
+        "itemId": "c3901f3c-4077-4b6c-8f45-3514a3c79856",
+        "itemName": "冻豆腐",
+        "quantity": 60,
+        "unit": "箱",
+        "estimatedPrice": 2100
+      },
+      {
+        "itemId": "1346f85e-de6c-4b24-aa8e-346b167f275f",
+        "itemName": "盐",
+        "quantity": 180,
+        "unit": "瓶",
+        "estimatedPrice": 2700
+      },
+      {
+        "itemId": "33e3b8f4-decd-413c-a1c2-9e6e9489a941",
+        "itemName": "冻虾仁",
+        "quantity": 155,
+        "unit": "箱",
+        "estimatedPrice": 5425
+      },
+      {
+        "itemId": "1cea91bd-de2f-4afe-80d9-c19e8c955291",
+        "itemName": "白糖",
+        "quantity": 50,
+        "unit": "瓶",
+        "estimatedPrice": 750
+      },
+      {
+        "itemId": "fe4f3f8a-c21a-4ff8-a478-33839c0d9aac",
+        "itemName": "小米",
+        "quantity": 45,
+        "unit": "袋",
+        "estimatedPrice": 270
+      },
+      {
+        "itemId": "1313ad1e-319c-4a46-bbdf-0d23dc82589c",
+        "itemName": "老抽",
+        "quantity": 170,
+        "unit": "瓶",
+        "estimatedPrice": 2550
+      },
+      {
+        "itemId": "7e149e4e-0dc5-4516-b318-c740749decce",
+        "itemName": "大白菜",
+        "quantity": 170,
+        "unit": "kg",
+        "estimatedPrice": 850
+      },
+      {
+        "itemId": "c0174489-e366-4983-9d92-8be1cacfefc5",
+        "itemName": "大米",
+        "quantity": 115,
+        "unit": "袋",
+        "estimatedPrice": 690
+      }
+    ],
+    "totalAmount": 33105.18,
+    "status": "DRAFT",
+    "currentLevel": 1,
+    "createdBy": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+    "createdAt": "2026-05-20T13:28:34.827Z",
+    "approvals": []
+  },
+  {
+    "id": "0515e1bf-db54-44db-b463-172c8ccfdc25",
+    "orderNo": "PO202606002",
+    "title": "教学用品采购·第2批",
+    "items": [
+      {
+        "itemId": "061daeb9-aea0-4cf7-ba52-e3b5da19f6ba",
+        "itemName": "黄瓜",
+        "quantity": 33,
+        "unit": "kg",
+        "estimatedPrice": 13.98
+      },
+      {
+        "itemId": "904976f1-e830-4070-b66d-0a3544cecd26",
+        "itemName": "羊肉",
+        "quantity": 60,
+        "unit": "kg",
+        "estimatedPrice": 74.32
+      },
+      {
+        "itemId": "8ccd79d7-df8f-4ddf-a875-5e9ac8b8a70c",
+        "itemName": "鸡胸肉",
+        "quantity": 22,
+        "unit": "kg",
+        "estimatedPrice": 47.29
+      },
+      {
+        "itemId": "7e149e4e-0dc5-4516-b318-c740749decce",
+        "itemName": "大白菜",
+        "quantity": 170,
+        "unit": "kg",
+        "estimatedPrice": 850
+      },
+      {
+        "itemId": "c0174489-e366-4983-9d92-8be1cacfefc5",
+        "itemName": "大米",
+        "quantity": 115,
+        "unit": "袋",
+        "estimatedPrice": 690
+      },
+      {
+        "itemId": "6298f9ba-5351-4b4c-b94e-9f1a67de308a",
+        "itemName": "冻牛排",
+        "quantity": 120,
+        "unit": "箱",
+        "estimatedPrice": 4200
+      },
+      {
+        "itemId": "ca875dd4-3fb6-493f-b0a1-e3d6cfee1bd3",
+        "itemName": "生抽",
+        "quantity": 110,
+        "unit": "瓶",
+        "estimatedPrice": 1650
+      },
+      {
+        "itemId": "cb822da4-edf4-48b9-ba30-58d4ffa396ba",
+        "itemName": "甜面酱",
+        "quantity": 170,
+        "unit": "瓶",
+        "estimatedPrice": 2550
+      },
+      {
+        "itemId": "32579f3c-a842-480b-8635-5cb06f9f8a66",
+        "itemName": "芝麻油",
+        "quantity": 140,
+        "unit": "桶",
+        "estimatedPrice": 2800
+      },
+      {
+        "itemId": "c3901f3c-4077-4b6c-8f45-3514a3c79856",
+        "itemName": "冻豆腐",
+        "quantity": 60,
+        "unit": "箱",
+        "estimatedPrice": 2100
+      },
+      {
+        "itemId": "4d203fb3-2dd7-4bdf-8aff-eaf36cf3c0ac",
+        "itemName": "冻带鱼",
+        "quantity": 170,
+        "unit": "箱",
+        "estimatedPrice": 5950
+      },
+      {
+        "itemId": "1346f85e-de6c-4b24-aa8e-346b167f275f",
+        "itemName": "盐",
+        "quantity": 180,
+        "unit": "瓶",
+        "estimatedPrice": 2700
+      },
+      {
+        "itemId": "33e3b8f4-decd-413c-a1c2-9e6e9489a941",
+        "itemName": "冻虾仁",
+        "quantity": 155,
+        "unit": "箱",
+        "estimatedPrice": 5425
+      },
+      {
+        "itemId": "1cea91bd-de2f-4afe-80d9-c19e8c955291",
+        "itemName": "白糖",
+        "quantity": 50,
+        "unit": "瓶",
+        "estimatedPrice": 750
+      },
+      {
+        "itemId": "fe4f3f8a-c21a-4ff8-a478-33839c0d9aac",
+        "itemName": "小米",
+        "quantity": 45,
+        "unit": "袋",
+        "estimatedPrice": 270
+      },
+      {
+        "itemId": "1313ad1e-319c-4a46-bbdf-0d23dc82589c",
+        "itemName": "老抽",
+        "quantity": 170,
+        "unit": "瓶",
+        "estimatedPrice": 2550
+      },
+      {
+        "itemId": "abd91f1c-9607-4323-85da-1e328e695949",
+        "itemName": "西红柿",
+        "quantity": 80,
+        "unit": "kg",
+        "estimatedPrice": 400
+      }
+    ],
+    "totalAmount": 33020.59,
+    "status": "PENDING_L1",
+    "currentLevel": 1,
+    "createdBy": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+    "createdAt": "2026-06-13T07:57:07.827Z",
+    "approvals": [
+      {
+        "level": 1,
+        "approved": true,
+        "approverId": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+        "approverName": "杨瑶",
+        "comment": "符合采购需求",
+        "approvedAt": "2026-06-02T14:12:23.827Z"
+      }
+    ]
+  },
+  {
+    "id": "df77d801-28a9-46fe-aa9e-dfdcde07d943",
+    "orderNo": "PO202606003",
+    "title": "实验室试剂采购·第3批",
+    "items": [
+      {
+        "itemId": "945b6d16-ee54-4318-9c50-a5613ff0b96f",
+        "itemName": "牛肉",
+        "quantity": 97,
+        "unit": "kg",
+        "estimatedPrice": 70.37
+      },
+      {
+        "itemId": "d4168300-e073-4ae1-a1b3-15e2d02c20ef",
+        "itemName": "豆角",
+        "quantity": 29,
+        "unit": "kg",
+        "estimatedPrice": 14.04
+      },
+      {
+        "itemId": "d5541631-3cf2-49dd-a191-7775fefec24b",
+        "itemName": "橄榄油",
+        "quantity": 95,
+        "unit": "桶",
+        "estimatedPrice": 80.18
+      }
+    ],
+    "totalAmount": 14850.15,
+    "status": "PENDING_L2",
+    "currentLevel": 2,
+    "createdBy": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+    "createdAt": "2026-05-23T16:03:27.827Z",
+    "approvals": [
+      {
+        "level": 1,
+        "approved": true,
+        "approverId": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+        "approverName": "杨瑶",
+        "comment": "符合采购需求",
+        "approvedAt": "2026-06-14T02:34:04.827Z"
+      }
+    ]
+  },
+  {
+    "id": "61f42eb9-ace0-4b04-87e6-7274908348da",
+    "orderNo": "PO202606004",
+    "title": "办公耗材采购·第4批",
+    "items": [
+      {
+        "itemId": "d4168300-e073-4ae1-a1b3-15e2d02c20ef",
+        "itemName": "豆角",
+        "quantity": 81,
+        "unit": "kg",
+        "estimatedPrice": 66.08
+      },
+      {
+        "itemId": "2431494b-0ccf-4802-984d-89117eb344d6",
+        "itemName": "郫县豆瓣酱",
+        "quantity": 52,
+        "unit": "瓶",
+        "estimatedPrice": 59.91
+      },
+      {
+        "itemId": "2214ad21-c3f4-426b-a883-c0a6c4f17e93",
+        "itemName": "鸡腿",
+        "quantity": 39,
+        "unit": "kg",
+        "estimatedPrice": 18.84
+      },
+      {
+        "itemId": "fe4f3f8a-c21a-4ff8-a478-33839c0d9aac",
+        "itemName": "小米",
+        "quantity": 69,
+        "unit": "袋",
+        "estimatedPrice": 72.92
+      }
+    ],
+    "totalAmount": 14234.04,
+    "status": "APPROVED",
+    "currentLevel": 3,
+    "createdBy": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+    "createdAt": "2026-05-18T08:20:14.827Z",
+    "approvals": [
+      {
+        "level": 1,
+        "approved": true,
+        "approverId": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+        "approverName": "杨瑶",
+        "comment": "符合采购需求",
+        "approvedAt": "2026-06-08T22:35:12.827Z"
+      },
+      {
+        "level": 2,
+        "approved": true,
+        "approverId": "93a2598c-f191-4c6a-88ed-8ba5fe971f27",
+        "approverName": "邓婷欣",
+        "comment": "同意，请校长审批",
+        "approvedAt": "2026-06-08T20:39:06.827Z"
+      }
+    ]
+  },
+  {
+    "id": "050b8eab-db79-40b1-888f-39a2dc18c482",
+    "orderNo": "PO202606005",
+    "title": "设备维保配件·第5批",
+    "items": [
+      {
+        "itemId": "061daeb9-aea0-4cf7-ba52-e3b5da19f6ba",
+        "itemName": "黄瓜",
+        "quantity": 38,
+        "unit": "kg",
+        "estimatedPrice": 80.89
+      },
+      {
+        "itemId": "e84aca6e-2643-45fe-b04b-25750e3e3d82",
+        "itemName": "八角",
+        "quantity": 50,
+        "unit": "瓶",
+        "estimatedPrice": 80.79
+      },
+      {
+        "itemId": "6298f9ba-5351-4b4c-b94e-9f1a67de308a",
+        "itemName": "冻牛排",
+        "quantity": 42,
+        "unit": "箱",
+        "estimatedPrice": 6.7
+      },
+      {
+        "itemId": "c0174489-e366-4983-9d92-8be1cacfefc5",
+        "itemName": "大米",
+        "quantity": 27,
+        "unit": "袋",
+        "estimatedPrice": 9.14
+      },
+      {
+        "itemId": "02700cbb-0f16-4dd7-8b5c-512d38898295",
+        "itemName": "糯米",
+        "quantity": 65,
+        "unit": "袋",
+        "estimatedPrice": 46.37
+      }
+    ],
+    "totalAmount": 10655.55,
+    "status": "APPROVED",
+    "currentLevel": 3,
+    "createdBy": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+    "createdAt": "2026-05-29T04:55:08.827Z",
+    "approvals": [
+      {
+        "level": 1,
+        "approved": true,
+        "approverId": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+        "approverName": "杨瑶",
+        "comment": "符合采购需求",
+        "approvedAt": "2026-06-15T16:49:54.827Z"
+      },
+      {
+        "level": 2,
+        "approved": true,
+        "approverId": "93a2598c-f191-4c6a-88ed-8ba5fe971f27",
+        "approverName": "邓婷欣",
+        "comment": "同意，请校长审批",
+        "approvedAt": "2026-06-10T19:23:11.827Z"
+      },
+      {
+        "level": 3,
+        "approved": true,
+        "approverId": "70d526b1-b107-4d09-833a-541ba3d35fe4",
+        "approverName": "李紫",
+        "comment": "同意执行",
+        "approvedAt": "2026-06-07T20:13:35.827Z"
+      }
+    ]
+  },
+  {
+    "id": "49390c91-d538-4151-95b0-921a67048a4c",
+    "orderNo": "PO202606006",
+    "title": "体育器材补充·第6批",
+    "items": [
+      {
+        "itemId": "061daeb9-aea0-4cf7-ba52-e3b5da19f6ba",
+        "itemName": "黄瓜",
+        "quantity": 28,
+        "unit": "kg",
+        "estimatedPrice": 9.52
+      },
+      {
+        "itemId": "0dc68ec4-9402-43d2-8c00-4fa2492f7189",
+        "itemName": "鸭肉",
+        "quantity": 21,
+        "unit": "kg",
+        "estimatedPrice": 32.2
+      },
+      {
+        "itemId": "0dc68ec4-9402-43d2-8c00-4fa2492f7189",
+        "itemName": "鸭肉",
+        "quantity": 96,
+        "unit": "kg",
+        "estimatedPrice": 37.92
+      },
+      {
+        "itemId": "2431494b-0ccf-4802-984d-89117eb344d6",
+        "itemName": "郫县豆瓣酱",
+        "quantity": 56,
+        "unit": "瓶",
+        "estimatedPrice": 80.48
+      }
+    ],
+    "totalAmount": 9089.96,
+    "status": "REJECTED",
+    "currentLevel": 3,
+    "createdBy": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+    "createdAt": "2026-06-04T18:31:13.827Z",
+    "approvals": [
+      {
+        "level": 1,
+        "approved": true,
+        "approverId": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+        "approverName": "杨瑶",
+        "comment": "符合采购需求",
+        "approvedAt": "2026-05-27T23:13:43.827Z"
+      },
+      {
+        "level": 2,
+        "approved": false,
+        "approverId": "93a2598c-f191-4c6a-88ed-8ba5fe971f27",
+        "approverName": "邓婷欣",
+        "comment": "预算过高，需要重新评估",
+        "approvedAt": "2026-06-08T00:11:47.827Z"
+      },
+      {
+        "level": 3,
+        "approved": false,
+        "approverId": "70d526b1-b107-4d09-833a-541ba3d35fe4",
+        "approverName": "李紫",
+        "comment": "同意执行",
+        "approvedAt": "2026-06-14T16:19:07.827Z"
+      }
+    ]
+  },
+  {
+    "id": "25c58377-6644-445b-b4fb-92612e9b3db2",
+    "orderNo": "PO202606007",
+    "title": "图书馆新书·第7批",
+    "items": [
+      {
+        "itemId": "1cea91bd-de2f-4afe-80d9-c19e8c955291",
+        "itemName": "白糖",
+        "quantity": 60,
+        "unit": "瓶",
+        "estimatedPrice": 23
+      },
+      {
+        "itemId": "2214ad21-c3f4-426b-a883-c0a6c4f17e93",
+        "itemName": "鸡腿",
+        "quantity": 48,
+        "unit": "kg",
+        "estimatedPrice": 73.34
+      },
+      {
+        "itemId": "7e149e4e-0dc5-4516-b318-c740749decce",
+        "itemName": "大白菜",
+        "quantity": 97,
+        "unit": "kg",
+        "estimatedPrice": 18.14
+      },
+      {
+        "itemId": "1346f85e-de6c-4b24-aa8e-346b167f275f",
+        "itemName": "盐",
+        "quantity": 65,
+        "unit": "瓶",
+        "estimatedPrice": 49.12
+      },
+      {
+        "itemId": "2214ad21-c3f4-426b-a883-c0a6c4f17e93",
+        "itemName": "鸡腿",
+        "quantity": 21,
+        "unit": "kg",
+        "estimatedPrice": 17.94
+      },
+      {
+        "itemId": "7e149e4e-0dc5-4516-b318-c740749decce",
+        "itemName": "大白菜",
+        "quantity": 80,
+        "unit": "kg",
+        "estimatedPrice": 23.83
+      }
+    ],
+    "totalAmount": 12135.84,
+    "status": "EXECUTED",
+    "currentLevel": 3,
+    "createdBy": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+    "createdAt": "2026-06-13T02:48:31.827Z",
+    "approvals": [
+      {
+        "level": 1,
+        "approved": true,
+        "approverId": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+        "approverName": "杨瑶",
+        "comment": "符合采购需求",
+        "approvedAt": "2026-06-08T01:13:38.827Z"
+      },
+      {
+        "level": 2,
+        "approved": true,
+        "approverId": "93a2598c-f191-4c6a-88ed-8ba5fe971f27",
+        "approverName": "邓婷欣",
+        "comment": "同意，请校长审批",
+        "approvedAt": "2026-06-05T06:02:15.827Z"
+      },
+      {
+        "level": 3,
+        "approved": true,
+        "approverId": "70d526b1-b107-4d09-833a-541ba3d35fe4",
+        "approverName": "李紫",
+        "comment": "同意执行",
+        "approvedAt": "2026-06-11T11:15:56.827Z"
+      }
+    ]
+  },
+  {
+    "id": "15b1aa2a-fd72-4b4c-ab83-8e2d221bd874",
+    "orderNo": "PO202606008",
+    "title": "校园绿化苗木·第8批",
+    "items": [
+      {
+        "itemId": "3827deb9-570e-4010-a497-e2d1d61918be",
+        "itemName": "洋葱",
+        "quantity": 68,
+        "unit": "kg",
+        "estimatedPrice": 6.07
+      },
+      {
+        "itemId": "2214ad21-c3f4-426b-a883-c0a6c4f17e93",
+        "itemName": "鸡腿",
+        "quantity": 94,
+        "unit": "kg",
+        "estimatedPrice": 79.47
+      },
+      {
+        "itemId": "d4168300-e073-4ae1-a1b3-15e2d02c20ef",
+        "itemName": "豆角",
+        "quantity": 74,
+        "unit": "kg",
+        "estimatedPrice": 65.1
+      },
+      {
+        "itemId": "d5541631-3cf2-49dd-a191-7775fefec24b",
+        "itemName": "橄榄油",
+        "quantity": 44,
+        "unit": "桶",
+        "estimatedPrice": 44.92
+      },
+      {
+        "itemId": "1e11d32d-18a3-485c-bccd-14b25312df8c",
+        "itemName": "冻鸡翅",
+        "quantity": 24,
+        "unit": "箱",
+        "estimatedPrice": 58.97
+      },
+      {
+        "itemId": "2431494b-0ccf-4802-984d-89117eb344d6",
+        "itemName": "郫县豆瓣酱",
+        "quantity": 88,
+        "unit": "瓶",
+        "estimatedPrice": 63.75
+      },
+      {
+        "itemId": "c3901f3c-4077-4b6c-8f45-3514a3c79856",
+        "itemName": "冻豆腐",
+        "quantity": 43,
+        "unit": "箱",
+        "estimatedPrice": 79.77
+      },
+      {
+        "itemId": "c0174489-e366-4983-9d92-8be1cacfefc5",
+        "itemName": "大米",
+        "quantity": 46,
+        "unit": "袋",
+        "estimatedPrice": 73.14
+      }
+    ],
+    "totalAmount": 28496.65,
+    "status": "CANCELLED",
+    "currentLevel": 3,
+    "createdBy": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+    "createdAt": "2026-06-05T15:25:12.827Z",
+    "approvals": [
+      {
+        "level": 1,
+        "approved": true,
+        "approverId": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
+        "approverName": "杨瑶",
+        "comment": "符合采购需求",
+        "approvedAt": "2026-06-03T02:29:35.827Z"
+      },
+      {
+        "level": 2,
+        "approved": true,
+        "approverId": "93a2598c-f191-4c6a-88ed-8ba5fe971f27",
+        "approverName": "邓婷欣",
+        "comment": "同意，请校长审批",
+        "approvedAt": "2026-06-02T05:53:38.827Z"
+      },
+      {
+        "level": 3,
+        "approved": false,
+        "approverId": "70d526b1-b107-4d09-833a-541ba3d35fe4",
+        "approverName": "李紫",
+        "comment": "已取消",
+        "approvedAt": "2026-06-08T09:43:59.827Z"
+      }
+    ]
+  }
+]

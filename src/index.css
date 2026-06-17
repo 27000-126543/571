@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #0A2463;
+  --warning: #FCA311;
+  --success: #2EC4B6;
+  --danger: #E63946;
+  --bg: #0D1117;
+  --bg-light: #161B22;
+  --bg-lighter: #21262D;
+  --bg-card: #1C2128;
+  --border: #30363D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background-color: var(--bg);
+  color: #E6EDF3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #484f58;
+}
+
+/* 玻璃拟态 */
+.glass-card {
+  background: rgba(28, 33, 40, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* 渐变背景 */
+.gradient-bg {
+  background: linear-gradient(135deg, var(--primary) 0%, #1a1a2e 50%, var(--bg) 100%);
+}
+
+/* 发光效果 */
+.glow-primary {
+  box-shadow: 0 0 20px rgba(10, 36, 99, 0.5);
+}
+
+.glow-success {
+  box-shadow: 0 0 20px rgba(46, 196, 182, 0.5);
+}
+
+.glow-warning {
+  box-shadow: 0 0 20px rgba(252, 163, 17, 0.5);
+}
+
+.glow-danger {
+  box-shadow: 0 0 20px rgba(230, 57, 70, 0.5);
+}
+
+/* 扫描线动画 */
+@keyframes scan {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.scan-line {
+  animation: scan 2s linear infinite;
+}
+
+/* 呼吸灯效果 */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+}
+
+.pulse-ring {
+  animation: pulse-ring 2s ease-in-out infinite;
+}
+
+/* 旋转动画 */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+/* 卡片悬浮效果 */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(46, 196, 182, 0.3);
+}
+
+/* 输入框样式 */
+.input-glow:focus {
+  box-shadow: 0 0 0 3px rgba(46, 196, 182, 0.2);
+  border-color: var(--success);
+}
+
+/* 按钮样式 */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary) 0%, #1e3a8a 100%);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #1e3a8a 0%, var(--primary) 100%);
+  box-shadow: 0 4px 20px rgba(10, 36, 99, 0.5);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, var(--success) 0%, #0d9488 100%);
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background: linear-gradient(135deg, #0d9488 0%, var(--success) 100%);
+  box-shadow: 0 4px 20px rgba(46, 196, 182, 0.5);
+}
+
+/* 表格行 */
+.table-row:hover {
+  background-color: rgba(46, 196, 182, 0.05);
+}
+
+/* 进度条动画 */
+.progress-bar {
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 标签页激活 */
+.tab-active {
+  position: relative;
+}
+
+.tab-active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--success), var(--primary));
+  border-radius: 1px;
+}
+
+/* 状态徽章 */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.badge-success {
+  background: rgba(46, 196, 182, 0.15);
+  color: var(--success);
+  border: 1px solid rgba(46, 196, 182, 0.3);
+}
+
+.badge-warning {
+  background: rgba(252, 163, 17, 0.15);
+  color: var(--warning);
+  border: 1px solid rgba(252, 163, 17, 0.3);
+}
+
+.badge-danger {
+  background: rgba(230, 57, 70, 0.15);
+  color: var(--danger);
+  border: 1px solid rgba(230, 57, 70, 0.3);
+}
+
+.badge-primary {
+  background: rgba(10, 36, 99, 0.3);
+  color: #93c5fd;
+  border: 1px solid rgba(10, 36, 99, 0.5);
+}

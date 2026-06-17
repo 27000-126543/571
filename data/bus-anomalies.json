@@ -1,0 +1,238 @@
+[
+  {
+    "busId": "7a202752-8ab1-43b8-a60e-a0a403b55e3d",
+    "busNumber": "校01",
+    "type": "DELAY_OVER_15MIN",
+    "severity": "MEDIUM",
+    "description": "校车校01(东线·科技园方向)预计延误0分钟，预计15:08到达",
+    "notifiedParents": [
+      {
+        "studentName": "刘凯轩",
+        "phone": "13364457756",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "吴晨",
+        "phone": "18888065505",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "罗杰",
+        "phone": "13803631746",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "林佳",
+        "phone": "17690958194",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "吴晨",
+        "phone": "13828489856",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "王晨博",
+        "phone": "19283691241",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "吴瑶",
+        "phone": "17428621525",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "刘梦",
+        "phone": "19048961085",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      }
+    ],
+    "notifiedTeachers": [
+      {
+        "teacherName": "班主任老师",
+        "phone": "13800000001",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      }
+    ],
+    "status": "PENDING",
+    "createdAt": "2026-06-17T08:16:22.563Z",
+    "id": "1781684182563_48ld4ltn"
+  },
+  {
+    "busId": "cb7954e2-42a7-4091-959d-da3885bd788d",
+    "busNumber": "校02",
+    "type": "DELAY_OVER_15MIN",
+    "severity": "MEDIUM",
+    "description": "校车校02(西线·高新区方向)预计延误0分钟，预计15:20到达",
+    "notifiedParents": [
+      {
+        "studentName": "袁梦",
+        "phone": "13612811765",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "冯慧",
+        "phone": "19566449478",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "唐鑫",
+        "phone": "13475017756",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "张莉",
+        "phone": "19860677027",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "罗杰",
+        "phone": "17484181316",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "萧刚",
+        "phone": "13839836768",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "高涛",
+        "phone": "19762653805",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "陈军",
+        "phone": "17437590399",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      }
+    ],
+    "notifiedTeachers": [
+      {
+        "teacherName": "班主任老师",
+        "phone": "13800000001",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      }
+    ],
+    "status": "PENDING",
+    "createdAt": "2026-06-17T08:16:22.563Z",
+    "id": "1781684182564_5slq97dv"
+  },
+  {
+    "busId": "62c4c85a-3930-4448-8b55-f4f4de33c857",
+    "busNumber": "校04",
+    "type": "DELAY_OVER_15MIN",
+    "severity": "MEDIUM",
+    "description": "校车校04(北线·大学城方向)预计延误1分钟，预计15:26到达",
+    "notifiedParents": [
+      {
+        "studentName": "许涛晨",
+        "phone": "17184466515",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "杨艳芳",
+        "phone": "17590293927",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "曹伟",
+        "phone": "15362180851",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "傅娥莹",
+        "phone": "17831532729",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "沈涛鑫",
+        "phone": "18869149737",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "吴晨",
+        "phone": "17352243812",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "萧刚",
+        "phone": "19333337750",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "傅娥莹",
+        "phone": "18754840257",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      }
+    ],
+    "notifiedTeachers": [
+      {
+        "teacherName": "班主任老师",
+        "phone": "13800000001",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      }
+    ],
+    "status": "PENDING",
+    "createdAt": "2026-06-17T08:16:22.563Z",
+    "id": "1781684182564_8ivdaven"
+  },
+  {
+    "busId": "7bf85f49-781b-45ae-b7b9-2d8c1a270550",
+    "busNumber": "校05",
+    "type": "DELAY_OVER_15MIN",
+    "severity": "MEDIUM",
+    "description": "校车校05(中线·老城区方向)预计延误2分钟，预计15:27到达",
+    "notifiedParents": [
+      {
+        "studentName": "吴瑶",
+        "phone": "19127878053",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "冯伟",
+        "phone": "17998040041",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "杨艳芳",
+        "phone": "18911602922",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "黄磊文",
+        "phone": "18051415652",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "唐鑫",
+        "phone": "13128572410",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "刘梦",
+        "phone": "18361896272",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "王婷",
+        "phone": "19493266898",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      },
+      {
+        "studentName": "傅娥莹",
+        "phone": "18940335693",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      }
+    ],
+    "notifiedTeachers": [
+      {
+        "teacherName": "班主任老师",
+        "phone": "13800000001",
+        "notifiedAt": "2026-06-17T08:16:22.563Z"
+      }
+    ],
+    "status": "PENDING",
+    "createdAt": "2026-06-17T08:16:22.563Z",
+    "id": "1781684182564_pf8x432i"
+  }
+]

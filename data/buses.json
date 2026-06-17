@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "7a202752-8ab1-43b8-a60e-a0a403b55e3d",
+    "busNumber": "校01",
+    "plateNumber": "京A·93236",
+    "routeId": "8b32a42a-b68d-48a0-8e9d-f0b114eb2958",
+    "routeName": "东线·科技园方向",
+    "driverName": "李涛",
+    "driverPhone": "19010468307",
+    "capacity": 48,
+    "currentOccupancy": 27,
+    "status": "ON_ROUTE",
+    "currentPosition": {
+      "lat": 39.9035954244633,
+      "lng": 116.40744045755366,
+      "timestamp": "2026-06-17T08:58:35.216Z",
+      "speed": 27,
+      "heading": 45
+    },
+    "position3D": {
+      "x": -8.091510734144077,
+      "y": 0,
+      "z": -48.09151073414408,
+      "rotationY": 0.7853981633974483
+    },
+    "estimatedArrival": "2026-06-17T09:26:00.863Z",
+    "nextStation": "途中",
+    "onboardStudents": [
+      {
+        "studentId": "21ecb51b-f6a1-458e-98e4-c6730d8859a5",
+        "studentName": "刘凯轩",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "13364457756",
+        "boardedAt": "2026-06-17T00:07:00.000Z",
+        "boardStation": "东方花园"
+      },
+      {
+        "studentId": "740d9437-2a18-4124-abc5-f207f36ea72d",
+        "studentName": "吴晨",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "18888065505",
+        "boardedAt": "2026-06-16T23:54:00.000Z",
+        "boardStation": "阳光小区"
+      },
+      {
+        "studentId": "e853c49a-6204-4585-b206-136e971e266c",
+        "studentName": "罗杰",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "13803631746",
+        "boardedAt": "2026-06-16T22:11:00.000Z",
+        "boardStation": "市民中心"
+      },
+      {
+        "studentId": "3e29a7a8-8230-4169-bb93-9f8158c5e209",
+        "studentName": "林佳",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "17690958194",
+        "boardedAt": "2026-06-16T23:53:00.000Z",
+        "boardStation": "阳光小区"
+      },
+      {
+        "studentId": "740d9437-2a18-4124-abc5-f207f36ea72d",
+        "studentName": "吴晨",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "13828489856",
+        "boardedAt": "2026-06-16T22:33:00.000Z",
+        "boardStation": "科技园A站"
+      },
+      {
+        "studentId": "8603af23-ec76-448c-b911-5ad2c086f2cc",
+        "studentName": "王晨博",
+        "grade": 12,
+        "className": "12年级1班",
+        "parentPhone": "19283691241",
+        "boardedAt": "2026-06-17T00:36:00.000Z",
+        "boardStation": "阳光小区"
+      },
+      {
+        "studentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+        "studentName": "吴瑶",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "17428621525",
+        "boardedAt": "2026-06-16T23:32:00.000Z",
+        "boardStation": "阳光小区"
+      },
+      {
+        "studentId": "1401f6a1-6eb7-4020-a1f5-aa98b55a984e",
+        "studentName": "刘梦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "19048961085",
+        "boardedAt": "2026-06-16T23:50:00.000Z",
+        "boardStation": "东方花园"
+      },
+      {
+        "studentId": "741f3dcc-c232-4667-81ee-0ec72d2e5518",
+        "studentName": "唐婷",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "15179935219",
+        "boardedAt": "2026-06-17T00:14:00.000Z",
+        "boardStation": "东方花园"
+      },
+      {
+        "studentId": "8d405000-ff68-4ed1-977f-21ab29f28268",
+        "studentName": "郭芳",
+        "grade": 12,
+        "className": "12年级1班",
+        "parentPhone": "15635904772",
+        "boardedAt": "2026-06-16T22:06:00.000Z",
+        "boardStation": "市民中心"
+      },
+      {
+        "studentId": "1be632fc-4139-4195-b41f-08491d84ca37",
+        "studentName": "韩玲紫",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "15100564702",
+        "boardedAt": "2026-06-17T00:17:00.000Z",
+        "boardStation": "东方花园"
+      },
+      {
+        "studentId": "a660bdcc-d74d-498c-a910-d53a44c5bacd",
+        "studentName": "周怡雪",
+        "grade": 8,
+        "className": "8年级2班",
+        "parentPhone": "17195255447",
+        "boardedAt": "2026-06-16T22:13:00.000Z",
+        "boardStation": "东方花园"
+      },
+      {
+        "studentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+        "studentName": "吴瑶",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "13627049406",
+        "boardedAt": "2026-06-16T22:10:00.000Z",
+        "boardStation": "东方花园"
+      },
+      {
+        "studentId": "3c873f8e-ed0f-4c81-889c-835362881aa7",
+        "studentName": "宋瑶瑶",
+        "grade": 8,
+        "className": "8年级2班",
+        "parentPhone": "17922192671",
+        "boardedAt": "2026-06-16T23:15:00.000Z",
+        "boardStation": "阳光小区"
+      },
+      {
+        "studentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+        "studentName": "吴瑶",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "13454118504",
+        "boardedAt": "2026-06-16T22:15:00.000Z",
+        "boardStation": "市民中心"
+      },
+      {
+        "studentId": "1a2de151-2104-4967-985c-275ec180dc64",
+        "studentName": "谢怡雪",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "15246848646",
+        "boardedAt": "2026-06-16T22:08:00.000Z",
+        "boardStation": "东方花园"
+      },
+      {
+        "studentId": "d5ed2706-33be-4b5e-99b3-5bad3122a4cf",
+        "studentName": "曹伟",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "13813334076",
+        "boardedAt": "2026-06-16T22:21:00.000Z",
+        "boardStation": "市民中心"
+      },
+      {
+        "studentId": "889e15e3-2e90-4593-9ad8-307c9a66026d",
+        "studentName": "杨艳芳",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "18280428684",
+        "boardedAt": "2026-06-16T23:59:00.000Z",
+        "boardStation": "科技园A站"
+      },
+      {
+        "studentId": "51330cf6-7039-4a40-963a-3bae5d826c08",
+        "studentName": "傅雪",
+        "grade": 8,
+        "className": "8年级2班",
+        "parentPhone": "17234169220",
+        "boardedAt": "2026-06-16T23:53:00.000Z",
+        "boardStation": "科技园A站"
+      },
+      {
+        "studentId": "148cc139-cdd6-4a12-bbc8-0668ae1932c6",
+        "studentName": "唐鑫",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "15288124591",
+        "boardedAt": "2026-06-17T00:36:00.000Z",
+        "boardStation": "阳光小区"
+      },
+      {
+        "studentId": "298b98fa-5db1-4afd-9f0c-b765db06e279",
+        "studentName": "曾博",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "19419689479",
+        "boardedAt": "2026-06-16T23:20:00.000Z",
+        "boardStation": "阳光小区"
+      },
+      {
+        "studentId": "4f0c5ffb-74c4-463b-a218-dd4dc9e6e9e7",
+        "studentName": "唐琳英",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "19130620836",
+        "boardedAt": "2026-06-16T23:46:00.000Z",
+        "boardStation": "市民中心"
+      },
+      {
+        "studentId": "9330a2cb-d59a-4403-83e8-9bed87269588",
+        "studentName": "冯伟",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "18785514129",
+        "boardedAt": "2026-06-17T00:11:00.000Z",
+        "boardStation": "市民中心"
+      },
+      {
+        "studentId": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
+        "studentName": "张莉",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "15400910905",
+        "boardedAt": "2026-06-16T22:56:00.000Z",
+        "boardStation": "科技园A站"
+      },
+      {
+        "studentId": "741f3dcc-c232-4667-81ee-0ec72d2e5518",
+        "studentName": "唐婷",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "17183195334",
+        "boardedAt": "2026-06-17T00:04:00.000Z",
+        "boardStation": "阳光小区"
+      },
+      {
+        "studentId": "3c873f8e-ed0f-4c81-889c-835362881aa7",
+        "studentName": "宋瑶瑶",
+        "grade": 8,
+        "className": "8年级2班",
+        "parentPhone": "13526256258",
+        "boardedAt": "2026-06-16T23:03:00.000Z",
+        "boardStation": "市民中心"
+      },
+      {
+        "studentId": "d0dae81a-d8e0-4654-a723-85249d4fd5cb",
+        "studentName": "高涛",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "13195946285",
+        "boardedAt": "2026-06-16T22:25:00.000Z",
+        "boardStation": "东方花园"
+      }
+    ]
+  },
+  {
+    "id": "cb7954e2-42a7-4091-959d-da3885bd788d",
+    "busNumber": "校02",
+    "plateNumber": "京B·23554",
+    "routeId": "b11dad21-f65e-4065-80e7-a334d889d0fa",
+    "routeName": "西线·高新区方向",
+    "driverName": "吕凯",
+    "driverPhone": "17510703371",
+    "capacity": 48,
+    "currentOccupancy": 22,
+    "status": "ON_ROUTE",
+    "currentPosition": {
+      "lat": 39.89595990145062,
+      "lng": 116.39595990145061,
+      "timestamp": "2026-06-17T08:58:35.216Z",
+      "speed": 33,
+      "heading": 326.30993247402023
+    },
+    "position3D": {
+      "x": -26.16039419753798,
+      "y": 0,
+      "z": 34.240591296306974,
+      "rotationY": -0.5880026035475675
+    },
+    "estimatedArrival": "2026-06-17T09:03:44.328Z",
+    "nextStation": "五道口站",
+    "onboardStudents": [
+      {
+        "studentId": "7d4cbf47-6adf-45dd-ab0e-aa0c3bbccecb",
+        "studentName": "袁梦",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "13612811765",
+        "boardedAt": "2026-06-16T23:24:00.000Z",
+        "boardStation": "万达广场"
+      },
+      {
+        "studentId": "cf55bf9b-e0a2-430e-89de-8376121e59ba",
+        "studentName": "冯慧",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "19566449478",
+        "boardedAt": "2026-06-16T23:39:00.000Z",
+        "boardStation": "幸福里"
+      },
+      {
+        "studentId": "148cc139-cdd6-4a12-bbc8-0668ae1932c6",
+        "studentName": "唐鑫",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "13475017756",
+        "boardedAt": "2026-06-17T00:51:00.000Z",
+        "boardStation": "软件园"
+      },
+      {
+        "studentId": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
+        "studentName": "张莉",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "19860677027",
+        "boardedAt": "2026-06-16T23:05:00.000Z",
+        "boardStation": "幸福里"
+      },
+      {
+        "studentId": "e853c49a-6204-4585-b206-136e971e266c",
+        "studentName": "罗杰",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "17484181316",
+        "boardedAt": "2026-06-16T23:08:00.000Z",
+        "boardStation": "高新区管委会"
+      },
+      {
+        "studentId": "ab5ab19b-aa2f-4fb8-825a-fb7c3d9b76c5",
+        "studentName": "萧刚",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "13839836768",
+        "boardedAt": "2026-06-17T00:08:00.000Z",
+        "boardStation": "高新区管委会"
+      },
+      {
+        "studentId": "d0dae81a-d8e0-4654-a723-85249d4fd5cb",
+        "studentName": "高涛",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "19762653805",
+        "boardedAt": "2026-06-16T23:33:00.000Z",
+        "boardStation": "高新区管委会"
+      },
+      {
+        "studentId": "34cd36ef-c7c9-40fa-ab87-e28753dab546",
+        "studentName": "陈军",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "17437590399",
+        "boardedAt": "2026-06-16T22:49:00.000Z",
+        "boardStation": "幸福里"
+      },
+      {
+        "studentId": "3c873f8e-ed0f-4c81-889c-835362881aa7",
+        "studentName": "宋瑶瑶",
+        "grade": 8,
+        "className": "8年级2班",
+        "parentPhone": "18733103609",
+        "boardedAt": "2026-06-16T23:36:00.000Z",
+        "boardStation": "高新区管委会"
+      },
+      {
+        "studentId": "a80a3027-875a-412f-8c50-8773e98e63ed",
+        "studentName": "彭雪莉",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "18404683741",
+        "boardedAt": "2026-06-16T23:48:00.000Z",
+        "boardStation": "幸福里"
+      },
+      {
+        "studentId": "3e29a7a8-8230-4169-bb93-9f8158c5e209",
+        "studentName": "林佳",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "19467280555",
+        "boardedAt": "2026-06-17T00:39:00.000Z",
+        "boardStation": "软件园"
+      },
+      {
+        "studentId": "02ed0b97-2b64-4d64-ae7c-eb90fbaae56d",
+        "studentName": "林妍",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "13053763482",
+        "boardedAt": "2026-06-17T00:08:00.000Z",
+        "boardStation": "高新区管委会"
+      },
+      {
+        "studentId": "8a31b09b-f4f4-4700-ab8f-c8890af76a4b",
+        "studentName": "孙强",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "18374622897",
+        "boardedAt": "2026-06-16T23:23:00.000Z",
+        "boardStation": "高新区管委会"
+      },
+      {
+        "studentId": "2a66fb41-e467-44d5-8d24-7e459af3c6fe",
+        "studentName": "朱轩涛",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "17743352812",
+        "boardedAt": "2026-06-17T00:34:00.000Z",
+        "boardStation": "万达广场"
+      },
+      {
+        "studentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
+        "studentName": "许涛晨",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "13582820252",
+        "boardedAt": "2026-06-16T23:07:00.000Z",
+        "boardStation": "幸福里"
+      },
+      {
+        "studentId": "e853c49a-6204-4585-b206-136e971e266c",
+        "studentName": "罗杰",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "17246058567",
+        "boardedAt": "2026-06-17T00:15:00.000Z",
+        "boardStation": "软件园"
+      },
+      {
+        "studentId": "8a31b09b-f4f4-4700-ab8f-c8890af76a4b",
+        "studentName": "孙强",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "13999823050",
+        "boardedAt": "2026-06-17T00:09:00.000Z",
+        "boardStation": "软件园"
+      },
+      {
+        "studentId": "1a2de151-2104-4967-985c-275ec180dc64",
+        "studentName": "谢怡雪",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "13360173401",
+        "boardedAt": "2026-06-17T00:39:00.000Z",
+        "boardStation": "万达广场"
+      },
+      {
+        "studentId": "68405768-0b27-47db-bc49-58da94f32f1e",
+        "studentName": "黄磊文",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "19117627650",
+        "boardedAt": "2026-06-16T23:35:00.000Z",
+        "boardStation": "软件园"
+      },
+      {
+        "studentId": "63871ed1-3545-437d-8c02-8f6dc13e0ed2",
+        "studentName": "刘凯",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "19377010023",
+        "boardedAt": "2026-06-16T23:52:00.000Z",
+        "boardStation": "万达广场"
+      },
+      {
+        "studentId": "51330cf6-7039-4a40-963a-3bae5d826c08",
+        "studentName": "傅雪",
+        "grade": 8,
+        "className": "8年级2班",
+        "parentPhone": "17410414661",
+        "boardedAt": "2026-06-17T00:25:00.000Z",
+        "boardStation": "高新区管委会"
+      },
+      {
+        "studentId": "2a66fb41-e467-44d5-8d24-7e459af3c6fe",
+        "studentName": "朱轩涛",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "19540178756",
+        "boardedAt": "2026-06-17T00:10:00.000Z",
+        "boardStation": "万达广场"
+      }
+    ]
+  },
+  {
+    "id": "6ac4b83e-5845-4193-8877-f3e4d209afbd",
+    "busNumber": "校03",
+    "plateNumber": "京C·67252",
+    "routeId": "b327fbed-290a-4bde-bdd4-7a0350606f68",
+    "routeName": "南线·滨河路方向",
+    "driverName": "赵波",
+    "driverPhone": "13096059439",
+    "capacity": 48,
+    "currentOccupancy": 28,
+    "status": "AT_STATION",
+    "currentPosition": {
+      "lat": 39.89011593273817,
+      "lng": 116.41988406726183,
+      "timestamp": "2026-06-17T08:58:35.216Z",
+      "speed": 0,
+      "heading": 161.56505117707798
+    },
+    "position3D": {
+      "x": -14.768134523656482,
+      "y": 0,
+      "z": 49.30440357096945,
+      "rotationY": 2.8198420991931514
+    },
+    "estimatedArrival": "2026-06-17T09:17:26.868Z",
+    "nextStation": "途中",
+    "onboardStudents": [
+      {
+        "studentId": "ca7b1b49-7663-491c-ba69-670588ba33f7",
+        "studentName": "沈涛鑫",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "15799361362",
+        "boardedAt": "2026-06-16T23:16:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "52c7895d-b25a-440d-8cd0-beb88529ead2",
+        "studentName": "郑俊博",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "19587969197",
+        "boardedAt": "2026-06-16T22:18:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "ca7b1b49-7663-491c-ba69-670588ba33f7",
+        "studentName": "沈涛鑫",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "19851409149",
+        "boardedAt": "2026-06-16T23:51:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "02ed0b97-2b64-4d64-ae7c-eb90fbaae56d",
+        "studentName": "林妍",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "18010041551",
+        "boardedAt": "2026-06-16T22:15:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "2c87d4f5-e459-4063-8f80-7ef4a873e533",
+        "studentName": "吕悦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "19469975308",
+        "boardedAt": "2026-06-16T23:28:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "740d9437-2a18-4124-abc5-f207f36ea72d",
+        "studentName": "吴晨",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "19131816374",
+        "boardedAt": "2026-06-17T00:50:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "34cd36ef-c7c9-40fa-ab87-e28753dab546",
+        "studentName": "陈军",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "13627465077",
+        "boardedAt": "2026-06-17T00:07:00.000Z",
+        "boardStation": "奥体中心"
+      },
+      {
+        "studentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
+        "studentName": "许涛晨",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "17902457872",
+        "boardedAt": "2026-06-16T23:53:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "a660bdcc-d74d-498c-a910-d53a44c5bacd",
+        "studentName": "周怡雪",
+        "grade": 8,
+        "className": "8年级2班",
+        "parentPhone": "13414231715",
+        "boardedAt": "2026-06-17T00:58:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "148cc139-cdd6-4a12-bbc8-0668ae1932c6",
+        "studentName": "唐鑫",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "19448466803",
+        "boardedAt": "2026-06-17T00:45:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "8a31b09b-f4f4-4700-ab8f-c8890af76a4b",
+        "studentName": "孙强",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "15624909067",
+        "boardedAt": "2026-06-16T22:04:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "80d45d25-8003-4672-9550-aca9a3491f1a",
+        "studentName": "沈睿",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "13516265280",
+        "boardedAt": "2026-06-17T00:02:00.000Z",
+        "boardStation": "奥体中心"
+      },
+      {
+        "studentId": "1401f6a1-6eb7-4020-a1f5-aa98b55a984e",
+        "studentName": "刘梦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "19631305540",
+        "boardedAt": "2026-06-16T22:52:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "63871ed1-3545-437d-8c02-8f6dc13e0ed2",
+        "studentName": "刘凯",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "19753651103",
+        "boardedAt": "2026-06-17T00:54:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
+        "studentName": "许涛晨",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "15522385276",
+        "boardedAt": "2026-06-16T22:41:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "c559a85b-d092-4a7a-ab0d-0968699e3404",
+        "studentName": "于浩明",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "17026743085",
+        "boardedAt": "2026-06-16T23:25:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "a80a3027-875a-412f-8c50-8773e98e63ed",
+        "studentName": "彭雪莉",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "13869229711",
+        "boardedAt": "2026-06-17T00:34:00.000Z",
+        "boardStation": "金桂苑"
+      },
+      {
+        "studentId": "740d9437-2a18-4124-abc5-f207f36ea72d",
+        "studentName": "吴晨",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "19557143049",
+        "boardedAt": "2026-06-17T00:30:00.000Z",
+        "boardStation": "奥体中心"
+      },
+      {
+        "studentId": "e24117ad-ad4d-4525-b678-3c8995d4f41e",
+        "studentName": "罗辉",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "18771909383",
+        "boardedAt": "2026-06-16T23:36:00.000Z",
+        "boardStation": "彩虹城"
+      },
+      {
+        "studentId": "80d45d25-8003-4672-9550-aca9a3491f1a",
+        "studentName": "沈睿",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "13965416043",
+        "boardedAt": "2026-06-17T00:00:00.000Z",
+        "boardStation": "奥体中心"
+      },
+      {
+        "studentId": "d5ed2706-33be-4b5e-99b3-5bad3122a4cf",
+        "studentName": "曹伟",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "17630675614",
+        "boardedAt": "2026-06-17T00:28:00.000Z",
+        "boardStation": "奥体中心"
+      },
+      {
+        "studentId": "63871ed1-3545-437d-8c02-8f6dc13e0ed2",
+        "studentName": "刘凯",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "17817342428",
+        "boardedAt": "2026-06-16T22:57:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "741f3dcc-c232-4667-81ee-0ec72d2e5518",
+        "studentName": "唐婷",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "18727791925",
+        "boardedAt": "2026-06-16T23:57:00.000Z",
+        "boardStation": "金桂苑"
+      },
+      {
+        "studentId": "1a2de151-2104-4967-985c-275ec180dc64",
+        "studentName": "谢怡雪",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "18515226327",
+        "boardedAt": "2026-06-16T23:49:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "298b98fa-5db1-4afd-9f0c-b765db06e279",
+        "studentName": "曾博",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "18284608113",
+        "boardedAt": "2026-06-16T23:12:00.000Z",
+        "boardStation": "金桂苑"
+      },
+      {
+        "studentId": "9330a2cb-d59a-4403-83e8-9bed87269588",
+        "studentName": "冯伟",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "13952200715",
+        "boardedAt": "2026-06-17T00:04:00.000Z",
+        "boardStation": "滨河公园"
+      },
+      {
+        "studentId": "34cd36ef-c7c9-40fa-ab87-e28753dab546",
+        "studentName": "陈军",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "17556979249",
+        "boardedAt": "2026-06-17T00:08:00.000Z",
+        "boardStation": "金桂苑"
+      },
+      {
+        "studentId": "ca7b1b49-7663-491c-ba69-670588ba33f7",
+        "studentName": "沈涛鑫",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "18529104307",
+        "boardedAt": "2026-06-16T23:24:00.000Z",
+        "boardStation": "金桂苑"
+      }
+    ]
+  },
+  {
+    "id": "62c4c85a-3930-4448-8b55-f4f4de33c857",
+    "busNumber": "校04",
+    "plateNumber": "京D·82928",
+    "routeId": "c4393e4a-15e2-4a55-be4c-eebfd752e80e",
+    "routeName": "北线·大学城方向",
+    "driverName": "韩刚",
+    "driverPhone": "17958792356",
+    "capacity": 48,
+    "currentOccupancy": 43,
+    "status": "ON_ROUTE",
+    "currentPosition": {
+      "lat": 39.89529695841389,
+      "lng": 116.41185152079306,
+      "timestamp": "2026-06-17T08:58:35.216Z",
+      "speed": 32,
+      "heading": 343.3007557660064
+    },
+    "position3D": {
+      "x": -14.515828673011177,
+      "y": 0,
+      "z": 28.386095576703916,
+      "rotationY": -0.2914567944778671
+    },
+    "estimatedArrival": "2026-06-17T08:59:46.836Z",
+    "nextStation": "途中",
+    "onboardStudents": [
+      {
+        "studentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
+        "studentName": "许涛晨",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "17184466515",
+        "boardedAt": "2026-06-17T00:41:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "889e15e3-2e90-4593-9ad8-307c9a66026d",
+        "studentName": "杨艳芳",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "17590293927",
+        "boardedAt": "2026-06-16T23:17:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "d5ed2706-33be-4b5e-99b3-5bad3122a4cf",
+        "studentName": "曹伟",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "15362180851",
+        "boardedAt": "2026-06-16T22:41:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "31eebd3d-3314-4365-90cf-0bac7c656f31",
+        "studentName": "傅娥莹",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "17831532729",
+        "boardedAt": "2026-06-16T23:14:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "ca7b1b49-7663-491c-ba69-670588ba33f7",
+        "studentName": "沈涛鑫",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "18869149737",
+        "boardedAt": "2026-06-16T23:43:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "740d9437-2a18-4124-abc5-f207f36ea72d",
+        "studentName": "吴晨",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "17352243812",
+        "boardedAt": "2026-06-17T00:22:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "ab5ab19b-aa2f-4fb8-825a-fb7c3d9b76c5",
+        "studentName": "萧刚",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "19333337750",
+        "boardedAt": "2026-06-16T23:36:00.000Z",
+        "boardStation": "大学城东"
+      },
+      {
+        "studentId": "31eebd3d-3314-4365-90cf-0bac7c656f31",
+        "studentName": "傅娥莹",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "18754840257",
+        "boardedAt": "2026-06-16T23:48:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "1a2de151-2104-4967-985c-275ec180dc64",
+        "studentName": "谢怡雪",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "17104249072",
+        "boardedAt": "2026-06-17T00:33:00.000Z",
+        "boardStation": "大学城东"
+      },
+      {
+        "studentId": "52c7895d-b25a-440d-8cd0-beb88529ead2",
+        "studentName": "郑俊博",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "18102633695",
+        "boardedAt": "2026-06-16T23:36:00.000Z",
+        "boardStation": "大学城东"
+      },
+      {
+        "studentId": "d5d6a525-f7c1-4e07-83c7-d7253f23eab1",
+        "studentName": "孙平",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "13737289713",
+        "boardedAt": "2026-06-16T23:31:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
+        "studentName": "许涛晨",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "19597859177",
+        "boardedAt": "2026-06-17T00:01:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "889e15e3-2e90-4593-9ad8-307c9a66026d",
+        "studentName": "杨艳芳",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "18667898243",
+        "boardedAt": "2026-06-16T22:31:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "9a05114f-6cbb-4234-a59e-47489a075c33",
+        "studentName": "朱睿斌",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "18235386278",
+        "boardedAt": "2026-06-17T00:03:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "2c87d4f5-e459-4063-8f80-7ef4a873e533",
+        "studentName": "吕悦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "13049430812",
+        "boardedAt": "2026-06-16T22:09:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "741f3dcc-c232-4667-81ee-0ec72d2e5518",
+        "studentName": "唐婷",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "19712057283",
+        "boardedAt": "2026-06-16T22:49:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "1a2de151-2104-4967-985c-275ec180dc64",
+        "studentName": "谢怡雪",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "19125561083",
+        "boardedAt": "2026-06-17T00:07:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "298b98fa-5db1-4afd-9f0c-b765db06e279",
+        "studentName": "曾博",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "18701574922",
+        "boardedAt": "2026-06-16T22:18:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
+        "studentName": "张莉",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "13411696133",
+        "boardedAt": "2026-06-17T00:27:00.000Z",
+        "boardStation": "大学城东"
+      },
+      {
+        "studentId": "8603af23-ec76-448c-b911-5ad2c086f2cc",
+        "studentName": "王晨博",
+        "grade": 12,
+        "className": "12年级1班",
+        "parentPhone": "19302787723",
+        "boardedAt": "2026-06-16T22:53:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "52c7895d-b25a-440d-8cd0-beb88529ead2",
+        "studentName": "郑俊博",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "18371127313",
+        "boardedAt": "2026-06-16T23:42:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "34cd36ef-c7c9-40fa-ab87-e28753dab546",
+        "studentName": "陈军",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "15198907998",
+        "boardedAt": "2026-06-16T23:32:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "8a31b09b-f4f4-4700-ab8f-c8890af76a4b",
+        "studentName": "孙强",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "15562693030",
+        "boardedAt": "2026-06-16T22:11:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "1a2de151-2104-4967-985c-275ec180dc64",
+        "studentName": "谢怡雪",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "15750601018",
+        "boardedAt": "2026-06-17T00:51:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+        "studentName": "吴瑶",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "18072834284",
+        "boardedAt": "2026-06-16T23:55:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "7d4cbf47-6adf-45dd-ab0e-aa0c3bbccecb",
+        "studentName": "袁梦",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "17205901515",
+        "boardedAt": "2026-06-16T23:32:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "1401f6a1-6eb7-4020-a1f5-aa98b55a984e",
+        "studentName": "刘梦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "15960431846",
+        "boardedAt": "2026-06-16T23:40:00.000Z",
+        "boardStation": "大学城东"
+      },
+      {
+        "studentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
+        "studentName": "许涛晨",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "18468695938",
+        "boardedAt": "2026-06-16T22:07:00.000Z",
+        "boardStation": "大学城东"
+      },
+      {
+        "studentId": "63871ed1-3545-437d-8c02-8f6dc13e0ed2",
+        "studentName": "刘凯",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "19655671457",
+        "boardedAt": "2026-06-17T00:41:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "02ed0b97-2b64-4d64-ae7c-eb90fbaae56d",
+        "studentName": "林妍",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "18021333768",
+        "boardedAt": "2026-06-16T23:45:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "31eebd3d-3314-4365-90cf-0bac7c656f31",
+        "studentName": "傅娥莹",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "13897787976",
+        "boardedAt": "2026-06-17T00:17:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "feeb7000-9e54-4869-b319-ef9f3cdfc4ca",
+        "studentName": "宋宇",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "15743835095",
+        "boardedAt": "2026-06-17T00:09:00.000Z",
+        "boardStation": "大学城东"
+      },
+      {
+        "studentId": "8a31b09b-f4f4-4700-ab8f-c8890af76a4b",
+        "studentName": "孙强",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "17409394113",
+        "boardedAt": "2026-06-17T00:28:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "298b98fa-5db1-4afd-9f0c-b765db06e279",
+        "studentName": "曾博",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "17201805622",
+        "boardedAt": "2026-06-16T22:32:00.000Z",
+        "boardStation": "理工学院"
+      },
+      {
+        "studentId": "2a66fb41-e467-44d5-8d24-7e459af3c6fe",
+        "studentName": "朱轩涛",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "15755744044",
+        "boardedAt": "2026-06-16T22:09:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "583a9e34-07ea-46fe-a275-7313252421f5",
+        "studentName": "程鹏军",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "13379172867",
+        "boardedAt": "2026-06-16T22:57:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+        "studentName": "吴瑶",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "17456913062",
+        "boardedAt": "2026-06-16T23:14:00.000Z",
+        "boardStation": "大学城东"
+      },
+      {
+        "studentId": "feeb7000-9e54-4869-b319-ef9f3cdfc4ca",
+        "studentName": "宋宇",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "13268143841",
+        "boardedAt": "2026-06-17T00:01:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "298b98fa-5db1-4afd-9f0c-b765db06e279",
+        "studentName": "曾博",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "13721931005",
+        "boardedAt": "2026-06-17T00:22:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "1a2de151-2104-4967-985c-275ec180dc64",
+        "studentName": "谢怡雪",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "18489196558",
+        "boardedAt": "2026-06-16T22:54:00.000Z",
+        "boardStation": "书香门第"
+      },
+      {
+        "studentId": "8e05cadb-0d70-4d30-bfa8-5963b7acb334",
+        "studentName": "徐华",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "19897301589",
+        "boardedAt": "2026-06-16T23:26:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
+        "studentName": "张莉",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "15146027235",
+        "boardedAt": "2026-06-17T00:34:00.000Z",
+        "boardStation": "师范大学"
+      },
+      {
+        "studentId": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
+        "studentName": "张莉",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "17698683750",
+        "boardedAt": "2026-06-17T00:14:00.000Z",
+        "boardStation": "书香门第"
+      }
+    ]
+  },
+  {
+    "id": "7bf85f49-781b-45ae-b7b9-2d8c1a270550",
+    "busNumber": "校05",
+    "plateNumber": "京E·52742",
+    "routeId": "a377a2a8-729f-4925-8342-80289fb8c505",
+    "routeName": "中线·老城区方向",
+    "driverName": "彭轩",
+    "driverPhone": "19907617344",
+    "capacity": 48,
+    "currentOccupancy": 35,
+    "status": "ON_ROUTE",
+    "currentPosition": {
+      "lat": 39.907193817080405,
+      "lng": 116.4091938170804,
+      "timestamp": "2026-06-17T08:58:35.216Z",
+      "speed": 18,
+      "heading": 315
+    },
+    "position3D": {
+      "x": 10.646056934688717,
+      "y": 0,
+      "z": -30.646056934688716,
+      "rotationY": -0.7853981633974483
+    },
+    "estimatedArrival": "2026-06-17T09:23:58.474Z",
+    "nextStation": "途中",
+    "onboardStudents": [
+      {
+        "studentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+        "studentName": "吴瑶",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "19127878053",
+        "boardedAt": "2026-06-17T00:03:00.000Z",
+        "boardStation": "人民医院"
+      },
+      {
+        "studentId": "9330a2cb-d59a-4403-83e8-9bed87269588",
+        "studentName": "冯伟",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "17998040041",
+        "boardedAt": "2026-06-16T23:07:00.000Z",
+        "boardStation": "梅园新村"
+      },
+      {
+        "studentId": "889e15e3-2e90-4593-9ad8-307c9a66026d",
+        "studentName": "杨艳芳",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "18911602922",
+        "boardedAt": "2026-06-16T22:23:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "68405768-0b27-47db-bc49-58da94f32f1e",
+        "studentName": "黄磊文",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "18051415652",
+        "boardedAt": "2026-06-16T22:40:00.000Z",
+        "boardStation": "人民医院"
+      },
+      {
+        "studentId": "148cc139-cdd6-4a12-bbc8-0668ae1932c6",
+        "studentName": "唐鑫",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "13128572410",
+        "boardedAt": "2026-06-17T00:02:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "1401f6a1-6eb7-4020-a1f5-aa98b55a984e",
+        "studentName": "刘梦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "18361896272",
+        "boardedAt": "2026-06-16T23:22:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "620faa16-1dbc-4f25-bb5b-67f7f714e6fd",
+        "studentName": "王婷",
+        "grade": 12,
+        "className": "12年级1班",
+        "parentPhone": "19493266898",
+        "boardedAt": "2026-06-16T22:53:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "31eebd3d-3314-4365-90cf-0bac7c656f31",
+        "studentName": "傅娥莹",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "18940335693",
+        "boardedAt": "2026-06-17T00:15:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "68405768-0b27-47db-bc49-58da94f32f1e",
+        "studentName": "黄磊文",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "18958650777",
+        "boardedAt": "2026-06-17T00:49:00.000Z",
+        "boardStation": "梅园新村"
+      },
+      {
+        "studentId": "ca7b1b49-7663-491c-ba69-670588ba33f7",
+        "studentName": "沈涛鑫",
+        "grade": 7,
+        "className": "7年级1班",
+        "parentPhone": "18325989944",
+        "boardedAt": "2026-06-17T00:31:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "1401f6a1-6eb7-4020-a1f5-aa98b55a984e",
+        "studentName": "刘梦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "19729518413",
+        "boardedAt": "2026-06-16T22:28:00.000Z",
+        "boardStation": "人民医院"
+      },
+      {
+        "studentId": "3e29a7a8-8230-4169-bb93-9f8158c5e209",
+        "studentName": "林佳",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "19259595629",
+        "boardedAt": "2026-06-17T00:11:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "740d9437-2a18-4124-abc5-f207f36ea72d",
+        "studentName": "吴晨",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "17839739359",
+        "boardedAt": "2026-06-16T23:49:00.000Z",
+        "boardStation": "梅园新村"
+      },
+      {
+        "studentId": "ab5ab19b-aa2f-4fb8-825a-fb7c3d9b76c5",
+        "studentName": "萧刚",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "15519490333",
+        "boardedAt": "2026-06-16T23:12:00.000Z",
+        "boardStation": "梅园新村"
+      },
+      {
+        "studentId": "3c873f8e-ed0f-4c81-889c-835362881aa7",
+        "studentName": "宋瑶瑶",
+        "grade": 8,
+        "className": "8年级2班",
+        "parentPhone": "19851616387",
+        "boardedAt": "2026-06-16T22:51:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "80d45d25-8003-4672-9550-aca9a3491f1a",
+        "studentName": "沈睿",
+        "grade": 9,
+        "className": "9年级2班",
+        "parentPhone": "15624440373",
+        "boardedAt": "2026-06-17T00:23:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "2c87d4f5-e459-4063-8f80-7ef4a873e533",
+        "studentName": "吕悦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "19550748115",
+        "boardedAt": "2026-06-17T00:23:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "9a05114f-6cbb-4234-a59e-47489a075c33",
+        "studentName": "朱睿斌",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "19482950080",
+        "boardedAt": "2026-06-16T23:33:00.000Z",
+        "boardStation": "人民医院"
+      },
+      {
+        "studentId": "52c7895d-b25a-440d-8cd0-beb88529ead2",
+        "studentName": "郑俊博",
+        "grade": 11,
+        "className": "11年级2班",
+        "parentPhone": "17246535719",
+        "boardedAt": "2026-06-17T00:22:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "e24117ad-ad4d-4525-b678-3c8995d4f41e",
+        "studentName": "罗辉",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "18626395690",
+        "boardedAt": "2026-06-17T00:00:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "583a9e34-07ea-46fe-a275-7313252421f5",
+        "studentName": "程鹏军",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "19300201428",
+        "boardedAt": "2026-06-16T23:29:00.000Z",
+        "boardStation": "梅园新村"
+      },
+      {
+        "studentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+        "studentName": "吴瑶",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "15437730249",
+        "boardedAt": "2026-06-16T22:05:00.000Z",
+        "boardStation": "人民医院"
+      },
+      {
+        "studentId": "8e05cadb-0d70-4d30-bfa8-5963b7acb334",
+        "studentName": "徐华",
+        "grade": 8,
+        "className": "8年级1班",
+        "parentPhone": "17610928839",
+        "boardedAt": "2026-06-16T22:10:00.000Z",
+        "boardStation": "人民医院"
+      },
+      {
+        "studentId": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
+        "studentName": "吴瑶",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "13648348054",
+        "boardedAt": "2026-06-16T22:36:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "9a05114f-6cbb-4234-a59e-47489a075c33",
+        "studentName": "朱睿斌",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "19234227145",
+        "boardedAt": "2026-06-17T00:43:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "8d405000-ff68-4ed1-977f-21ab29f28268",
+        "studentName": "郭芳",
+        "grade": 12,
+        "className": "12年级1班",
+        "parentPhone": "18924267380",
+        "boardedAt": "2026-06-16T23:55:00.000Z",
+        "boardStation": "梅园新村"
+      },
+      {
+        "studentId": "d0dae81a-d8e0-4654-a723-85249d4fd5cb",
+        "studentName": "高涛",
+        "grade": 12,
+        "className": "12年级2班",
+        "parentPhone": "15272402787",
+        "boardedAt": "2026-06-16T23:53:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "741f3dcc-c232-4667-81ee-0ec72d2e5518",
+        "studentName": "唐婷",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "18662576462",
+        "boardedAt": "2026-06-16T22:53:00.000Z",
+        "boardStation": "梅园新村"
+      },
+      {
+        "studentId": "2c87d4f5-e459-4063-8f80-7ef4a873e533",
+        "studentName": "吕悦",
+        "grade": 11,
+        "className": "11年级1班",
+        "parentPhone": "18739504726",
+        "boardedAt": "2026-06-17T00:14:00.000Z",
+        "boardStation": "人民医院"
+      },
+      {
+        "studentId": "d5d6a525-f7c1-4e07-83c7-d7253f23eab1",
+        "studentName": "孙平",
+        "grade": 7,
+        "className": "7年级2班",
+        "parentPhone": "15546782741",
+        "boardedAt": "2026-06-17T00:35:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "889e15e3-2e90-4593-9ad8-307c9a66026d",
+        "studentName": "杨艳芳",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "19606850484",
+        "boardedAt": "2026-06-17T00:07:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "8d405000-ff68-4ed1-977f-21ab29f28268",
+        "studentName": "郭芳",
+        "grade": 12,
+        "className": "12年级1班",
+        "parentPhone": "18698767304",
+        "boardedAt": "2026-06-17T00:44:00.000Z",
+        "boardStation": "文化宫"
+      },
+      {
+        "studentId": "4f0c5ffb-74c4-463b-a218-dd4dc9e6e9e7",
+        "studentName": "唐琳英",
+        "grade": 9,
+        "className": "9年级1班",
+        "parentPhone": "19925175163",
+        "boardedAt": "2026-06-16T23:47:00.000Z",
+        "boardStation": "步行街"
+      },
+      {
+        "studentId": "9a05114f-6cbb-4234-a59e-47489a075c33",
+        "studentName": "朱睿斌",
+        "grade": 10,
+        "className": "10年级2班",
+        "parentPhone": "18340387640",
+        "boardedAt": "2026-06-16T23:56:00.000Z",
+        "boardStation": "梅园新村"
+      },
+      {
+        "studentId": "7d4cbf47-6adf-45dd-ab0e-aa0c3bbccecb",
+        "studentName": "袁梦",
+        "grade": 10,
+        "className": "10年级1班",
+        "parentPhone": "15471831487",
+        "boardedAt": "2026-06-16T22:35:00.000Z",
+        "boardStation": "步行街"
+      }
+    ]
+  }
+]

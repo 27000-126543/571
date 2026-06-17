@@ -1,0 +1,907 @@
+[
+  {
+    "id": "e93993ea-08fe-4fe1-8eb2-430f17c3f3c5",
+    "name": "红烧肉",
+    "windowId": "73a1b3ff-19e1-4149-97ec-67f34301f0de",
+    "windowName": "1号窗口·家常炒菜",
+    "category": "热菜",
+    "price": 12,
+    "nutrition": {
+      "calories": 384,
+      "protein": 34.9,
+      "fat": 21.9,
+      "carbohydrate": 40.3,
+      "sodium": 405
+    },
+    "ingredients": [
+      "五花肉",
+      "生抽",
+      "老抽",
+      "冰糖",
+      "八角"
+    ],
+    "soldToday": 162,
+    "remainingServings": 49,
+    "position3D": {
+      "x": 0,
+      "y": 1,
+      "z": 2
+    }
+  },
+  {
+    "id": "c2a94a65-a02c-475c-9da3-58bc6874e0c5",
+    "name": "宫保鸡丁",
+    "windowId": "7c0a88dc-7917-425b-ad46-1772ba355c02",
+    "windowName": "2号窗口·川湘风味",
+    "category": "热菜",
+    "price": 10,
+    "nutrition": {
+      "calories": 181,
+      "protein": 9.5,
+      "fat": 8.8,
+      "carbohydrate": 62.8,
+      "sodium": 473
+    },
+    "ingredients": [
+      "鸡胸肉",
+      "花生米",
+      "干辣椒",
+      "黄瓜",
+      "胡萝卜"
+    ],
+    "allergens": [
+      "花生"
+    ],
+    "soldToday": 183,
+    "remainingServings": 55,
+    "position3D": {
+      "x": 9.5,
+      "y": 1,
+      "z": 1
+    }
+  },
+  {
+    "id": "7898943a-2fbb-496b-bf50-9d7a0ea3232a",
+    "name": "鱼香肉丝",
+    "windowId": "ea8c0bdf-846b-49ae-9626-0ecf15c2f7e1",
+    "windowName": "3号窗口·营养套餐",
+    "category": "热菜",
+    "price": 10,
+    "nutrition": {
+      "calories": 473,
+      "protein": 3.1,
+      "fat": 11.2,
+      "carbohydrate": 43.2,
+      "sodium": 1280
+    },
+    "ingredients": [
+      "猪里脊",
+      "木耳",
+      "胡萝卜",
+      "青椒",
+      "郫县豆瓣酱"
+    ],
+    "soldToday": 137,
+    "remainingServings": 59,
+    "position3D": {
+      "x": 19,
+      "y": 1,
+      "z": -2
+    }
+  },
+  {
+    "id": "aa7967a0-a1a3-4533-87b4-012b5c42835b",
+    "name": "麻婆豆腐",
+    "windowId": "ecd86a73-c246-40ce-98a0-a98e12abbad0",
+    "windowName": "4号窗口·面食面点",
+    "category": "热菜",
+    "price": 8,
+    "nutrition": {
+      "calories": 269,
+      "protein": 6.1,
+      "fat": 20.3,
+      "carbohydrate": 73.1,
+      "sodium": 140
+    },
+    "ingredients": [
+      "嫩豆腐",
+      "牛肉末",
+      "花椒",
+      "郫县豆瓣酱"
+    ],
+    "soldToday": 180,
+    "remainingServings": 16,
+    "position3D": {
+      "x": 28.5,
+      "y": 1,
+      "z": -2
+    }
+  },
+  {
+    "id": "b9a6ea3e-8e0a-4519-bff5-cd83ab782cc6",
+    "name": "回锅肉",
+    "windowId": "02762004-fba8-457f-bb8f-0075e6a9238b",
+    "windowName": "5号窗口·轻食沙拉",
+    "category": "热菜",
+    "price": 12,
+    "nutrition": {
+      "calories": 487,
+      "protein": 13.8,
+      "fat": 11.1,
+      "carbohydrate": 50.6,
+      "sodium": 384
+    },
+    "ingredients": [
+      "五花肉",
+      "青蒜",
+      "郫县豆瓣酱",
+      "甜面酱"
+    ],
+    "soldToday": 59,
+    "remainingServings": 23,
+    "position3D": {
+      "x": 38,
+      "y": 1,
+      "z": 1
+    }
+  },
+  {
+    "id": "6054a935-aa6d-4143-9ae1-16f0e352b05e",
+    "name": "水煮鱼",
+    "windowId": "d70c514d-ed0c-42aa-9474-9f457abca9ae",
+    "windowName": "6号窗口·特色小吃",
+    "category": "热菜",
+    "price": 15,
+    "nutrition": {
+      "calories": 310,
+      "protein": 18.1,
+      "fat": 10.7,
+      "carbohydrate": 46.8,
+      "sodium": 207
+    },
+    "ingredients": [
+      "草鱼",
+      "豆芽",
+      "干辣椒",
+      "花椒",
+      "蛋清"
+    ],
+    "allergens": [
+      "海鲜"
+    ],
+    "soldToday": 70,
+    "remainingServings": 3,
+    "position3D": {
+      "x": 40,
+      "y": 1,
+      "z": -2
+    }
+  },
+  {
+    "id": "113ea34c-307e-4c06-87f7-678b8afd7d76",
+    "name": "糖醋里脊",
+    "windowId": "73a1b3ff-19e1-4149-97ec-67f34301f0de",
+    "windowName": "1号窗口·家常炒菜",
+    "category": "热菜",
+    "price": 12,
+    "nutrition": {
+      "calories": 447,
+      "protein": 25.3,
+      "fat": 11.4,
+      "carbohydrate": 34.5,
+      "sodium": 105
+    },
+    "ingredients": [
+      "猪里脊",
+      "番茄酱",
+      "白糖",
+      "醋",
+      "淀粉"
+    ],
+    "allergens": [
+      "蛋奶"
+    ],
+    "soldToday": 152,
+    "remainingServings": 74,
+    "position3D": {
+      "x": 1.5,
+      "y": 1,
+      "z": -4
+    }
+  },
+  {
+    "id": "5d24bea7-fe9c-4649-8083-8976abde8984",
+    "name": "青椒土豆丝",
+    "windowId": "7c0a88dc-7917-425b-ad46-1772ba355c02",
+    "windowName": "2号窗口·川湘风味",
+    "category": "热菜",
+    "price": 6,
+    "nutrition": {
+      "calories": 584,
+      "protein": 12,
+      "fat": 3.1,
+      "carbohydrate": 55.4,
+      "sodium": 424
+    },
+    "ingredients": [
+      "土豆",
+      "青椒",
+      "醋",
+      "蒜"
+    ],
+    "soldToday": 158,
+    "remainingServings": 75,
+    "position3D": {
+      "x": 11,
+      "y": 1,
+      "z": 4
+    }
+  },
+  {
+    "id": "3015bc86-098c-4bf1-81d9-cfe61cc80dc0",
+    "name": "西红柿炒蛋",
+    "windowId": "ea8c0bdf-846b-49ae-9626-0ecf15c2f7e1",
+    "windowName": "3号窗口·营养套餐",
+    "category": "热菜",
+    "price": 7,
+    "nutrition": {
+      "calories": 422,
+      "protein": 5.2,
+      "fat": 20.4,
+      "carbohydrate": 38.4,
+      "sodium": 711
+    },
+    "ingredients": [
+      "西红柿",
+      "鸡蛋",
+      "葱花",
+      "白糖"
+    ],
+    "allergens": [
+      "蛋奶"
+    ],
+    "soldToday": 145,
+    "remainingServings": 25,
+    "position3D": {
+      "x": 20.5,
+      "y": 1,
+      "z": -5
+    }
+  },
+  {
+    "id": "966c7ec1-41bd-49a3-af0b-2591b496f62c",
+    "name": "蒜蓉西兰花",
+    "windowId": "ecd86a73-c246-40ce-98a0-a98e12abbad0",
+    "windowName": "4号窗口·面食面点",
+    "category": "热菜",
+    "price": 8,
+    "nutrition": {
+      "calories": 191,
+      "protein": 25.5,
+      "fat": 8.4,
+      "carbohydrate": 12.9,
+      "sodium": 1271
+    },
+    "ingredients": [
+      "西兰花",
+      "大蒜",
+      "蚝油"
+    ],
+    "soldToday": 144,
+    "remainingServings": 80,
+    "position3D": {
+      "x": 30,
+      "y": 1,
+      "z": -1
+    }
+  },
+  {
+    "id": "289fa0f7-4c43-4799-b237-0032c6d46753",
+    "name": "白米饭",
+    "windowId": "02762004-fba8-457f-bb8f-0075e6a9238b",
+    "windowName": "5号窗口·轻食沙拉",
+    "category": "主食",
+    "price": 1,
+    "nutrition": {
+      "calories": 83,
+      "protein": 22.6,
+      "fat": 17.1,
+      "carbohydrate": 56.6,
+      "sodium": 480
+    },
+    "ingredients": [
+      "大米",
+      "水"
+    ],
+    "soldToday": 114,
+    "remainingServings": 73,
+    "position3D": {
+      "x": 32,
+      "y": 1,
+      "z": 2
+    }
+  },
+  {
+    "id": "3171898c-4ce1-46a5-9ece-e067da7aa11e",
+    "name": "炸酱面",
+    "windowId": "d70c514d-ed0c-42aa-9474-9f457abca9ae",
+    "windowName": "6号窗口·特色小吃",
+    "category": "主食",
+    "price": 9,
+    "nutrition": {
+      "calories": 240,
+      "protein": 34.7,
+      "fat": 25.2,
+      "carbohydrate": 9.3,
+      "sodium": 465
+    },
+    "ingredients": [
+      "面条",
+      "五花肉末",
+      "黄酱",
+      "黄瓜丝",
+      "胡萝卜丝"
+    ],
+    "allergens": [
+      "麸质"
+    ],
+    "soldToday": 113,
+    "remainingServings": 10,
+    "position3D": {
+      "x": 41.5,
+      "y": 1,
+      "z": -2
+    }
+  },
+  {
+    "id": "0daac189-322c-42a5-80f2-4292484fcc85",
+    "name": "牛肉拉面",
+    "windowId": "73a1b3ff-19e1-4149-97ec-67f34301f0de",
+    "windowName": "1号窗口·家常炒菜",
+    "category": "主食",
+    "price": 12,
+    "nutrition": {
+      "calories": 267,
+      "protein": 31.4,
+      "fat": 13.8,
+      "carbohydrate": 7.5,
+      "sodium": 1185
+    },
+    "ingredients": [
+      "拉面",
+      "牛肉",
+      "白萝卜",
+      "香菜",
+      "葱"
+    ],
+    "allergens": [
+      "麸质"
+    ],
+    "soldToday": 142,
+    "remainingServings": 37,
+    "position3D": {
+      "x": 3,
+      "y": 1,
+      "z": -1
+    }
+  },
+  {
+    "id": "5bc56c07-6cc5-4bb6-b857-ada15351e7d3",
+    "name": "三鲜水饺",
+    "windowId": "7c0a88dc-7917-425b-ad46-1772ba355c02",
+    "windowName": "2号窗口·川湘风味",
+    "category": "主食",
+    "price": 13,
+    "nutrition": {
+      "calories": 476,
+      "protein": 4.3,
+      "fat": 2.3,
+      "carbohydrate": 61.8,
+      "sodium": 1215
+    },
+    "ingredients": [
+      "面粉",
+      "猪肉",
+      "虾仁",
+      "韭菜",
+      "鸡蛋"
+    ],
+    "allergens": [
+      "海鲜",
+      "麸质",
+      "蛋奶"
+    ],
+    "soldToday": 180,
+    "remainingServings": 47,
+    "position3D": {
+      "x": 12.5,
+      "y": 1,
+      "z": 1
+    }
+  },
+  {
+    "id": "6a2210df-b8d2-4981-a312-863ff844e31d",
+    "name": "小笼包",
+    "windowId": "ea8c0bdf-846b-49ae-9626-0ecf15c2f7e1",
+    "windowName": "3号窗口·营养套餐",
+    "category": "主食",
+    "price": 10,
+    "nutrition": {
+      "calories": 519,
+      "protein": 11.3,
+      "fat": 12,
+      "carbohydrate": 57.7,
+      "sodium": 670
+    },
+    "ingredients": [
+      "面粉",
+      "猪肉末",
+      "猪皮冻",
+      "生姜",
+      "葱"
+    ],
+    "allergens": [
+      "麸质"
+    ],
+    "soldToday": 63,
+    "remainingServings": 79,
+    "position3D": {
+      "x": 22,
+      "y": 1,
+      "z": -1
+    }
+  },
+  {
+    "id": "e76be4d6-733f-49d5-a345-c1e5ce6ce493",
+    "name": "凉拌黄瓜",
+    "windowId": "ecd86a73-c246-40ce-98a0-a98e12abbad0",
+    "windowName": "4号窗口·面食面点",
+    "category": "凉菜",
+    "price": 5,
+    "nutrition": {
+      "calories": 110,
+      "protein": 14.7,
+      "fat": 23.8,
+      "carbohydrate": 65.1,
+      "sodium": 1001
+    },
+    "ingredients": [
+      "黄瓜",
+      "大蒜",
+      "醋",
+      "生抽",
+      "香油"
+    ],
+    "soldToday": 195,
+    "remainingServings": 43,
+    "position3D": {
+      "x": 24,
+      "y": 1,
+      "z": -1
+    }
+  },
+  {
+    "id": "3edca150-bf41-4a63-a939-87a336bee279",
+    "name": "口水鸡",
+    "windowId": "02762004-fba8-457f-bb8f-0075e6a9238b",
+    "windowName": "5号窗口·轻食沙拉",
+    "category": "凉菜",
+    "price": 14,
+    "nutrition": {
+      "calories": 121,
+      "protein": 3.8,
+      "fat": 11.1,
+      "carbohydrate": 6.7,
+      "sodium": 1036
+    },
+    "ingredients": [
+      "鸡腿",
+      "花生米",
+      "花椒",
+      "辣椒油",
+      "生抽"
+    ],
+    "allergens": [
+      "花生",
+      "坚果"
+    ],
+    "soldToday": 137,
+    "remainingServings": 49,
+    "position3D": {
+      "x": 33.5,
+      "y": 1,
+      "z": 4
+    }
+  },
+  {
+    "id": "0b5f29f0-b53c-43ea-91bb-2a4121006d0d",
+    "name": "凉拌三丝",
+    "windowId": "d70c514d-ed0c-42aa-9474-9f457abca9ae",
+    "windowName": "6号窗口·特色小吃",
+    "category": "凉菜",
+    "price": 6,
+    "nutrition": {
+      "calories": 300,
+      "protein": 13.1,
+      "fat": 7.4,
+      "carbohydrate": 31.7,
+      "sodium": 746
+    },
+    "ingredients": [
+      "海带丝",
+      "胡萝卜丝",
+      "粉丝",
+      "蒜",
+      "醋"
+    ],
+    "allergens": [
+      "海鲜"
+    ],
+    "soldToday": 141,
+    "remainingServings": 14,
+    "position3D": {
+      "x": 43,
+      "y": 1,
+      "z": 4
+    }
+  },
+  {
+    "id": "4711693a-0720-4a08-a75f-bda30d4d7fd3",
+    "name": "紫菜蛋花汤",
+    "windowId": "73a1b3ff-19e1-4149-97ec-67f34301f0de",
+    "windowName": "1号窗口·家常炒菜",
+    "category": "汤羹",
+    "price": 3,
+    "nutrition": {
+      "calories": 156,
+      "protein": 28.7,
+      "fat": 16,
+      "carbohydrate": 67,
+      "sodium": 1202
+    },
+    "ingredients": [
+      "紫菜",
+      "鸡蛋",
+      "虾皮",
+      "葱花"
+    ],
+    "allergens": [
+      "海鲜",
+      "蛋奶"
+    ],
+    "soldToday": 97,
+    "remainingServings": 79,
+    "position3D": {
+      "x": 4.5,
+      "y": 1,
+      "z": -3
+    }
+  },
+  {
+    "id": "bdab085f-0fee-469e-9cb2-3ca4dd0b0b4e",
+    "name": "西红柿鸡蛋汤",
+    "windowId": "7c0a88dc-7917-425b-ad46-1772ba355c02",
+    "windowName": "2号窗口·川湘风味",
+    "category": "汤羹",
+    "price": 3,
+    "nutrition": {
+      "calories": 302,
+      "protein": 10.3,
+      "fat": 6.3,
+      "carbohydrate": 5.1,
+      "sodium": 1163
+    },
+    "ingredients": [
+      "西红柿",
+      "鸡蛋",
+      "葱花",
+      "香菜"
+    ],
+    "allergens": [
+      "蛋奶"
+    ],
+    "soldToday": 120,
+    "remainingServings": 17,
+    "position3D": {
+      "x": 14,
+      "y": 1,
+      "z": -5
+    }
+  },
+  {
+    "id": "ab7dd500-d66d-4ef1-a770-de72b1e8eed3",
+    "name": "玉米排骨汤",
+    "windowId": "ea8c0bdf-846b-49ae-9626-0ecf15c2f7e1",
+    "windowName": "3号窗口·营养套餐",
+    "category": "汤羹",
+    "price": 6,
+    "nutrition": {
+      "calories": 276,
+      "protein": 24.4,
+      "fat": 16.9,
+      "carbohydrate": 28.6,
+      "sodium": 288
+    },
+    "ingredients": [
+      "猪排骨",
+      "玉米",
+      "胡萝卜",
+      "姜片"
+    ],
+    "soldToday": 163,
+    "remainingServings": 24,
+    "position3D": {
+      "x": 16,
+      "y": 1,
+      "z": 2
+    }
+  },
+  {
+    "id": "9781fe82-f1c2-486b-a076-ffd120a9a096",
+    "name": "酸辣汤",
+    "windowId": "ecd86a73-c246-40ce-98a0-a98e12abbad0",
+    "windowName": "4号窗口·面食面点",
+    "category": "汤羹",
+    "price": 4,
+    "nutrition": {
+      "calories": 351,
+      "protein": 4.1,
+      "fat": 1.8,
+      "carbohydrate": 30.3,
+      "sodium": 1411
+    },
+    "ingredients": [
+      "豆腐",
+      "木耳",
+      "鸡蛋",
+      "醋",
+      "胡椒粉"
+    ],
+    "allergens": [
+      "蛋奶"
+    ],
+    "soldToday": 54,
+    "remainingServings": 43,
+    "position3D": {
+      "x": 25.5,
+      "y": 1,
+      "z": -4
+    }
+  },
+  {
+    "id": "959082cb-6399-422f-bf2c-dabc4f52c860",
+    "name": "煎饼果子",
+    "windowId": "02762004-fba8-457f-bb8f-0075e6a9238b",
+    "windowName": "5号窗口·轻食沙拉",
+    "category": "小吃",
+    "price": 7,
+    "nutrition": {
+      "calories": 235,
+      "protein": 34.8,
+      "fat": 13.7,
+      "carbohydrate": 29.1,
+      "sodium": 1046
+    },
+    "ingredients": [
+      "绿豆面",
+      "鸡蛋",
+      "薄脆",
+      "甜面酱",
+      "葱花"
+    ],
+    "allergens": [
+      "蛋奶",
+      "麸质"
+    ],
+    "soldToday": 132,
+    "remainingServings": 65,
+    "position3D": {
+      "x": 35,
+      "y": 1,
+      "z": 1
+    }
+  },
+  {
+    "id": "79949cec-7dff-4b1a-99e1-cb0cade46239",
+    "name": "肉夹馍",
+    "windowId": "d70c514d-ed0c-42aa-9474-9f457abca9ae",
+    "windowName": "6号窗口·特色小吃",
+    "category": "小吃",
+    "price": 8,
+    "nutrition": {
+      "calories": 586,
+      "protein": 12.1,
+      "fat": 2.2,
+      "carbohydrate": 38,
+      "sodium": 1454
+    },
+    "ingredients": [
+      "白吉馍",
+      "卤五花肉",
+      "青椒"
+    ],
+    "allergens": [
+      "麸质"
+    ],
+    "soldToday": 190,
+    "remainingServings": 78,
+    "position3D": {
+      "x": 44.5,
+      "y": 1,
+      "z": 4
+    }
+  },
+  {
+    "id": "cd18cb32-1e10-4b5c-9ec0-98cfcaf4969f",
+    "name": "手抓饼",
+    "windowId": "73a1b3ff-19e1-4149-97ec-67f34301f0de",
+    "windowName": "1号窗口·家常炒菜",
+    "category": "小吃",
+    "price": 6,
+    "nutrition": {
+      "calories": 537,
+      "protein": 24.4,
+      "fat": 14.2,
+      "carbohydrate": 18.1,
+      "sodium": 633
+    },
+    "ingredients": [
+      "面饼",
+      "鸡蛋",
+      "生菜",
+      "番茄酱"
+    ],
+    "allergens": [
+      "蛋奶",
+      "麸质"
+    ],
+    "soldToday": 134,
+    "remainingServings": 40,
+    "position3D": {
+      "x": 6,
+      "y": 1,
+      "z": -1
+    }
+  },
+  {
+    "id": "e7543df0-1c35-4583-b0b1-0b1e1b7a16cb",
+    "name": "烤香肠",
+    "windowId": "7c0a88dc-7917-425b-ad46-1772ba355c02",
+    "windowName": "2号窗口·川湘风味",
+    "category": "小吃",
+    "price": 4,
+    "nutrition": {
+      "calories": 577,
+      "protein": 6.9,
+      "fat": 7.1,
+      "carbohydrate": 51,
+      "sodium": 338
+    },
+    "ingredients": [
+      "猪肉肠"
+    ],
+    "soldToday": 133,
+    "remainingServings": 55,
+    "position3D": {
+      "x": 8,
+      "y": 1,
+      "z": 4
+    }
+  },
+  {
+    "id": "480b28b0-e756-4197-b59f-cdbd47850e7d",
+    "name": "茶叶蛋",
+    "windowId": "ea8c0bdf-846b-49ae-9626-0ecf15c2f7e1",
+    "windowName": "3号窗口·营养套餐",
+    "category": "小吃",
+    "price": 2,
+    "nutrition": {
+      "calories": 174,
+      "protein": 28.7,
+      "fat": 25.3,
+      "carbohydrate": 42.6,
+      "sodium": 173
+    },
+    "ingredients": [
+      "鸡蛋",
+      "茶叶",
+      "八角",
+      "桂皮",
+      "酱油"
+    ],
+    "allergens": [
+      "蛋奶"
+    ],
+    "soldToday": 105,
+    "remainingServings": 60,
+    "position3D": {
+      "x": 17.5,
+      "y": 1,
+      "z": 5
+    }
+  },
+  {
+    "id": "4b0980a1-f145-4901-b237-5cf5b36e652d",
+    "name": "鲜榨橙汁",
+    "windowId": "ecd86a73-c246-40ce-98a0-a98e12abbad0",
+    "windowName": "4号窗口·面食面点",
+    "category": "饮品",
+    "price": 6,
+    "nutrition": {
+      "calories": 309,
+      "protein": 34.2,
+      "fat": 18.9,
+      "carbohydrate": 68.2,
+      "sodium": 1076
+    },
+    "ingredients": [
+      "橙子"
+    ],
+    "soldToday": 171,
+    "remainingServings": 32,
+    "position3D": {
+      "x": 27,
+      "y": 1,
+      "z": 5
+    }
+  },
+  {
+    "id": "9c803348-60ff-4f81-82f0-fe631ac12a5b",
+    "name": "现磨豆浆",
+    "windowId": "02762004-fba8-457f-bb8f-0075e6a9238b",
+    "windowName": "5号窗口·轻食沙拉",
+    "category": "饮品",
+    "price": 3,
+    "nutrition": {
+      "calories": 488,
+      "protein": 12.8,
+      "fat": 13.8,
+      "carbohydrate": 30.3,
+      "sodium": 609
+    },
+    "ingredients": [
+      "黄豆",
+      "水",
+      "白糖"
+    ],
+    "allergens": [
+      "坚果"
+    ],
+    "soldToday": 135,
+    "remainingServings": 56,
+    "position3D": {
+      "x": 36.5,
+      "y": 1,
+      "z": 4
+    }
+  },
+  {
+    "id": "f9e71c81-b03c-4a95-877c-dd3026f0c536",
+    "name": "酸梅汤",
+    "windowId": "d70c514d-ed0c-42aa-9474-9f457abca9ae",
+    "windowName": "6号窗口·特色小吃",
+    "category": "饮品",
+    "price": 4,
+    "nutrition": {
+      "calories": 460,
+      "protein": 14.8,
+      "fat": 13.2,
+      "carbohydrate": 77.6,
+      "sodium": 922
+    },
+    "ingredients": [
+      "乌梅",
+      "山楂",
+      "陈皮",
+      "甘草",
+      "冰糖"
+    ],
+    "soldToday": 156,
+    "remainingServings": 51,
+    "position3D": {
+      "x": 46,
+      "y": 1,
+      "z": 0
+    }
+  }
+]

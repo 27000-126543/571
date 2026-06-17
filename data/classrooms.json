@@ -1,0 +1,592 @@
+[
+  {
+    "id": "7a2b5de4-52b5-44d7-898b-025a9117989c",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 1,
+    "roomNumber": "101",
+    "capacity": 52,
+    "occupiedSeats": 37,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "lab"
+    ],
+    "sensors": {
+      "temperature": 25.4,
+      "humidity": 47.8,
+      "illuminance": 439
+    },
+    "position3D": {
+      "x": 2,
+      "y": 0,
+      "z": 8,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 1,
+    "roomNumber": "102",
+    "capacity": 57,
+    "occupiedSeats": 19,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "music"
+    ],
+    "sensors": {
+      "temperature": 28.9,
+      "humidity": 60.7,
+      "illuminance": 431
+    },
+    "position3D": {
+      "x": 13,
+      "y": 0,
+      "z": 2,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "3f5f054c-456b-47c4-a742-4fbc662669f4",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 1,
+    "roomNumber": "103",
+    "capacity": 51,
+    "occupiedSeats": 33,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "art"
+    ],
+    "sensors": {
+      "temperature": 26,
+      "humidity": 44.6,
+      "illuminance": 467
+    },
+    "position3D": {
+      "x": 30,
+      "y": 0,
+      "z": 10,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "de6e0e87-00e5-4f33-b2f5-b1537a4d2823",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 1,
+    "roomNumber": "104",
+    "capacity": 59,
+    "occupiedSeats": 49,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 27.4,
+      "humidity": 50.5,
+      "illuminance": 780
+    },
+    "position3D": {
+      "x": 45,
+      "y": 0,
+      "z": 9,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "ae51f38b-5f45-48c4-82d1-6e5992e30ff7",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 1,
+    "roomNumber": "105",
+    "capacity": 49,
+    "occupiedSeats": 54,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "lab"
+    ],
+    "sensors": {
+      "temperature": 24.3,
+      "humidity": 54.5,
+      "illuminance": 363
+    },
+    "position3D": {
+      "x": 62,
+      "y": 0,
+      "z": -4,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "2e11246f-ef46-4e8a-abf2-73090d7780e3",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 1,
+    "roomNumber": "106",
+    "capacity": 46,
+    "occupiedSeats": 12,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 24.2,
+      "humidity": 56.4,
+      "illuminance": 469
+    },
+    "position3D": {
+      "x": 73,
+      "y": 0,
+      "z": -9,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "c95ec76e-9a68-476b-b0f1-e3301f401941",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 2,
+    "roomNumber": "201",
+    "capacity": 47,
+    "occupiedSeats": 30,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 22.4,
+      "humidity": 51.9,
+      "illuminance": 347
+    },
+    "position3D": {
+      "x": 0,
+      "y": 4,
+      "z": -10,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "d0c1f40c-f782-4c5a-9898-2e4645b7d5a4",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 2,
+    "roomNumber": "202",
+    "capacity": 59,
+    "occupiedSeats": 7,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "music"
+    ],
+    "sensors": {
+      "temperature": 27.3,
+      "humidity": 40.1,
+      "illuminance": 365
+    },
+    "position3D": {
+      "x": 16,
+      "y": 4,
+      "z": 0,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "9585fc88-c828-4388-bfcb-05e91389987d",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 2,
+    "roomNumber": "203",
+    "capacity": 54,
+    "occupiedSeats": 52,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "lab",
+      "art"
+    ],
+    "sensors": {
+      "temperature": 27.4,
+      "humidity": 64.9,
+      "illuminance": 298
+    },
+    "position3D": {
+      "x": 31,
+      "y": 4,
+      "z": 8,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "5310b715-566a-4253-bd19-7936d14b37be",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 2,
+    "roomNumber": "204",
+    "capacity": 59,
+    "occupiedSeats": 52,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 21.2,
+      "humidity": 62.9,
+      "illuminance": 479
+    },
+    "position3D": {
+      "x": 44,
+      "y": 4,
+      "z": -9,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "f18bb00c-e0a3-4da5-97cd-4dbdc8ddcc9b",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 2,
+    "roomNumber": "205",
+    "capacity": 53,
+    "occupiedSeats": 23,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 27.7,
+      "humidity": 38.6,
+      "illuminance": 749
+    },
+    "position3D": {
+      "x": 61,
+      "y": 4,
+      "z": -7,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "80c2f3cc-e3da-4b57-b625-78f051d6c5c7",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 2,
+    "roomNumber": "206",
+    "capacity": 53,
+    "occupiedSeats": 52,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 25.3,
+      "humidity": 62,
+      "illuminance": 771
+    },
+    "position3D": {
+      "x": 75,
+      "y": 4,
+      "z": 0,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "6a43b890-d92d-4167-876b-835fb03ee1ba",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 3,
+    "roomNumber": "301",
+    "capacity": 56,
+    "occupiedSeats": 6,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "lab"
+    ],
+    "sensors": {
+      "temperature": 25,
+      "humidity": 46.1,
+      "illuminance": 439
+    },
+    "position3D": {
+      "x": -2,
+      "y": 8,
+      "z": -5,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "1390d23b-0d61-449a-96b8-b97bdf564ecc",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 3,
+    "roomNumber": "302",
+    "capacity": 56,
+    "occupiedSeats": 29,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "music"
+    ],
+    "sensors": {
+      "temperature": 24.2,
+      "humidity": 65.9,
+      "illuminance": 538
+    },
+    "position3D": {
+      "x": 13,
+      "y": 8,
+      "z": -6,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "d80149f5-28b8-4f83-a9d8-0b282483c73a",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 3,
+    "roomNumber": "303",
+    "capacity": 59,
+    "occupiedSeats": 24,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "art"
+    ],
+    "sensors": {
+      "temperature": 26,
+      "humidity": 50.7,
+      "illuminance": 356
+    },
+    "position3D": {
+      "x": 32,
+      "y": 8,
+      "z": -9,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "dc3dc997-7318-4e69-8a52-fcfb16149fd9",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 3,
+    "roomNumber": "304",
+    "capacity": 60,
+    "occupiedSeats": 5,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 26.7,
+      "humidity": 63.9,
+      "illuminance": 533
+    },
+    "position3D": {
+      "x": 46,
+      "y": 8,
+      "z": 3,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "68aa1b88-604e-4dc8-8365-015fcb2b1da6",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 3,
+    "roomNumber": "305",
+    "capacity": 47,
+    "occupiedSeats": 9,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "lab"
+    ],
+    "sensors": {
+      "temperature": 26.5,
+      "humidity": 36.1,
+      "illuminance": 530
+    },
+    "position3D": {
+      "x": 58,
+      "y": 8,
+      "z": -10,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "d8fea673-14ec-4f66-8f85-5320d907fafd",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 3,
+    "roomNumber": "306",
+    "capacity": 51,
+    "occupiedSeats": 52,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 27.4,
+      "humidity": 38.7,
+      "illuminance": 443
+    },
+    "position3D": {
+      "x": 77,
+      "y": 8,
+      "z": 10,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "231c3fc0-6da6-4b62-b330-5b12cc15b9fe",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 4,
+    "roomNumber": "401",
+    "capacity": 54,
+    "occupiedSeats": 22,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 24.6,
+      "humidity": 53.2,
+      "illuminance": 677
+    },
+    "position3D": {
+      "x": 1,
+      "y": 12,
+      "z": -8,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "5613d4cd-103e-411e-b58e-c5acf96d0a65",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 4,
+    "roomNumber": "402",
+    "capacity": 47,
+    "occupiedSeats": 54,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "music"
+    ],
+    "sensors": {
+      "temperature": 28.7,
+      "humidity": 45.8,
+      "illuminance": 700
+    },
+    "position3D": {
+      "x": 14,
+      "y": 12,
+      "z": 6,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "bb253107-9aaf-43eb-9261-f780821ca1fd",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 4,
+    "roomNumber": "403",
+    "capacity": 47,
+    "occupiedSeats": 30,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer",
+      "lab",
+      "art"
+    ],
+    "sensors": {
+      "temperature": 22.3,
+      "humidity": 45.9,
+      "illuminance": 398
+    },
+    "position3D": {
+      "x": 32,
+      "y": 12,
+      "z": -4,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "ac742170-9321-4628-b1e9-b58152a0f2bb",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 4,
+    "roomNumber": "404",
+    "capacity": 59,
+    "occupiedSeats": 41,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 28.4,
+      "humidity": 54.1,
+      "illuminance": 278
+    },
+    "position3D": {
+      "x": 46,
+      "y": 12,
+      "z": 3,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "5bad1a7c-5faf-41b7-b96c-ad5546d1a122",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 4,
+    "roomNumber": "405",
+    "capacity": 45,
+    "occupiedSeats": 46,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 27.7,
+      "humidity": 44.7,
+      "illuminance": 792
+    },
+    "position3D": {
+      "x": 62,
+      "y": 12,
+      "z": 7,
+      "floorHeight": 4
+    }
+  },
+  {
+    "id": "eb0cbef6-176b-4178-aa6c-f039239b6ad4",
+    "buildingId": "f48d6ff0-1eec-45ef-8bc2-84da691fc8c1",
+    "floor": 4,
+    "roomNumber": "406",
+    "capacity": 58,
+    "occupiedSeats": 50,
+    "equipment": [
+      "projector",
+      "blackboard",
+      "computer"
+    ],
+    "sensors": {
+      "temperature": 23,
+      "humidity": 48.9,
+      "illuminance": 208
+    },
+    "position3D": {
+      "x": 74,
+      "y": 12,
+      "z": -8,
+      "floorHeight": 4
+    }
+  }
+]
