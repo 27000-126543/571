@@ -86,8 +86,9 @@ export default function LoginPage() {
     setError('');
 
     try {
+      const username = formData.username || formData.role;
       const faceData = 'data:image/jpeg;base64,' + btoa(
-        'REGISTERED_FACE_' + Date.now() + '_principal_certified'
+        'REGISTERED_FACE_' + username + '_certified'
       );
 
       const response = await apiClient.post<unknown, { data: ApiResponse<LoginResponse> }>(

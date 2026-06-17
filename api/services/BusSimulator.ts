@@ -67,6 +67,16 @@ const ROUTE_NAME_TO_KEY: Record<string, string> = {
   '南线·滨河路方向': 'r3',
   '北线·大学城方向': 'r4',
   '中线·老城区方向': 'r5',
+  '东线1号': 'r1',
+  '西线2号': 'r2',
+  '南线3号': 'r3',
+  '北线4号': 'r4',
+  '中线5号': 'r5',
+  '东线': 'r1',
+  '西线': 'r2',
+  '南线': 'r3',
+  '北线': 'r4',
+  '中线': 'r5',
 };
 
 const DELAY_THRESHOLD_MINUTES = 15;
@@ -75,8 +85,15 @@ let simulationInterval: NodeJS.Timeout | null = null;
 const busProgress = new Map<string, { segmentIndex: number; t: number; direction: 1 | -1; delayMinutes: number }>();
 
 export class BusSimulator {
-  private static getRouteKeyForBus(bus: { routeName: string }): string {
-    const routeKey = ROUTE_NAME_TO_KEY[bus.routeName];
+  private static getRouteKeyForBus(bus: { routeName: string; busNumber?: string }): string {
+    let routeKey = ROUTE_NAME_TO_KEY[bus.routeName];
+    if (!routeKey) {
+      if (bus.routeName.includes('东线')) routeKey = 'r1';
+      else if (bus.routeName.includes('西线')) routeKey = 'r2';
+      else if (bus.routeName.includes('南线')) routeKey = 'r3';
+      else if (bus.routeName.includes('北线')) routeKey = 'r4';
+      else if (bus.routeName.includes('中线')) routeKey = 'r5';
+    }
     if (routeKey && BUS_ROUTES[routeKey]) {
       return routeKey;
     }

@@ -41,11 +41,13 @@ router.post('/face-login', async (req: Request, res: Response): Promise<void> =>
     res.status(200).json(response);
   } catch (error) {
     const message = error instanceof Error ? error.message : '登录失败';
+    const errorCode = (error as any).code || 'AUTH_FAILED';
     const response: ApiResponse<null> = {
       code: 401,
       message,
       data: null,
       timestamp: Date.now(),
+      errorCode,
     };
     res.status(401).json(response);
   }

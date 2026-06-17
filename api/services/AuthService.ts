@@ -58,9 +58,14 @@ export class AuthService {
       this.registeredFaceFeatures = new Map();
       const allUsers = userRepository.findAll();
       for (const u of allUsers) {
-        const featureKey = `${u.username}:${u.name}:${u.id}`;
-        const featureHash = this.computeFaceFeatureHash(featureKey);
-        this.registeredFaceFeatures.set(u.id, featureHash);
+        let faceFeature = u.faceFeature;
+        if (!faceFeature) {
+          faceFeature = `REGISTERED_FACE_${u.username}_certified`;
+          try {
+            userRepository.update(u.id, { faceFeature });
+          } catch {}
+        }
+        this.registeredFaceFeatures.set(faceFeature, u.id);
       }
     }
     return this.registeredFaceFeatures;
@@ -80,15 +85,33 @@ export class AuthService {
     this.registeredFaceFeatures = null;
   }
 
+  private static extractFaceMarker(faceImageBase64: string): string | null {
+    try {
+      const base64Data = faceImageBase64.replace(/^data:image\/\w+;base64,/, '');
+      const decoded = atob(base64Data);
+      const markerMatch = decoded.match(/REGISTERED_FACE_(\w+)_certified/);
+      if (markerMatch) {
+        return markerMatch[0];
+      }
+      const looseMatch = decoded.match(/REGISTERED_FACE_(\w+)/);
+      if (looseMatch) {
+        return `REGISTERED_FACE_${looseMatch[1]}_certified`;
+      }
+      return null;
+    } catch {
+      return null;
+    }
+  }
+
   static async faceLogin(faceImageBase64?: string): Promise<LoginResponse> {
-    if (!faceImageBase64 || faceImageBase64.length < 100) {
+    if (!faceImageBase64 || faceImageBase64.length < 20) {
       const err = new Error('未检测到人脸图像，请确保摄像头正常工作') as AuthError;
       err.code = 'NO_FACE_DETECTED';
       throw err;
     }
 
     const isBase64 = /^data:image\/(jpeg|jpg|png|webp);base64,/.test(faceImageBase64) ||
-      /^[A-Za-z0-9+/=]{100,}$/.test(faceImageBase64);
+      /^[A-Za-z0-9+/=]{20,}$/.test(faceImageBase64);
 
     if (!isBase64) {
       const err = new Error('人脸图像格式不合法，请重新采集') as AuthError;
@@ -108,15 +131,30 @@ export class AuthService {
       throw err;
     }
 
+    const registeredFaces = this.getRegisteredFaceFeatures();
+    const faceMarker = this.extractFaceMarker(faceImageBase64);
+
+    if (faceMarker) {
+      const matchedUserId = registeredFaces.get(faceMarker);
+      if (matchedUserId) {
+        const matchedUser = eligibleUsers.find(u => u.id === matchedUserId);
+        if (matchedUser) {
+          return this.buildLoginResponse(matchedUser);
+        }
+      }
+    }
+
     const imagePayload = faceImageBase64.replace(/^data:image\/\w+;base64,/, '');
     const imageFeatureHash = this.computeFaceFeatureHash(imagePayload.slice(-200));
 
-    const registeredFaces = this.getRegisteredFaceFeatures();
     let bestMatch: { userId: string; score: number } | null = null;
 
-    for (const [userId, regHash] of registeredFaces.entries()) {
-      const eligible = eligibleUsers.find(u => u.id === userId);
-      if (!eligible) continue;
+    for (const u of eligibleUsers) {
+      let regFaceFeature = u.faceFeature;
+      if (!regFaceFeature) {
+        regFaceFeature = `REGISTERED_FACE_${u.username}_certified`;
+      }
+      const regHash = this.computeFaceFeatureHash(regFaceFeature);
 
       let matchScore = 0;
       const minLen = Math.min(imageFeatureHash.length, regHash.length);
@@ -130,11 +168,11 @@ export class AuthService {
 
       const score = matchScore / Math.max(imageFeatureHash.length, regHash.length);
       if (!bestMatch || score > bestMatch.score) {
-        bestMatch = { userId, score };
+        bestMatch = { userId: u.id, score };
       }
     }
 
-    const MIN_CONFIDENCE = 0.6;
+    const MIN_CONFIDENCE = 0.8;
 
     if (!bestMatch || bestMatch.score < MIN_CONFIDENCE) {
       const err = new Error(

@@ -13,6 +13,7 @@ export interface User {
   name: string;
   role: UserRole;
   passwordHash: string;
+  faceFeature?: string;
   avatar?: string;
   grade?: number;
   classId?: string;
@@ -26,6 +27,7 @@ export interface ApiResponse<T> {
   message: string;
   data: T;
   timestamp: number;
+  errorCode?: string;
 }
 
 export interface PageResponse<T> {
@@ -301,6 +303,7 @@ export interface Visitor {
   targetLocation?: string;
   headTeacherId?: string;
   status: ApprovalStatus;
+  currentLevel?: 1 | 2 | 3;
   qrCodeToken?: string;
   checkInTime?: string;
   checkOutTime?: string;

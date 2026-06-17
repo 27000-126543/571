@@ -274,5 +274,23 @@
     "headTeacherId": "dac23006-bc3d-4db9-82f6-5fd6c7d2f131",
     "status": "PENDING_L1",
     "createdAt": "2026-06-11T07:59:21.828Z"
+  },
+  {
+    "visitorName": "测试访客",
+    "idCardNo": "110101199001011234",
+    "phone": "13800138000",
+    "relation": "父亲",
+    "visitDate": "2025-01-01",
+    "startTime": "09:00",
+    "endTime": "11:00",
+    "purpose": "家长会",
+    "targetType": "STUDENT",
+    "targetId": "student_1",
+    "targetName": "测试学生",
+    "status": "PENDING_L1",
+    "headTeacherId": "70d526b1-b107-4d09-833a-541ba3d35fe4",
+    "qrCodeToken": "f0bdbda007577f7874b93077ae4282f6890d811f",
+    "createdAt": "2026-06-17T10:02:27.874Z",
+    "id": "1781690547874_c6squl29"
   }
 ]

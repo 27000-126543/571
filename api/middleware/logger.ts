@@ -24,6 +24,7 @@ const extractModuleAndAction = (req: Request): { module: string; action: string 
 
   const module = pathParts[1] ?? 'system'
   const resourceId = pathParts[2]
+  const subAction = pathParts.slice(3).join('/')
 
   const specialActions: Record<string, { module: string; action: string }> = {
     'auth/login': { module: '登录登出', action: '用户登录' },
@@ -49,8 +50,7 @@ const extractModuleAndAction = (req: Request): { module: string; action: string 
     return specialActions[pathKey]
   }
 
-  if (resourceId && resourceId.length > 8) {
-    const subAction = pathParts.slice(3).join('/')
+  if (resourceId && !resourceId.startsWith(':')) {
     if (subAction === 'approve') {
       return { module: '审批中心', action: '审批通过' }
     }

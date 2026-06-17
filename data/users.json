@@ -8,7 +8,8 @@
     "grade": 7,
     "classId": "6a24f2f1-cc14-4935-9481-516b333bce03",
     "phone": "15486923279",
-    "createdAt": "2025-12-24T03:09:06.821Z"
+    "createdAt": "2025-12-24T03:09:06.821Z",
+    "faceFeature": "REGISTERED_FACE_stu001_certified"
   },
   {
     "id": "2a66fb41-e467-44d5-8d24-7e459af3c6fe",
@@ -19,7 +20,8 @@
     "grade": 7,
     "classId": "6a24f2f1-cc14-4935-9481-516b333bce03",
     "phone": "18476059726",
-    "createdAt": "2025-05-12T20:05:50.822Z"
+    "createdAt": "2025-05-12T20:05:50.822Z",
+    "faceFeature": "REGISTERED_FACE_stu002_certified"
   },
   {
     "id": "ca7b1b49-7663-491c-ba69-670588ba33f7",
@@ -30,7 +32,8 @@
     "grade": 7,
     "classId": "6a24f2f1-cc14-4935-9481-516b333bce03",
     "phone": "19466246662",
-    "createdAt": "2025-10-11T17:22:06.822Z"
+    "createdAt": "2025-10-11T17:22:06.822Z",
+    "faceFeature": "REGISTERED_FACE_stu003_certified"
   },
   {
     "id": "9330a2cb-d59a-4403-83e8-9bed87269588",
@@ -41,7 +44,8 @@
     "grade": 7,
     "classId": "6a24f2f1-cc14-4935-9481-516b333bce03",
     "phone": "18828598683",
-    "createdAt": "2025-02-19T20:41:59.822Z"
+    "createdAt": "2025-02-19T20:41:59.822Z",
+    "faceFeature": "REGISTERED_FACE_stu004_certified"
   },
   {
     "id": "02ed0b97-2b64-4d64-ae7c-eb90fbaae56d",
@@ -52,7 +56,8 @@
     "grade": 7,
     "classId": "714dc73e-b11d-4253-8861-4aeaba978a35",
     "phone": "19074862040",
-    "createdAt": "2026-04-19T20:58:04.822Z"
+    "createdAt": "2026-04-19T20:58:04.822Z",
+    "faceFeature": "REGISTERED_FACE_stu005_certified"
   },
   {
     "id": "8a31b09b-f4f4-4700-ab8f-c8890af76a4b",
@@ -63,7 +68,8 @@
     "grade": 7,
     "classId": "714dc73e-b11d-4253-8861-4aeaba978a35",
     "phone": "13876715861",
-    "createdAt": "2025-10-12T03:05:53.822Z"
+    "createdAt": "2025-10-12T03:05:53.822Z",
+    "faceFeature": "REGISTERED_FACE_stu006_certified"
   },
   {
     "id": "d5d6a525-f7c1-4e07-83c7-d7253f23eab1",
@@ -74,7 +80,8 @@
     "grade": 7,
     "classId": "714dc73e-b11d-4253-8861-4aeaba978a35",
     "phone": "15618760194",
-    "createdAt": "2025-04-06T13:05:18.822Z"
+    "createdAt": "2025-04-06T13:05:18.822Z",
+    "faceFeature": "REGISTERED_FACE_stu007_certified"
   },
   {
     "id": "1be632fc-4139-4195-b41f-08491d84ca37",
@@ -85,7 +92,8 @@
     "grade": 7,
     "classId": "714dc73e-b11d-4253-8861-4aeaba978a35",
     "phone": "17277871656",
-    "createdAt": "2025-12-29T01:12:04.822Z"
+    "createdAt": "2025-12-29T01:12:04.822Z",
+    "faceFeature": "REGISTERED_FACE_stu008_certified"
   },
   {
     "id": "8e05cadb-0d70-4d30-bfa8-5963b7acb334",
@@ -96,7 +104,8 @@
     "grade": 8,
     "classId": "dcc15f31-ccf2-4d07-99f3-b61287a5ce60",
     "phone": "19195423923",
-    "createdAt": "2026-05-27T20:19:16.822Z"
+    "createdAt": "2026-05-27T20:19:16.822Z",
+    "faceFeature": "REGISTERED_FACE_stu009_certified"
   },
   {
     "id": "148cc139-cdd6-4a12-bbc8-0668ae1932c6",
@@ -107,7 +116,8 @@
     "grade": 8,
     "classId": "dcc15f31-ccf2-4d07-99f3-b61287a5ce60",
     "phone": "18006767567",
-    "createdAt": "2025-08-03T11:09:15.822Z"
+    "createdAt": "2025-08-03T11:09:15.822Z",
+    "faceFeature": "REGISTERED_FACE_stu010_certified"
   },
   {
     "id": "d5ed2706-33be-4b5e-99b3-5bad3122a4cf",
@@ -118,7 +128,8 @@
     "grade": 8,
     "classId": "dcc15f31-ccf2-4d07-99f3-b61287a5ce60",
     "phone": "17509467019",
-    "createdAt": "2026-04-16T12:54:43.822Z"
+    "createdAt": "2026-04-16T12:54:43.822Z",
+    "faceFeature": "REGISTERED_FACE_stu011_certified"
   },
   {
     "id": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
@@ -129,7 +140,8 @@
     "grade": 8,
     "classId": "dcc15f31-ccf2-4d07-99f3-b61287a5ce60",
     "phone": "15461856716",
-    "createdAt": "2025-04-11T02:07:32.822Z"
+    "createdAt": "2025-04-11T02:07:32.822Z",
+    "faceFeature": "REGISTERED_FACE_stu012_certified"
   },
   {
     "id": "3c873f8e-ed0f-4c81-889c-835362881aa7",
@@ -140,7 +152,8 @@
     "grade": 8,
     "classId": "f332da47-5bc1-4689-ad81-05cf94c1d1ab",
     "phone": "19046514647",
-    "createdAt": "2025-12-31T14:48:54.822Z"
+    "createdAt": "2025-12-31T14:48:54.822Z",
+    "faceFeature": "REGISTERED_FACE_stu013_certified"
   },
   {
     "id": "a660bdcc-d74d-498c-a910-d53a44c5bacd",
@@ -151,7 +164,8 @@
     "grade": 8,
     "classId": "f332da47-5bc1-4689-ad81-05cf94c1d1ab",
     "phone": "19175961729",
-    "createdAt": "2026-02-18T21:04:32.822Z"
+    "createdAt": "2026-02-18T21:04:32.822Z",
+    "faceFeature": "REGISTERED_FACE_stu014_certified"
   },
   {
     "id": "51330cf6-7039-4a40-963a-3bae5d826c08",
@@ -162,7 +176,8 @@
     "grade": 8,
     "classId": "f332da47-5bc1-4689-ad81-05cf94c1d1ab",
     "phone": "18351415983",
-    "createdAt": "2025-03-16T04:11:37.822Z"
+    "createdAt": "2025-03-16T04:11:37.822Z",
+    "faceFeature": "REGISTERED_FACE_stu015_certified"
   },
   {
     "id": "421e84bd-1b4c-40be-8e55-48f45b23f1c9",
@@ -173,7 +188,8 @@
     "grade": 8,
     "classId": "f332da47-5bc1-4689-ad81-05cf94c1d1ab",
     "phone": "13971780278",
-    "createdAt": "2025-04-18T17:42:10.822Z"
+    "createdAt": "2025-04-18T17:42:10.822Z",
+    "faceFeature": "REGISTERED_FACE_stu016_certified"
   },
   {
     "id": "4f0c5ffb-74c4-463b-a218-dd4dc9e6e9e7",
@@ -184,7 +200,8 @@
     "grade": 9,
     "classId": "b045f7e9-872b-4ee6-b8d7-b115bf8a08cb",
     "phone": "15269902331",
-    "createdAt": "2026-04-01T02:11:53.822Z"
+    "createdAt": "2026-04-01T02:11:53.822Z",
+    "faceFeature": "REGISTERED_FACE_stu017_certified"
   },
   {
     "id": "d85cf4d5-2bc7-486b-ae90-9f9dfa3b4b39",
@@ -195,7 +212,8 @@
     "grade": 9,
     "classId": "b045f7e9-872b-4ee6-b8d7-b115bf8a08cb",
     "phone": "19576067891",
-    "createdAt": "2025-07-01T16:08:34.822Z"
+    "createdAt": "2025-07-01T16:08:34.822Z",
+    "faceFeature": "REGISTERED_FACE_stu018_certified"
   },
   {
     "id": "298b98fa-5db1-4afd-9f0c-b765db06e279",
@@ -206,7 +224,8 @@
     "grade": 9,
     "classId": "b045f7e9-872b-4ee6-b8d7-b115bf8a08cb",
     "phone": "15003090336",
-    "createdAt": "2025-05-09T13:49:57.822Z"
+    "createdAt": "2025-05-09T13:49:57.822Z",
+    "faceFeature": "REGISTERED_FACE_stu019_certified"
   },
   {
     "id": "889e15e3-2e90-4593-9ad8-307c9a66026d",
@@ -217,7 +236,8 @@
     "grade": 9,
     "classId": "b045f7e9-872b-4ee6-b8d7-b115bf8a08cb",
     "phone": "19746144597",
-    "createdAt": "2025-09-17T12:40:44.822Z"
+    "createdAt": "2025-09-17T12:40:44.822Z",
+    "faceFeature": "REGISTERED_FACE_stu020_certified"
   },
   {
     "id": "63871ed1-3545-437d-8c02-8f6dc13e0ed2",
@@ -228,7 +248,8 @@
     "grade": 9,
     "classId": "cce17cef-c532-4acc-85c4-15557f6b84bc",
     "phone": "15304900395",
-    "createdAt": "2025-02-10T00:01:39.822Z"
+    "createdAt": "2025-02-10T00:01:39.822Z",
+    "faceFeature": "REGISTERED_FACE_stu021_certified"
   },
   {
     "id": "feeb7000-9e54-4869-b319-ef9f3cdfc4ca",
@@ -239,7 +260,8 @@
     "grade": 9,
     "classId": "cce17cef-c532-4acc-85c4-15557f6b84bc",
     "phone": "17455993659",
-    "createdAt": "2025-06-28T16:01:24.822Z"
+    "createdAt": "2025-06-28T16:01:24.822Z",
+    "faceFeature": "REGISTERED_FACE_stu022_certified"
   },
   {
     "id": "80d45d25-8003-4672-9550-aca9a3491f1a",
@@ -250,7 +272,8 @@
     "grade": 9,
     "classId": "cce17cef-c532-4acc-85c4-15557f6b84bc",
     "phone": "13670561696",
-    "createdAt": "2025-10-06T21:51:45.822Z"
+    "createdAt": "2025-10-06T21:51:45.822Z",
+    "faceFeature": "REGISTERED_FACE_stu023_certified"
   },
   {
     "id": "cf55bf9b-e0a2-430e-89de-8376121e59ba",
@@ -261,7 +284,8 @@
     "grade": 9,
     "classId": "cce17cef-c532-4acc-85c4-15557f6b84bc",
     "phone": "13478919894",
-    "createdAt": "2025-06-19T23:44:29.822Z"
+    "createdAt": "2025-06-19T23:44:29.822Z",
+    "faceFeature": "REGISTERED_FACE_stu024_certified"
   },
   {
     "id": "31eebd3d-3314-4365-90cf-0bac7c656f31",
@@ -272,7 +296,8 @@
     "grade": 10,
     "classId": "f33c38e7-3a6a-4c26-a048-8aab89384473",
     "phone": "18363303242",
-    "createdAt": "2026-03-16T16:19:23.822Z"
+    "createdAt": "2026-03-16T16:19:23.822Z",
+    "faceFeature": "REGISTERED_FACE_stu025_certified"
   },
   {
     "id": "7d4cbf47-6adf-45dd-ab0e-aa0c3bbccecb",
@@ -283,7 +308,8 @@
     "grade": 10,
     "classId": "f33c38e7-3a6a-4c26-a048-8aab89384473",
     "phone": "18262016381",
-    "createdAt": "2025-06-18T23:54:26.822Z"
+    "createdAt": "2025-06-18T23:54:26.822Z",
+    "faceFeature": "REGISTERED_FACE_stu026_certified"
   },
   {
     "id": "68405768-0b27-47db-bc49-58da94f32f1e",
@@ -294,7 +320,8 @@
     "grade": 10,
     "classId": "f33c38e7-3a6a-4c26-a048-8aab89384473",
     "phone": "19484876858",
-    "createdAt": "2025-09-04T06:52:47.822Z"
+    "createdAt": "2025-09-04T06:52:47.822Z",
+    "faceFeature": "REGISTERED_FACE_stu027_certified"
   },
   {
     "id": "a80a3027-875a-412f-8c50-8773e98e63ed",
@@ -305,7 +332,8 @@
     "grade": 10,
     "classId": "f33c38e7-3a6a-4c26-a048-8aab89384473",
     "phone": "13443975377",
-    "createdAt": "2026-02-18T14:35:13.822Z"
+    "createdAt": "2026-02-18T14:35:13.822Z",
+    "faceFeature": "REGISTERED_FACE_stu028_certified"
   },
   {
     "id": "ab5ab19b-aa2f-4fb8-825a-fb7c3d9b76c5",
@@ -316,7 +344,8 @@
     "grade": 10,
     "classId": "5a10be5e-0adb-4aa3-af93-99f336ef8d45",
     "phone": "19007854015",
-    "createdAt": "2026-01-31T03:21:53.822Z"
+    "createdAt": "2026-01-31T03:21:53.822Z",
+    "faceFeature": "REGISTERED_FACE_stu029_certified"
   },
   {
     "id": "583a9e34-07ea-46fe-a275-7313252421f5",
@@ -327,7 +356,8 @@
     "grade": 10,
     "classId": "5a10be5e-0adb-4aa3-af93-99f336ef8d45",
     "phone": "18586278105",
-    "createdAt": "2026-05-11T19:15:24.822Z"
+    "createdAt": "2026-05-11T19:15:24.822Z",
+    "faceFeature": "REGISTERED_FACE_stu030_certified"
   },
   {
     "id": "79dfbc19-ae63-4f1d-9e10-0cd1a6fcebc8",
@@ -338,7 +368,8 @@
     "grade": 10,
     "classId": "5a10be5e-0adb-4aa3-af93-99f336ef8d45",
     "phone": "13149064798",
-    "createdAt": "2025-07-23T15:28:23.822Z"
+    "createdAt": "2025-07-23T15:28:23.822Z",
+    "faceFeature": "REGISTERED_FACE_stu031_certified"
   },
   {
     "id": "9a05114f-6cbb-4234-a59e-47489a075c33",
@@ -349,7 +380,8 @@
     "grade": 10,
     "classId": "5a10be5e-0adb-4aa3-af93-99f336ef8d45",
     "phone": "15436753049",
-    "createdAt": "2026-01-10T21:28:39.822Z"
+    "createdAt": "2026-01-10T21:28:39.822Z",
+    "faceFeature": "REGISTERED_FACE_stu032_certified"
   },
   {
     "id": "2c87d4f5-e459-4063-8f80-7ef4a873e533",
@@ -360,7 +392,8 @@
     "grade": 11,
     "classId": "6f4224f5-40c7-4b0c-9878-0ad050244259",
     "phone": "19852727565",
-    "createdAt": "2025-06-20T19:11:04.822Z"
+    "createdAt": "2025-06-20T19:11:04.822Z",
+    "faceFeature": "REGISTERED_FACE_stu033_certified"
   },
   {
     "id": "741f3dcc-c232-4667-81ee-0ec72d2e5518",
@@ -371,7 +404,8 @@
     "grade": 11,
     "classId": "6f4224f5-40c7-4b0c-9878-0ad050244259",
     "phone": "15026582289",
-    "createdAt": "2025-12-31T01:41:33.822Z"
+    "createdAt": "2025-12-31T01:41:33.822Z",
+    "faceFeature": "REGISTERED_FACE_stu034_certified"
   },
   {
     "id": "e24117ad-ad4d-4525-b678-3c8995d4f41e",
@@ -382,7 +416,8 @@
     "grade": 11,
     "classId": "6f4224f5-40c7-4b0c-9878-0ad050244259",
     "phone": "15990238555",
-    "createdAt": "2025-10-13T10:57:44.822Z"
+    "createdAt": "2025-10-13T10:57:44.822Z",
+    "faceFeature": "REGISTERED_FACE_stu035_certified"
   },
   {
     "id": "1401f6a1-6eb7-4020-a1f5-aa98b55a984e",
@@ -393,7 +428,8 @@
     "grade": 11,
     "classId": "6f4224f5-40c7-4b0c-9878-0ad050244259",
     "phone": "19065226251",
-    "createdAt": "2025-12-05T14:03:33.822Z"
+    "createdAt": "2025-12-05T14:03:33.822Z",
+    "faceFeature": "REGISTERED_FACE_stu036_certified"
   },
   {
     "id": "e853c49a-6204-4585-b206-136e971e266c",
@@ -404,7 +440,8 @@
     "grade": 11,
     "classId": "87ca9b67-5289-4499-9d15-7be5607f5647",
     "phone": "15889484857",
-    "createdAt": "2025-03-10T21:42:05.822Z"
+    "createdAt": "2025-03-10T21:42:05.822Z",
+    "faceFeature": "REGISTERED_FACE_stu037_certified"
   },
   {
     "id": "3e29a7a8-8230-4169-bb93-9f8158c5e209",
@@ -415,7 +452,8 @@
     "grade": 11,
     "classId": "87ca9b67-5289-4499-9d15-7be5607f5647",
     "phone": "17974247583",
-    "createdAt": "2026-05-03T13:24:28.822Z"
+    "createdAt": "2026-05-03T13:24:28.822Z",
+    "faceFeature": "REGISTERED_FACE_stu038_certified"
   },
   {
     "id": "c559a85b-d092-4a7a-ab0d-0968699e3404",
@@ -426,7 +464,8 @@
     "grade": 11,
     "classId": "87ca9b67-5289-4499-9d15-7be5607f5647",
     "phone": "19119733328",
-    "createdAt": "2025-03-31T14:30:05.822Z"
+    "createdAt": "2025-03-31T14:30:05.822Z",
+    "faceFeature": "REGISTERED_FACE_stu039_certified"
   },
   {
     "id": "52c7895d-b25a-440d-8cd0-beb88529ead2",
@@ -437,7 +476,8 @@
     "grade": 11,
     "classId": "87ca9b67-5289-4499-9d15-7be5607f5647",
     "phone": "19724753766",
-    "createdAt": "2025-08-03T02:41:13.822Z"
+    "createdAt": "2025-08-03T02:41:13.822Z",
+    "faceFeature": "REGISTERED_FACE_stu040_certified"
   },
   {
     "id": "8603af23-ec76-448c-b911-5ad2c086f2cc",
@@ -448,7 +488,8 @@
     "grade": 12,
     "classId": "ba22a42a-cc20-4135-ac9f-099c7b6f9759",
     "phone": "13920870388",
-    "createdAt": "2026-04-18T02:08:12.822Z"
+    "createdAt": "2026-04-18T02:08:12.822Z",
+    "faceFeature": "REGISTERED_FACE_stu041_certified"
   },
   {
     "id": "8d405000-ff68-4ed1-977f-21ab29f28268",
@@ -459,7 +500,8 @@
     "grade": 12,
     "classId": "ba22a42a-cc20-4135-ac9f-099c7b6f9759",
     "phone": "19811500956",
-    "createdAt": "2025-08-31T17:44:36.822Z"
+    "createdAt": "2025-08-31T17:44:36.822Z",
+    "faceFeature": "REGISTERED_FACE_stu042_certified"
   },
   {
     "id": "0f101afe-2f9a-4fd3-9934-260ee9c4968e",
@@ -470,7 +512,8 @@
     "grade": 12,
     "classId": "ba22a42a-cc20-4135-ac9f-099c7b6f9759",
     "phone": "13219763776",
-    "createdAt": "2025-06-18T11:17:22.822Z"
+    "createdAt": "2025-06-18T11:17:22.822Z",
+    "faceFeature": "REGISTERED_FACE_stu043_certified"
   },
   {
     "id": "620faa16-1dbc-4f25-bb5b-67f7f714e6fd",
@@ -481,7 +524,8 @@
     "grade": 12,
     "classId": "ba22a42a-cc20-4135-ac9f-099c7b6f9759",
     "phone": "19318688151",
-    "createdAt": "2025-04-13T05:06:48.822Z"
+    "createdAt": "2025-04-13T05:06:48.822Z",
+    "faceFeature": "REGISTERED_FACE_stu044_certified"
   },
   {
     "id": "1a2de151-2104-4967-985c-275ec180dc64",
@@ -492,7 +536,8 @@
     "grade": 12,
     "classId": "0eb40ca5-03e7-444d-bf6e-17147d58476a",
     "phone": "17905446156",
-    "createdAt": "2026-06-10T08:55:01.822Z"
+    "createdAt": "2026-06-10T08:55:01.822Z",
+    "faceFeature": "REGISTERED_FACE_stu045_certified"
   },
   {
     "id": "d0dae81a-d8e0-4654-a723-85249d4fd5cb",
@@ -503,7 +548,8 @@
     "grade": 12,
     "classId": "0eb40ca5-03e7-444d-bf6e-17147d58476a",
     "phone": "19469212434",
-    "createdAt": "2026-05-24T22:02:24.822Z"
+    "createdAt": "2026-05-24T22:02:24.822Z",
+    "faceFeature": "REGISTERED_FACE_stu046_certified"
   },
   {
     "id": "740d9437-2a18-4124-abc5-f207f36ea72d",
@@ -514,7 +560,8 @@
     "grade": 12,
     "classId": "0eb40ca5-03e7-444d-bf6e-17147d58476a",
     "phone": "19152025341",
-    "createdAt": "2025-09-17T09:05:23.822Z"
+    "createdAt": "2025-09-17T09:05:23.822Z",
+    "faceFeature": "REGISTERED_FACE_stu047_certified"
   },
   {
     "id": "21ecb51b-f6a1-458e-98e4-c6730d8859a5",
@@ -525,7 +572,8 @@
     "grade": 12,
     "classId": "0eb40ca5-03e7-444d-bf6e-17147d58476a",
     "phone": "13709091850",
-    "createdAt": "2026-02-08T04:45:05.822Z"
+    "createdAt": "2026-02-08T04:45:05.822Z",
+    "faceFeature": "REGISTERED_FACE_stu048_certified"
   },
   {
     "id": "21e161db-bd33-4657-a3ca-04af252a6e1e",
@@ -535,7 +583,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200001",
     "phone": "13237757099",
-    "createdAt": "2024-10-21T10:46:59.822Z"
+    "createdAt": "2024-10-21T10:46:59.822Z",
+    "faceFeature": "REGISTERED_FACE_tea001_certified"
   },
   {
     "id": "fed9df3f-74c8-4c18-a7c0-a7f530f01ca4",
@@ -545,7 +594,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200002",
     "phone": "19545901251",
-    "createdAt": "2024-07-10T09:46:51.822Z"
+    "createdAt": "2024-07-10T09:46:51.822Z",
+    "faceFeature": "REGISTERED_FACE_tea002_certified"
   },
   {
     "id": "93dd37fc-be85-4795-8030-e7d25f04b7cb",
@@ -555,7 +605,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200003",
     "phone": "15613020799",
-    "createdAt": "2025-12-05T02:04:02.822Z"
+    "createdAt": "2025-12-05T02:04:02.822Z",
+    "faceFeature": "REGISTERED_FACE_tea003_certified"
   },
   {
     "id": "ab8cec24-9ef3-4371-9bb4-8e0756cd9142",
@@ -565,7 +616,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200004",
     "phone": "19148251048",
-    "createdAt": "2026-05-13T07:05:27.822Z"
+    "createdAt": "2026-05-13T07:05:27.822Z",
+    "faceFeature": "REGISTERED_FACE_tea004_certified"
   },
   {
     "id": "1299023f-3752-4871-a495-22ed9cb63554",
@@ -575,7 +627,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200005",
     "phone": "15749545075",
-    "createdAt": "2024-07-27T15:41:36.822Z"
+    "createdAt": "2024-07-27T15:41:36.822Z",
+    "faceFeature": "REGISTERED_FACE_tea005_certified"
   },
   {
     "id": "ad1d272b-0d96-4e41-bafb-fea4eaf4cf75",
@@ -585,7 +638,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200006",
     "phone": "19630430071",
-    "createdAt": "2025-11-20T00:09:31.822Z"
+    "createdAt": "2025-11-20T00:09:31.822Z",
+    "faceFeature": "REGISTERED_FACE_tea006_certified"
   },
   {
     "id": "4de3ac7d-0799-4906-a60b-54d05445d508",
@@ -595,7 +649,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200007",
     "phone": "15760535552",
-    "createdAt": "2025-02-02T03:07:50.822Z"
+    "createdAt": "2025-02-02T03:07:50.822Z",
+    "faceFeature": "REGISTERED_FACE_tea007_certified"
   },
   {
     "id": "eb98a00e-d3c4-4db4-a5a1-a189b7f2dd9c",
@@ -605,7 +660,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200008",
     "phone": "18012420956",
-    "createdAt": "2024-07-13T14:56:43.822Z"
+    "createdAt": "2024-07-13T14:56:43.822Z",
+    "faceFeature": "REGISTERED_FACE_tea008_certified"
   },
   {
     "id": "3ae9f231-a9c9-42d1-905d-78511f75e3a4",
@@ -615,7 +671,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200009",
     "phone": "13807169447",
-    "createdAt": "2024-05-11T12:27:17.822Z"
+    "createdAt": "2024-05-11T12:27:17.822Z",
+    "faceFeature": "REGISTERED_FACE_tea009_certified"
   },
   {
     "id": "dac23006-bc3d-4db9-82f6-5fd6c7d2f131",
@@ -625,7 +682,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200010",
     "phone": "17919368728",
-    "createdAt": "2025-11-23T00:33:31.822Z"
+    "createdAt": "2025-11-23T00:33:31.822Z",
+    "faceFeature": "REGISTERED_FACE_tea010_certified"
   },
   {
     "id": "7661ac48-d722-4521-bff4-bd448ff3da1c",
@@ -635,7 +693,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200011",
     "phone": "19440826429",
-    "createdAt": "2024-06-18T01:53:42.822Z"
+    "createdAt": "2024-06-18T01:53:42.822Z",
+    "faceFeature": "REGISTERED_FACE_tea011_certified"
   },
   {
     "id": "15d1040e-fc60-4c1f-9959-82821ba5bb03",
@@ -645,7 +704,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20200012",
     "phone": "15009364319",
-    "createdAt": "2025-06-22T04:47:05.822Z"
+    "createdAt": "2025-06-22T04:47:05.822Z",
+    "faceFeature": "REGISTERED_FACE_tea012_certified"
   },
   {
     "id": "9fa9b24f-7506-46d0-9c1d-909a0f5b7b31",
@@ -655,7 +715,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20180001",
     "phone": "18830811446",
-    "createdAt": "2025-03-06T16:07:24.822Z"
+    "createdAt": "2025-03-06T16:07:24.822Z",
+    "faceFeature": "REGISTERED_FACE_logistics01_certified"
   },
   {
     "id": "93a2598c-f191-4c6a-88ed-8ba5fe971f27",
@@ -665,7 +726,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20180002",
     "phone": "13617671139",
-    "createdAt": "2024-01-14T11:39:22.822Z"
+    "createdAt": "2024-01-14T11:39:22.822Z",
+    "faceFeature": "REGISTERED_FACE_moral01_certified"
   },
   {
     "id": "70d526b1-b107-4d09-833a-541ba3d35fe4",
@@ -675,7 +737,8 @@
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "employeeId": "EMP20150001",
     "phone": "17005769604",
-    "createdAt": "2025-02-16T12:58:05.822Z"
+    "createdAt": "2025-02-16T12:58:05.822Z",
+    "faceFeature": "REGISTERED_FACE_principal_certified"
   },
   {
     "id": "bda8ba0a-2859-48d1-bcf1-50ff407328c8",
@@ -684,7 +747,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "13177923467",
-    "createdAt": "2026-01-20T10:55:43.822Z"
+    "createdAt": "2026-01-20T10:55:43.822Z",
+    "faceFeature": "REGISTERED_FACE_par001_certified"
   },
   {
     "id": "138e06ce-f252-4fb6-8abf-452b3cae6399",
@@ -693,7 +757,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "18253373180",
-    "createdAt": "2026-01-16T11:41:33.822Z"
+    "createdAt": "2026-01-16T11:41:33.822Z",
+    "faceFeature": "REGISTERED_FACE_par002_certified"
   },
   {
     "id": "422a4053-2c8c-434d-9a37-e1cdf3447e0e",
@@ -702,7 +767,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "13340814246",
-    "createdAt": "2026-03-20T05:33:34.822Z"
+    "createdAt": "2026-03-20T05:33:34.822Z",
+    "faceFeature": "REGISTERED_FACE_par003_certified"
   },
   {
     "id": "ca25ae3b-92a6-4942-859b-354a03e05d16",
@@ -711,7 +777,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "17970823457",
-    "createdAt": "2026-03-27T11:29:32.822Z"
+    "createdAt": "2026-03-27T11:29:32.822Z",
+    "faceFeature": "REGISTERED_FACE_par004_certified"
   },
   {
     "id": "3512a3d7-9ac1-4cb8-9aba-7a6586882e8c",
@@ -720,7 +787,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "15110758928",
-    "createdAt": "2025-05-18T00:50:18.822Z"
+    "createdAt": "2025-05-18T00:50:18.822Z",
+    "faceFeature": "REGISTERED_FACE_par005_certified"
   },
   {
     "id": "d4a5f8bf-f162-4e52-858f-381d35d3929a",
@@ -729,7 +797,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "13297955734",
-    "createdAt": "2025-12-14T03:31:22.822Z"
+    "createdAt": "2025-12-14T03:31:22.822Z",
+    "faceFeature": "REGISTERED_FACE_par006_certified"
   },
   {
     "id": "fbe5d749-0276-415b-8d9a-18c0914afea6",
@@ -738,7 +807,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "18251653546",
-    "createdAt": "2025-08-18T21:15:50.822Z"
+    "createdAt": "2025-08-18T21:15:50.822Z",
+    "faceFeature": "REGISTERED_FACE_par007_certified"
   },
   {
     "id": "6c62c821-43fb-4564-9a67-d06f0ca06b55",
@@ -747,7 +817,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "19516553252",
-    "createdAt": "2025-07-22T01:48:59.822Z"
+    "createdAt": "2025-07-22T01:48:59.822Z",
+    "faceFeature": "REGISTERED_FACE_par008_certified"
   },
   {
     "id": "d8c136b6-869b-4984-9312-cfe6d7776207",
@@ -756,7 +827,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "18547960941",
-    "createdAt": "2026-03-15T12:35:39.822Z"
+    "createdAt": "2026-03-15T12:35:39.822Z",
+    "faceFeature": "REGISTERED_FACE_par009_certified"
   },
   {
     "id": "6e781de7-4526-47b1-a99e-6a71ca51c058",
@@ -765,7 +837,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "13276833976",
-    "createdAt": "2025-09-08T10:55:16.822Z"
+    "createdAt": "2025-09-08T10:55:16.822Z",
+    "faceFeature": "REGISTERED_FACE_par010_certified"
   },
   {
     "id": "8b206d02-fb8f-473b-a527-f0cad7c45606",
@@ -774,7 +847,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "13106514183",
-    "createdAt": "2026-04-30T10:09:13.822Z"
+    "createdAt": "2026-04-30T10:09:13.822Z",
+    "faceFeature": "REGISTERED_FACE_par011_certified"
   },
   {
     "id": "c9bdb335-8551-42df-a16e-caabfdc3bef4",
@@ -783,7 +857,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "15349627453",
-    "createdAt": "2025-11-13T04:25:17.822Z"
+    "createdAt": "2025-11-13T04:25:17.822Z",
+    "faceFeature": "REGISTERED_FACE_par012_certified"
   },
   {
     "id": "76f2a481-fb3b-470c-b886-a03dd9f2687a",
@@ -792,7 +867,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "19128027313",
-    "createdAt": "2026-04-02T11:03:38.822Z"
+    "createdAt": "2026-04-02T11:03:38.822Z",
+    "faceFeature": "REGISTERED_FACE_par013_certified"
   },
   {
     "id": "81708bef-eb8b-4962-9d01-4154270c1574",
@@ -801,7 +877,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "15839056582",
-    "createdAt": "2025-06-10T01:45:01.822Z"
+    "createdAt": "2025-06-10T01:45:01.822Z",
+    "faceFeature": "REGISTERED_FACE_par014_certified"
   },
   {
     "id": "b702dbfb-f38c-49df-a193-8f9dcb76e024",
@@ -810,7 +887,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "15893470445",
-    "createdAt": "2026-01-12T16:35:38.822Z"
+    "createdAt": "2026-01-12T16:35:38.822Z",
+    "faceFeature": "REGISTERED_FACE_par015_certified"
   },
   {
     "id": "25e6d7e4-094b-427b-8913-166c260abc35",
@@ -819,7 +897,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "13819047677",
-    "createdAt": "2025-09-30T06:51:31.822Z"
+    "createdAt": "2025-09-30T06:51:31.822Z",
+    "faceFeature": "REGISTERED_FACE_par016_certified"
   },
   {
     "id": "ab2e994c-883c-45c0-92f1-99ae36102823",
@@ -828,7 +907,8 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "19719118573",
-    "createdAt": "2026-05-01T09:39:42.822Z"
+    "createdAt": "2026-05-01T09:39:42.822Z",
+    "faceFeature": "REGISTERED_FACE_par017_certified"
   },
   {
     "id": "5b2286ce-1aae-460f-8783-711bb5b5cc08",
@@ -837,6 +917,7 @@
     "role": "parent",
     "passwordHash": "$2a$10$4G3KaJd4wqxvRo13mG2w/.ztg3QFzfZWBf0xdsiS5iBMdiQC5MfQ2",
     "phone": "17245032669",
-    "createdAt": "2026-06-03T09:25:56.822Z"
+    "createdAt": "2026-06-03T09:25:56.822Z",
+    "faceFeature": "REGISTERED_FACE_par018_certified"
   }
 ]

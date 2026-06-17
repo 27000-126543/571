@@ -270,12 +270,17 @@ export class ApprovalEngine {
     }
 
     const approverLevel = ROLE_LEVEL_MAP[approverUser.role];
-    const currentLevel = (order as any).currentLevel as 1 | 2 | 3;
+    let currentLevel: 1 | 2 | 3;
 
-    if (orderType === 'VISITOR' && order.headTeacherId) {
-      if (status === 'PENDING_L1' && order.headTeacherId !== approver.approverId) {
-        throw new Error('当前审批需班主任处理');
+    if (orderType === 'VISITOR') {
+      currentLevel = this.determineVisitorLevel(order);
+      if (order.headTeacherId) {
+        if (currentLevel === 1 && order.headTeacherId !== approver.approverId) {
+          throw new Error('当前审批需班主任处理');
+        }
       }
+    } else {
+      currentLevel = (order as any).currentLevel as 1 | 2 | 3;
     }
 
     if (orderType === 'WORKORDER' && order.status === 'NEW') {
@@ -291,14 +296,25 @@ export class ApprovalEngine {
       throw new Error('当前工单审批需后勤主任或校长处理');
     }
 
+    if (orderType === 'VISITOR') {
+      if (approverLevel === 'HEAD_TEACHER') {
+        if (currentLevel === 1 && order.headTeacherId === approver.approverId) {
+          return;
+        }
+        throw new Error('您没有该访客申请的审批权限');
+      }
+    }
+
     if (typeof approverLevel !== 'number') {
       throw new Error('您没有审批权限');
     }
 
     if (approverLevel !== currentLevel) {
-      const levelLabels: Record<number, string> = { 1: '后勤主任', 2: '德育主任', 3: '校长' };
+      const levelLabels: Record<number, string> = { 1: '班主任/后勤主任', 2: '德育主任', 3: '校长' };
+      const visitorLevelLabels: Record<number, string> = { 1: '班主任', 2: '德育主任', 3: '校长' };
+      const labels = orderType === 'VISITOR' ? visitorLevelLabels : levelLabels;
       throw new Error(
-        `当前为 L${currentLevel} (${levelLabels[currentLevel]}) 待审批，您只能审批 L${approverLevel} 级别的申请`,
+        `当前为 L${currentLevel} (${labels[currentLevel]}) 待审批，您只能审批 L${approverLevel} 级别的申请`,
       );
     }
   }
@@ -349,6 +365,7 @@ export class ApprovalEngine {
       case 'VISITOR':
         return visitorRepository.update(order.id, {
           status: newStatus,
+          currentLevel: approval.approved ? newLevel : approval.level,
         });
       case 'WORKORDER':
         const workStatus = newStatus === 'APPROVED'
