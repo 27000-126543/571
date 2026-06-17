@@ -61,21 +61,36 @@ const BUS_ROUTES: Record<string, RoutePoint[]> = {
   ],
 };
 
+const ROUTE_NAME_TO_KEY: Record<string, string> = {
+  '东线·科技园方向': 'r1',
+  '西线·高新区方向': 'r2',
+  '南线·滨河路方向': 'r3',
+  '北线·大学城方向': 'r4',
+  '中线·老城区方向': 'r5',
+};
+
 const DELAY_THRESHOLD_MINUTES = 15;
 
 let simulationInterval: NodeJS.Timeout | null = null;
 const busProgress = new Map<string, { segmentIndex: number; t: number; direction: 1 | -1; delayMinutes: number }>();
 
 export class BusSimulator {
+  private static getRouteKeyForBus(bus: { routeName: string }): string {
+    const routeKey = ROUTE_NAME_TO_KEY[bus.routeName];
+    if (routeKey && BUS_ROUTES[routeKey]) {
+      return routeKey;
+    }
+    const fallbackKeys = Object.keys(BUS_ROUTES);
+    return fallbackKeys[0] || 'r1';
+  }
+
   static startSimulation(): void {
     if (simulationInterval) return;
 
     const buses = busRepository.findAll();
-    const routeKeys = Object.keys(BUS_ROUTES);
     
-    for (let i = 0; i < buses.length; i++) {
-      const bus = buses[i];
-      const routeKey = routeKeys[i % routeKeys.length];
+    for (const bus of buses) {
+      const routeKey = this.getRouteKeyForBus(bus);
       const route = BUS_ROUTES[routeKey];
       
       const startIdx = Math.floor(Math.random() * Math.max(1, route.length - 1));
@@ -124,13 +139,11 @@ export class BusSimulator {
   private static updateBusPositions(): void {
     const buses = busRepository.findAll();
     const now = dayjs();
-    const routeKeys = Object.keys(BUS_ROUTES);
 
-    for (let i = 0; i < buses.length; i++) {
-      const bus = buses[i];
+    for (const bus of buses) {
       if (bus.status === 'MAINTENANCE') continue;
 
-      const routeKey = routeKeys[i % routeKeys.length];
+      const routeKey = this.getRouteKeyForBus(bus);
       const route = BUS_ROUTES[routeKey];
       if (!route || route.length < 2) continue;
 
@@ -166,9 +179,10 @@ export class BusSimulator {
       busProgress.set(bus.id, progress);
 
       const idx = progress.segmentIndex;
-      const nextIdx = Math.min(idx + 1, route.length - 1);
+      const forwardNextIdx = Math.min(idx + 1, route.length - 1);
+      const backwardNextIdx = Math.max(0, idx - 1);
       const p1 = route[idx];
-      const p2 = route[nextIdx];
+      const p2 = progress.direction === 1 ? route[forwardNextIdx] : route[backwardNextIdx];
       const t = progress.t;
 
       const newLat = p1.lat + (p2.lat - p1.lat) * t;
@@ -182,13 +196,13 @@ export class BusSimulator {
         ? (p1.stationName === '学校站' ? 'AT_SCHOOL' : 'AT_STATION')
         : (progress.delayMinutes > DELAY_THRESHOLD_MINUTES ? 'DELAYED' : 'ON_ROUTE');
 
-      const nextStationIdx = progress.direction === 1 ? nextIdx : Math.max(0, idx - 1);
-      const nextStation = route[nextStationIdx]?.stationName || p2.stationName || '途中';
+      const nextStationIdx = progress.direction === 1 ? forwardNextIdx : backwardNextIdx;
+      const nextStation = route[nextStationIdx]?.stationName || '途中';
 
       const segmentsRemaining = progress.direction === 1
         ? (route.length - 1 - idx) - t
         : idx - t;
-      const baseArrivalMinutes = segmentsRemaining * 6;
+      const baseArrivalMinutes = Math.max(0, segmentsRemaining) * 6;
       const estArrival = now.add(baseArrivalMinutes + progress.delayMinutes, 'minute');
 
       const speed = atStation ? 0 : Math.floor(15 + Math.random() * 35);

@@ -106,6 +106,28 @@ export interface ScheduleConflict {
   }[];
   resolved: boolean;
   resolvedBy?: string;
+  autoAdjusted?: boolean;
+  adjustmentNote?: string;
+  retainedCourse?: {
+    courseId: string;
+    courseName: string;
+    grade: number;
+    teacherName: string;
+    classroomId: string;
+    classroomNumber: string;
+  };
+  adjustedCourse?: {
+    courseId: string;
+    courseName: string;
+    grade: number;
+    teacherName: string;
+    fromClassroomId: string;
+    fromClassroomNumber: string;
+    toClassroomId?: string;
+    toClassroomNumber?: string;
+    success: boolean;
+  };
+  notifiedTeachers?: string[];
 }
 
 export interface AllocationResult {

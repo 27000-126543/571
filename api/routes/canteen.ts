@@ -98,4 +98,21 @@ router.post('/canteen/purchase-orders', authenticate, requireRoles('logistics_di
   }
 });
 
+router.post('/canteen/inventory/scan', authenticate, requireRoles('logistics_director', 'principal'), async (_req: Request, res: Response): Promise<void> => {
+  try {
+    const result = InventoryService.scanLowStock();
+    const response: ApiResponse<typeof result> = {
+      code: 0,
+      message: '库存扫描完成',
+      data: result,
+      timestamp: Date.now(),
+    };
+    res.status(200).json(response);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : '库存扫描失败';
+    const response: ApiResponse<null> = { code: 500, message, data: null, timestamp: Date.now() };
+    res.status(500).json(response);
+  }
+});
+
 export default router;

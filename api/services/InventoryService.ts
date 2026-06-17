@@ -221,7 +221,6 @@ export class InventoryService {
       currentLevel: 1,
       createdBy: 'SYSTEM_AUTO',
       createdAt: dayjs().toISOString(),
-      source: 'INVENTORY_ALERT',
       approvals: [
         { level: 1, approved: false },
         { level: 2, approved: false },

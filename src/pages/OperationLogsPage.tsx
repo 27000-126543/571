@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Layout from '../components/Layout';
 import {
   History,
@@ -27,7 +27,9 @@ import {
   LogOut,
   Settings,
 } from 'lucide-react';
-import type { OperationLog, UserRole } from '../../shared/types';
+import apiClient from '../api/client';
+import dayjs from 'dayjs';
+import type { OperationLog, UserRole, ApiResponse, PageResponse } from '../../shared/types';
 
 const moduleConfig: Record<string, { label: string; icon: typeof Building2; color: string }> = {
   教学管理: { label: '教学管理', icon: Building2, color: 'primary' },
@@ -42,90 +44,6 @@ const moduleConfig: Record<string, { label: string; icon: typeof Building2; colo
   登录登出: { label: '登录登出', icon: LogOut, color: 'success' },
 };
 
-const mockLogs: OperationLog[] = [
-  {
-    id: 'l1', userId: 'u1', userName: '张校长', userRole: 'principal',
-    action: '登录系统', module: '登录登出', ipAddress: '192.168.1.100', userAgent: 'Chrome 125 / macOS',
-    status: 'SUCCESS', detail: '用户 principal 成功登录系统',
-    targetId: 'u1', targetName: '张校长',
-    createdAt: '2026-06-17T14:32:18.000Z',
-  },
-  {
-    id: 'l2', userId: 'u2', userName: '李主任', userRole: 'logistics_director',
-    action: '提交采购单', module: '审批中心', ipAddress: '192.168.1.105',
-    status: 'SUCCESS', detail: '创建采购单 PO-2026-0617-003，金额 ¥23,000',
-    targetId: 'po1', targetName: '教学设备采购单',
-    createdAt: '2026-06-17T10:30:15.000Z',
-  },
-  {
-    id: 'l3', userId: 'u3', userName: '王老师', userRole: 'teacher',
-    action: '预约座位', module: '图书馆', ipAddress: '192.168.1.220',
-    status: 'SUCCESS', detail: '预约座位 A023，时间段 14:00-17:00',
-    targetId: 'seatA023', targetName: 'A区座位023',
-    createdAt: '2026-06-17T13:55:42.000Z',
-  },
-  {
-    id: 'l4', userId: 'u4', userName: '赵工', userRole: 'logistics_director',
-    action: '派单处理', module: '设备工单', ipAddress: '192.168.1.108',
-    status: 'SUCCESS', detail: '工单 WO-20260616-008 派单给 张工（维修组）',
-    targetId: 'wo3', targetName: 'A101投影仪维修',
-    createdAt: '2026-06-17T09:30:00.000Z',
-  },
-  {
-    id: 'l5', userId: 'u1', userName: '张校长', userRole: 'principal',
-    action: '审批采购', module: '审批中心', ipAddress: '192.168.1.100',
-    status: 'SUCCESS', detail: '批准采购单 PO-2026-0616-009，金额 ¥270,000',
-    targetId: 'po3', targetName: '信息化设备年度采购',
-    createdAt: '2026-06-17T08:45:33.000Z',
-  },
-  {
-    id: 'l6', userId: 'u5', userName: '保安陈队', userRole: 'moral_director',
-    action: '访客扫码', module: '访客系统', ipAddress: '192.168.1.1',
-    status: 'SUCCESS', detail: '访客 李秀英 扫码入校，凭证 QR202606170001V2',
-    targetId: 'v2', targetName: '访客-李秀英',
-    createdAt: '2026-06-17T11:25:00.000Z',
-  },
-  {
-    id: 'l7', userId: 'u6', userName: '食堂管理员', userRole: 'logistics_director',
-    action: '库存调整', module: '食堂管理', ipAddress: '192.168.1.115',
-    status: 'FAILURE', detail: '尝试调整库存失败：权限不足（仅后勤主任可操作）',
-    targetId: 'i5', targetName: '新鲜西兰花库存',
-    createdAt: '2026-06-17T09:12:45.000Z',
-  },
-  {
-    id: 'l8', userId: 'u2', userName: '李主任', userRole: 'logistics_director',
-    action: '智能排课', module: '教学管理', ipAddress: '192.168.1.105',
-    status: 'SUCCESS', detail: '执行AI排课分配，成功分配152门课，发现4个冲突',
-    createdAt: '2026-06-16T22:30:10.000Z',
-  },
-  {
-    id: 'l9', userId: 'u7', userName: '校车调度', userRole: 'logistics_director',
-    action: '异常处理', module: '校车调度', ipAddress: '192.168.1.120',
-    status: 'SUCCESS', detail: '标记异常 ANOMALY-003 为已解决（路线绕行）',
-    targetId: 'a3', targetName: '校巴01路线偏离',
-    createdAt: '2026-06-16T18:45:22.000Z',
-  },
-  {
-    id: 'l10', userId: 'u1', userName: '张校长', userRole: 'principal',
-    action: '导出报表', module: '报表统计', ipAddress: '192.168.1.100', userAgent: 'Chrome 125 / macOS',
-    status: 'SUCCESS', detail: '导出6月上半月运营报表（Excel格式）',
-    createdAt: '2026-06-16T17:20:05.000Z',
-  },
-  {
-    id: 'l11', userId: 'u8', userName: '测试用户', userRole: 'teacher',
-    action: '登录失败', module: '登录登出', ipAddress: '10.0.0.55',
-    status: 'FAILURE', detail: '密码错误（第3次尝试），账户临时锁定15分钟',
-    createdAt: '2026-06-16T09:05:48.000Z',
-  },
-  {
-    id: 'l12', userId: 'u4', userName: '赵工', userRole: 'logistics_director',
-    action: '工单完成', module: '设备工单', ipAddress: '192.168.1.108',
-    status: 'SUCCESS', detail: '完成 WO-20260615-012 校门口摄像头维修，用户满意度 5星',
-    targetId: 'wo5', targetName: '校门口摄像头夜视维修',
-    createdAt: '2026-06-16T11:30:00.000Z',
-  },
-];
-
 const roleLabels: Record<UserRole, string> = {
   student: '学生', teacher: '教师', head_teacher: '班主任',
   logistics_director: '后勤主任', moral_director: '德育主任',
@@ -133,6 +51,9 @@ const roleLabels: Record<UserRole, string> = {
 };
 
 export default function OperationLogsPage() {
+  const [logs, setLogs] = useState<OperationLog[]>([]);
+  const [total, setTotal] = useState(0);
+  const [loading, setLoading] = useState(false);
   const [searchText, setSearchText] = useState('');
   const [moduleFilter, setModuleFilter] = useState<string>('all');
   const [statusFilter, setStatusFilter] = useState<'all' | 'SUCCESS' | 'FAILURE'>('all');
@@ -140,8 +61,36 @@ export default function OperationLogsPage() {
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
   const [expandedLog, setExpandedLog] = useState<string | null>(null);
+  const [page, setPage] = useState(1);
+  const pageSize = 50;
 
-  const filteredLogs = mockLogs.filter(log => {
+  const fetchLogs = useCallback(async () => {
+    setLoading(true);
+    try {
+      const params = new URLSearchParams();
+      params.set('page', String(page));
+      params.set('pageSize', String(pageSize));
+      if (moduleFilter !== 'all') params.set('module', moduleFilter);
+
+      const res = await apiClient.get<ApiResponse<PageResponse<OperationLog>>>(
+        `/logs?${params.toString()}`
+      );
+      if (res.data.code === 0 && res.data.data) {
+        setLogs(res.data.data.list);
+        setTotal(res.data.data.total);
+      }
+    } catch (e) {
+      console.error('获取操作日志失败:', e);
+    } finally {
+      setLoading(false);
+    }
+  }, [page, moduleFilter]);
+
+  useEffect(() => {
+    fetchLogs();
+  }, [fetchLogs]);
+
+  const filteredLogs = logs.filter(log => {
     if (searchText) {
       const s = searchText.toLowerCase();
       if (!log.userName.toLowerCase().includes(s) &&
@@ -149,7 +98,6 @@ export default function OperationLogsPage() {
           !(log.detail || '').toLowerCase().includes(s) &&
           !log.ipAddress.includes(s)) return false;
     }
-    if (moduleFilter !== 'all' && log.module !== moduleFilter) return false;
     if (statusFilter !== 'all' && log.status !== statusFilter) return false;
     if (roleFilter !== 'all' && log.userRole !== roleFilter) return false;
     if (startDate && new Date(log.createdAt) < new Date(startDate)) return false;
@@ -157,11 +105,15 @@ export default function OperationLogsPage() {
     return true;
   });
 
+  const successCount = logs.filter(l => l.status === 'SUCCESS').length;
+  const failureCount = logs.filter(l => l.status === 'FAILURE').length;
+  const uniqueUsers = new Set(logs.map(l => l.userId)).size;
+
   const stats = [
-    { label: '总操作数', value: mockLogs.length, icon: History, color: 'primary' },
-    { label: '成功操作', value: mockLogs.filter(l => l.status === 'SUCCESS').length, icon: CheckCircle, color: 'success' },
-    { label: '失败操作', value: mockLogs.filter(l => l.status === 'FAILURE').length, icon: XCircle, color: 'danger' },
-    { label: '操作用户', value: new Set(mockLogs.map(l => l.userId)).size, icon: User, color: 'warning' },
+    { label: '总操作数', value: total, icon: History, color: 'primary' },
+    { label: '成功操作', value: successCount, icon: CheckCircle, color: 'success' },
+    { label: '失败操作', value: failureCount, icon: XCircle, color: 'danger' },
+    { label: '操作用户', value: uniqueUsers, icon: User, color: 'warning' },
   ];
 
   return (
@@ -176,8 +128,11 @@ export default function OperationLogsPage() {
             <p className="text-gray-500 mt-1">全量操作记录 · 安全审计追踪 · 不可篡改</p>
           </div>
           <div className="flex gap-3">
-            <button className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-bg-card border border-bg-border text-gray-400 hover:text-white hover:border-primary/30 transition-all">
-              <RefreshCw className="w-4 h-4" />
+            <button
+              onClick={() => fetchLogs()}
+              className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-bg-card border border-bg-border text-gray-400 hover:text-white hover:border-primary/30 transition-all"
+            >
+              <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
               刷新
             </button>
             <button className="flex items-center gap-2 px-5 py-2.5 rounded-xl btn-primary text-white font-medium">

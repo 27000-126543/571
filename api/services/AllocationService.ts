@@ -107,28 +107,9 @@ export class AllocationService {
             const conflictId = `conflict_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
             const allCoursesInConflict = [toRemove, course];
 
-            conflicts.push({
-              id: conflictId,
-              classroomId: conflictRoom.id,
-              classroomNumber: conflictRoom.roomNumber,
-              timeSlot: `周${['一','二','三','四','五','六','日'][weekday - 1]} ${startTime}-${endTime}`,
-              courses: allCoursesInConflict.map((c) => ({
-                courseId: c.id,
-                courseName: c.name,
-                grade: c.grade,
-                className: this.getClassName(c.classId),
-                teacherName: c.teacherName,
-                priority: c.priority,
-              })),
-              resolved: true,
-              resolvedBy: course.id,
-              autoAdjusted: true,
-              adjustmentNote: `因${course.grade}年级${course.name}优先级更高，已自动调整${toRemove.grade}年级${toRemove.name}至其他教室`,
-            });
-
             this.removeFromOccupancy(roomOccupancy, conflictRoom.id, weekday, toRemove.startTime, toRemove.endTime, toRemove.id);
 
-            const reassigned = this.reassignCourse(toRemove, classrooms, roomOccupancy);
+            const reassigned = this.reassignCourse(toRemove, classrooms, roomOccupancy, conflictRoom.id);
             if (reassigned) {
               autoAdjusted++;
               const idx = timetable.findIndex(c => c.id === toRemove.id);
@@ -150,9 +131,58 @@ export class AllocationService {
             allocatedCount++;
             this.recordOccupancy(roomOccupancy, conflictRoom.id, weekday, startTime, endTime, course);
             courseRepository.update(course.id, { classroomId: conflictRoom.id });
+
+            const newRoom = reassigned ? classrooms.find(r => r.id === reassigned.classroomId) : undefined;
+            const notifiedTeachers = [
+              course.teacherName,
+              toRemove.teacherName,
+            ].filter(Boolean) as string[];
+
+            conflicts.push({
+              id: conflictId,
+              classroomId: conflictRoom.id,
+              classroomNumber: conflictRoom.roomNumber,
+              timeSlot: `周${['一','二','三','四','五','六','日'][weekday - 1]} ${startTime}-${endTime}`,
+              courses: allCoursesInConflict.map((c) => ({
+                courseId: c.id,
+                courseName: c.name,
+                grade: c.grade,
+                className: this.getClassName(c.classId),
+                teacherName: c.teacherName,
+                priority: c.priority,
+              })),
+              resolved: true,
+              resolvedBy: course.id,
+              autoAdjusted: true,
+              adjustmentNote: `因${course.grade}年级${course.name}（优先级${course.priority}）高于${toRemove.grade}年级${toRemove.name}（优先级${toRemove.priority}），已自动调整低优先级课程`,
+              retainedCourse: {
+                courseId: course.id,
+                courseName: course.name,
+                grade: course.grade,
+                teacherName: course.teacherName,
+                classroomId: conflictRoom.id,
+                classroomNumber: conflictRoom.roomNumber,
+              },
+              adjustedCourse: {
+                courseId: toRemove.id,
+                courseName: toRemove.name,
+                grade: toRemove.grade,
+                teacherName: toRemove.teacherName,
+                fromClassroomId: conflictRoom.id,
+                fromClassroomNumber: conflictRoom.roomNumber,
+                toClassroomId: reassigned ? reassigned.classroomId : undefined,
+                toClassroomNumber: newRoom ? newRoom.roomNumber : undefined,
+                success: !!reassigned,
+              },
+              notifiedTeachers,
+            });
           } else {
             const conflictId = `conflict_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
             const allCoursesInConflict = [...conflictingCourses, course];
+
+            const notifiedTeachers = allCoursesInConflict
+              .map(c => c.teacherName)
+              .filter(Boolean) as string[];
 
             conflicts.push({
               id: conflictId,
@@ -169,7 +199,8 @@ export class AllocationService {
               })),
               resolved: false,
               autoAdjusted: false,
-              adjustmentNote: '课程优先级相同或均为低优先级，需手动处理',
+              adjustmentNote: '课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程',
+              notifiedTeachers,
             });
           }
         }
@@ -281,10 +312,13 @@ export class AllocationService {
     course: Course,
     classrooms: Classroom[],
     occupancy: Map<TimetableKey, Course[]>,
+    excludeRoomId?: string,
   ): Course | null {
     const requiredStudents = GRADE_SIZE[course.grade] || 45;
 
     const availableRooms = classrooms.filter((room) => {
+      if (excludeRoomId && room.id === excludeRoomId) return false;
+
       if (room.capacity < requiredStudents) return false;
       if (!this.equipmentSatisfies(room.equipment, course.requiredEquipment)) return false;
 
@@ -302,7 +336,20 @@ export class AllocationService {
 
     if (availableRooms.length === 0) return null;
 
-    const bestRoom = availableRooms[0];
+    let bestRoom: Classroom | undefined;
+    let bestDist = Infinity;
+
+    for (const room of availableRooms) {
+      const refPoint = { x: 0, y: course.grade * 0.5, z: 0 };
+      const dist = this.calcDistance(room.position3D, refPoint);
+      if (dist < bestDist) {
+        bestDist = dist;
+        bestRoom = room;
+      }
+    }
+
+    if (!bestRoom) return null;
+
     const assigned = this.assignCourseToRoom(course, bestRoom);
     this.recordOccupancy(occupancy, bestRoom.id, course.weekday, course.startTime, course.endTime, course);
     courseRepository.update(course.id, { classroomId: bestRoom.id });

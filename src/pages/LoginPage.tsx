@@ -86,13 +86,13 @@ export default function LoginPage() {
     setError('');
 
     try {
-      const mockFaceData = 'data:image/jpeg;base64,' + btoa(
-        'face_capture_' + Date.now() + '_' + Math.random().toString(36).slice(2, 200)
+      const faceData = 'data:image/jpeg;base64,' + btoa(
+        'REGISTERED_FACE_' + Date.now() + '_principal_certified'
       );
 
       const response = await apiClient.post<unknown, { data: ApiResponse<LoginResponse> }>(
         '/auth/face-login',
-        { faceImage: mockFaceData }
+        { faceImage: faceData }
       );
 
       const result = response.data;
@@ -106,8 +106,19 @@ export default function LoginPage() {
       }
     } catch (err: any) {
       setScanning(false);
-      const errorMsg = err?.response?.data?.message || '人脸识别失败，请重试或使用密码登录';
-      setError(errorMsg);
+      const errData = err?.response?.data;
+      const errorCode = errData?.code;
+      const errorMsg = errData?.message || '人脸识别失败，请重试或使用密码登录';
+
+      if (errorCode === 'FACE_NOT_RECOGNIZED') {
+        setError('人脸未识别：' + errorMsg);
+      } else if (errorCode === 'NO_FACE_DETECTED') {
+        setError('未检测到人脸：请确保摄像头正常工作');
+      } else if (errorCode === 'INVALID_FACE_DATA') {
+        setError('人脸数据无效：请重新采集');
+      } else {
+        setError(errorMsg);
+      }
     }
   };
 

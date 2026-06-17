@@ -264,14 +264,42 @@ export class ApprovalEngine {
       }
     }
 
+    const approverUser = userRepository.findById(approver.approverId);
+    if (!approverUser) {
+      throw new Error('审批人不存在');
+    }
+
+    const approverLevel = ROLE_LEVEL_MAP[approverUser.role];
+    const currentLevel = (order as any).currentLevel as 1 | 2 | 3;
+
     if (orderType === 'VISITOR' && order.headTeacherId) {
       if (status === 'PENDING_L1' && order.headTeacherId !== approver.approverId) {
-        const approverUser = userRepository.findById(approver.approverId);
-        if (approverUser && (approverUser.role === 'logistics_director' || approverUser.role === 'moral_director' || approverUser.role === 'principal')) {
-        } else {
-          throw new Error('当前审批需班主任处理');
-        }
+        throw new Error('当前审批需班主任处理');
       }
+    }
+
+    if (orderType === 'WORKORDER' && order.status === 'NEW') {
+      if (typeof approverLevel === 'number' && approverLevel <= 1) {
+        return;
+      }
+      if (approverUser.role === 'principal') {
+        return;
+      }
+      if (approverUser.role === 'logistics_director') {
+        return;
+      }
+      throw new Error('当前工单审批需后勤主任或校长处理');
+    }
+
+    if (typeof approverLevel !== 'number') {
+      throw new Error('您没有审批权限');
+    }
+
+    if (approverLevel !== currentLevel) {
+      const levelLabels: Record<number, string> = { 1: '后勤主任', 2: '德育主任', 3: '校长' };
+      throw new Error(
+        `当前为 L${currentLevel} (${levelLabels[currentLevel]}) 待审批，您只能审批 L${approverLevel} 级别的申请`,
+      );
     }
   }
 

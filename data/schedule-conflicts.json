@@ -1,6 +1,6 @@
 [
   {
-    "id": "conflict_1781686714252_pr81fm",
+    "id": "conflict_1781689303845_ipflnj",
     "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
     "classroomNumber": "301",
     "timeSlot": "周五 14:00-14:45",
@@ -24,10 +24,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "黄娣娣",
+      "吕桂雪"
+    ]
   },
   {
-    "id": "conflict_1781686714252_jmfr3o",
+    "id": "conflict_1781689303846_abfko6",
     "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
     "classroomNumber": "301",
     "timeSlot": "周二 16:00-16:45",
@@ -51,10 +55,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "吕桂雪",
+      "吕桂雪"
+    ]
   },
   {
-    "id": "conflict_1781686714252_7q1u41",
+    "id": "conflict_1781689303846_vrxk3c",
     "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
     "classroomNumber": "301",
     "timeSlot": "周四 10:00-10:45",
@@ -78,10 +86,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "王文鑫",
+      "吕桂雪"
+    ]
   },
   {
-    "id": "conflict_1781686714253_0tw6x8",
+    "id": "conflict_1781689303846_462a8d",
     "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
     "classroomNumber": "301",
     "timeSlot": "周一 16:55-17:40",
@@ -105,10 +117,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "罗玲",
+      "吕桂雪"
+    ]
   },
   {
-    "id": "conflict_1781686714253_c3fnxw",
+    "id": "conflict_1781689303846_sjn2m8",
     "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
     "classroomNumber": "301",
     "timeSlot": "周五 16:00-16:45",
@@ -132,10 +148,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "陈梦",
+      "吕桂雪"
+    ]
   },
   {
-    "id": "conflict_1781686714253_dz3y7z",
+    "id": "conflict_1781689303846_etuc2v",
     "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
     "classroomNumber": "301",
     "timeSlot": "周五 16:55-17:40",
@@ -159,10 +179,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "吕桂雪",
+      "黄娣娣"
+    ]
   },
   {
-    "id": "conflict_1781686714253_q2845k",
+    "id": "conflict_1781689303846_b6esr2",
     "classroomId": "6a43b890-d92d-4167-876b-835fb03ee1ba",
     "classroomNumber": "301",
     "timeSlot": "周二 10:55-11:40",
@@ -186,10 +210,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "罗玲",
+      "黄娣娣"
+    ]
   },
   {
-    "id": "conflict_1781686714254_x9h2wi",
+    "id": "conflict_1781689303847_ooi3be",
     "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
     "classroomNumber": "101",
     "timeSlot": "周三 14:00-14:45",
@@ -213,10 +241,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "王文鑫",
+      "谢薇"
+    ]
   },
   {
-    "id": "conflict_1781686714254_1lwga3",
+    "id": "conflict_1781689303847_k6qlmr",
     "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
     "classroomNumber": "101",
     "timeSlot": "周五 10:00-10:45",
@@ -240,10 +272,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "黄娣娣",
+      "谢薇"
+    ]
   },
   {
-    "id": "conflict_1781686714254_h88jk8",
+    "id": "conflict_1781689303847_ynhlao",
     "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
     "classroomNumber": "101",
     "timeSlot": "周三 08:00-08:45",
@@ -267,10 +303,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "罗玲",
+      "张杰文"
+    ]
   },
   {
-    "id": "conflict_1781686714254_qfn9ws",
+    "id": "conflict_1781689303847_tdupo9",
     "classroomId": "7a2b5de4-52b5-44d7-898b-025a9117989c",
     "classroomNumber": "101",
     "timeSlot": "周三 16:55-17:40",
@@ -294,10 +334,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "陈梦",
+      "张杰文"
+    ]
   },
   {
-    "id": "conflict_1781686714254_x1a7h6",
+    "id": "conflict_1781689303848_yp8jpv",
     "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
     "classroomNumber": "102",
     "timeSlot": "周一 10:55-11:40",
@@ -321,10 +365,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "郑鑫强",
+      "郑鑫强"
+    ]
   },
   {
-    "id": "conflict_1781686714255_qpjjmf",
+    "id": "conflict_1781689303849_dpy161",
     "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
     "classroomNumber": "102",
     "timeSlot": "周四 10:00-10:45",
@@ -348,10 +396,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "彭浩",
+      "张杰文"
+    ]
   },
   {
-    "id": "conflict_1781686714256_se8kua",
+    "id": "conflict_1781689303849_1tglyp",
     "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
     "classroomNumber": "102",
     "timeSlot": "周三 16:00-16:45",
@@ -375,10 +427,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "张杰文",
+      "高刚浩"
+    ]
   },
   {
-    "id": "conflict_1781686714256_9iyzkp",
+    "id": "conflict_1781689303849_k90805",
     "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
     "classroomNumber": "102",
     "timeSlot": "周一 14:55-15:40",
@@ -402,10 +458,14 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "朱凯",
+      "罗玲"
+    ]
   },
   {
-    "id": "conflict_1781686714256_n6ri9l",
+    "id": "conflict_1781689303849_qvzsap",
     "classroomId": "b1ff5d61-3f66-46f5-b8e8-22ac173220fa",
     "classroomNumber": "102",
     "timeSlot": "周一 08:55-09:40",
@@ -429,6 +489,10 @@
     ],
     "resolved": false,
     "autoAdjusted": false,
-    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理"
+    "adjustmentNote": "课程优先级相同或均为低优先级，需手动处理，请选择保留哪门课程",
+    "notifiedTeachers": [
+      "吕桂雪",
+      "罗玲"
+    ]
   }
 ]

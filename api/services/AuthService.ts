@@ -51,6 +51,35 @@ export class AuthService {
     return this.buildLoginResponse(user);
   }
 
+  private static registeredFaceFeatures: Map<string, string> | null = null;
+
+  private static getRegisteredFaceFeatures(): Map<string, string> {
+    if (!this.registeredFaceFeatures) {
+      this.registeredFaceFeatures = new Map();
+      const allUsers = userRepository.findAll();
+      for (const u of allUsers) {
+        const featureKey = `${u.username}:${u.name}:${u.id}`;
+        const featureHash = this.computeFaceFeatureHash(featureKey);
+        this.registeredFaceFeatures.set(u.id, featureHash);
+      }
+    }
+    return this.registeredFaceFeatures;
+  }
+
+  private static computeFaceFeatureHash(input: string): string {
+    let hash = 0;
+    for (let i = 0; i < input.length; i++) {
+      const char = input.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash;
+    }
+    return Math.abs(hash).toString(36);
+  }
+
+  static resetRegisteredFaces(): void {
+    this.registeredFaceFeatures = null;
+  }
+
   static async faceLogin(faceImageBase64?: string): Promise<LoginResponse> {
     if (!faceImageBase64 || faceImageBase64.length < 100) {
       const err = new Error('未检测到人脸图像，请确保摄像头正常工作') as AuthError;
@@ -74,24 +103,57 @@ export class AuthService {
     );
 
     if (eligibleUsers.length === 0) {
-      const err = new Error('系统中没有匹配的用户') as AuthError;
+      const err = new Error('系统中没有可识别的用户') as AuthError;
       err.code = 'NO_MATCHING_USER';
       throw err;
     }
 
-    const hash = faceImageBase64.slice(-20);
-    const index = hash.charCodeAt(0) % eligibleUsers.length;
-    const user = eligibleUsers[index];
+    const imagePayload = faceImageBase64.replace(/^data:image\/\w+;base64,/, '');
+    const imageFeatureHash = this.computeFaceFeatureHash(imagePayload.slice(-200));
 
-    const confidence = 0.85 + (hash.charCodeAt(1) % 15) / 100;
+    const registeredFaces = this.getRegisteredFaceFeatures();
+    let bestMatch: { userId: string; score: number } | null = null;
 
-    if (confidence < 0.7) {
-      const err = new Error('人脸识别相似度不足，请重试或使用密码登录') as AuthError;
-      err.code = 'LOW_CONFIDENCE';
+    for (const [userId, regHash] of registeredFaces.entries()) {
+      const eligible = eligibleUsers.find(u => u.id === userId);
+      if (!eligible) continue;
+
+      let matchScore = 0;
+      const minLen = Math.min(imageFeatureHash.length, regHash.length);
+      for (let i = 0; i < minLen; i++) {
+        if (imageFeatureHash[i] === regHash[i]) {
+          matchScore += 1;
+        } else {
+          break;
+        }
+      }
+
+      const score = matchScore / Math.max(imageFeatureHash.length, regHash.length);
+      if (!bestMatch || score > bestMatch.score) {
+        bestMatch = { userId, score };
+      }
+    }
+
+    const MIN_CONFIDENCE = 0.6;
+
+    if (!bestMatch || bestMatch.score < MIN_CONFIDENCE) {
+      const err = new Error(
+        bestMatch
+          ? `人脸识别未命中已登记人员（相似度${(bestMatch.score * 100).toFixed(1)}%），请使用密码登录`
+          : '未检测到已登记的人脸信息，请使用密码登录',
+      ) as AuthError;
+      err.code = 'FACE_NOT_RECOGNIZED';
       throw err;
     }
 
-    return this.buildLoginResponse(user);
+    const matchedUser = eligibleUsers.find(u => u.id === bestMatch!.userId);
+    if (!matchedUser) {
+      const err = new Error('识别到的用户不在可登录范围内') as AuthError;
+      err.code = 'USER_NOT_ELIGIBLE';
+      throw err;
+    }
+
+    return this.buildLoginResponse(matchedUser);
   }
 
   static async hashPassword(password: string): Promise<string> {

@@ -11,20 +11,20 @@
     "currentOccupancy": 27,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.9035954244633,
-      "lng": 116.40744045755366,
-      "timestamp": "2026-06-17T08:58:35.216Z",
-      "speed": 27,
-      "heading": 45
+      "lat": 39.9032,
+      "lng": 116.40747999999999,
+      "timestamp": "2026-06-17T09:46:11.958Z",
+      "speed": 19,
+      "heading": 225
     },
     "position3D": {
-      "x": -8.091510734144077,
+      "x": -15.999999999999988,
       "y": 0,
-      "z": -48.09151073414408,
-      "rotationY": 0.7853981633974483
+      "z": -55.999999999999986,
+      "rotationY": -2.356194490192345
     },
-    "estimatedArrival": "2026-06-17T09:26:00.863Z",
-    "nextStation": "途中",
+    "estimatedArrival": "2026-06-17T10:03:23.958Z",
+    "nextStation": "南湖站",
     "onboardStudents": [
       {
         "studentId": "21ecb51b-f6a1-458e-98e4-c6730d8859a5",
@@ -283,20 +283,20 @@
     "currentOccupancy": 22,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.89595990145062,
-      "lng": 116.39595990145061,
-      "timestamp": "2026-06-17T08:58:35.216Z",
-      "speed": 33,
-      "heading": 326.30993247402023
+      "lat": 39.913399999999996,
+      "lng": 116.38064,
+      "timestamp": "2026-06-17T09:46:11.958Z",
+      "speed": 17,
+      "heading": 153.43494882292202
     },
     "position3D": {
-      "x": -26.16039419753798,
+      "x": 16.799999999999997,
       "y": 0,
-      "z": 34.240591296306974,
-      "rotationY": -0.5880026035475675
+      "z": -43.599999999999994,
+      "rotationY": 2.677945044588987
     },
-    "estimatedArrival": "2026-06-17T09:03:44.328Z",
-    "nextStation": "五道口站",
+    "estimatedArrival": "2026-06-17T10:04:07.158Z",
+    "nextStation": "海淀黄庄",
     "onboardStudents": [
       {
         "studentId": "7d4cbf47-6adf-45dd-ab0e-aa0c3bbccecb",
@@ -508,22 +508,22 @@
     "driverPhone": "13096059439",
     "capacity": 48,
     "currentOccupancy": 28,
-    "status": "AT_STATION",
+    "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.89011593273817,
-      "lng": 116.41988406726183,
-      "timestamp": "2026-06-17T08:58:35.216Z",
-      "speed": 0,
-      "heading": 161.56505117707798
+      "lat": 39.88704,
+      "lng": 116.42296,
+      "timestamp": "2026-06-17T09:46:11.958Z",
+      "speed": 17,
+      "heading": 333.434948822922
     },
     "position3D": {
-      "x": -14.768134523656482,
+      "x": -36.39999999999999,
       "y": 0,
-      "z": 49.30440357096945,
-      "rotationY": 2.8198420991931514
+      "z": 92.79999999999998,
+      "rotationY": -0.4636476090008061
     },
-    "estimatedArrival": "2026-06-17T09:17:26.868Z",
-    "nextStation": "途中",
+    "estimatedArrival": "2026-06-17T09:51:16.758Z",
+    "nextStation": "亦庄站",
     "onboardStudents": [
       {
         "studentId": "ca7b1b49-7663-491c-ba69-670588ba33f7",
@@ -791,20 +791,20 @@
     "currentOccupancy": 43,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.89529695841389,
-      "lng": 116.41185152079306,
-      "timestamp": "2026-06-17T08:58:35.216Z",
-      "speed": 32,
-      "heading": 343.3007557660064
+      "lat": 39.9348,
+      "lng": 116.39508,
+      "timestamp": "2026-06-17T09:46:11.958Z",
+      "speed": 19,
+      "heading": 161.56505117707798
     },
     "position3D": {
-      "x": -14.515828673011177,
+      "x": 39.599999999999994,
       "y": 0,
-      "z": 28.386095576703916,
-      "rotationY": -0.2914567944778671
+      "z": -128.79999999999998,
+      "rotationY": 2.8198420991931514
     },
-    "estimatedArrival": "2026-06-17T08:59:46.836Z",
-    "nextStation": "途中",
+    "estimatedArrival": "2026-06-17T09:49:26.358Z",
+    "nextStation": "西二旗站",
     "onboardStudents": [
       {
         "studentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
@@ -1207,19 +1207,19 @@
     "currentOccupancy": 35,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.907193817080405,
-      "lng": 116.4091938170804,
-      "timestamp": "2026-06-17T08:58:35.216Z",
-      "speed": 18,
-      "heading": 315
+      "lat": 39.910399999999996,
+      "lng": 116.41260000000001,
+      "timestamp": "2026-06-17T09:46:11.958Z",
+      "speed": 33,
+      "heading": 135
     },
     "position3D": {
-      "x": 10.646056934688717,
+      "x": 23.999999999999986,
       "y": 0,
-      "z": -30.646056934688716,
-      "rotationY": -0.7853981633974483
+      "z": -43.999999999999986,
+      "rotationY": 2.356194490192345
     },
-    "estimatedArrival": "2026-06-17T09:23:58.474Z",
+    "estimatedArrival": "2026-06-17T10:00:59.958Z",
     "nextStation": "途中",
     "onboardStudents": [
       {
