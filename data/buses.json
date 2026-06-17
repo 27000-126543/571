@@ -11,20 +11,20 @@
     "currentOccupancy": 27,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.9032,
-      "lng": 116.40747999999999,
-      "timestamp": "2026-06-17T09:46:11.958Z",
-      "speed": 19,
+      "lat": 39.90556,
+      "lng": 116.40644,
+      "timestamp": "2026-06-17T09:52:54.136Z",
+      "speed": 47,
       "heading": 225
     },
     "position3D": {
-      "x": -15.999999999999988,
+      "x": 21.200000000000003,
       "y": 0,
-      "z": -55.999999999999986,
+      "z": 11.200000000000003,
       "rotationY": -2.356194490192345
     },
-    "estimatedArrival": "2026-06-17T10:03:23.958Z",
-    "nextStation": "南湖站",
+    "estimatedArrival": "2026-06-17T10:30:15.736Z",
+    "nextStation": "途中",
     "onboardStudents": [
       {
         "studentId": "21ecb51b-f6a1-458e-98e4-c6730d8859a5",
@@ -283,20 +283,20 @@
     "currentOccupancy": 22,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.913399999999996,
-      "lng": 116.38064,
-      "timestamp": "2026-06-17T09:46:11.958Z",
-      "speed": 17,
-      "heading": 153.43494882292202
+      "lat": 39.905592,
+      "lng": 116.401304,
+      "timestamp": "2026-06-17T09:52:54.136Z",
+      "speed": 20,
+      "heading": 135
     },
     "position3D": {
-      "x": 16.799999999999997,
+      "x": 2.399999999999997,
       "y": 0,
-      "z": -43.599999999999994,
-      "rotationY": 2.677945044588987
+      "z": -22.4,
+      "rotationY": 2.356194490192345
     },
-    "estimatedArrival": "2026-06-17T10:04:07.158Z",
-    "nextStation": "海淀黄庄",
+    "estimatedArrival": "2026-06-17T10:19:27.736Z",
+    "nextStation": "途中",
     "onboardStudents": [
       {
         "studentId": "7d4cbf47-6adf-45dd-ab0e-aa0c3bbccecb",
@@ -510,19 +510,19 @@
     "currentOccupancy": 28,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.88704,
-      "lng": 116.42296,
-      "timestamp": "2026-06-17T09:46:11.958Z",
-      "speed": 17,
+      "lat": 39.88512,
+      "lng": 116.42488,
+      "timestamp": "2026-06-17T09:52:54.136Z",
+      "speed": 48,
       "heading": 333.434948822922
     },
     "position3D": {
-      "x": -36.39999999999999,
+      "x": -49.19999999999999,
       "y": 0,
-      "z": 92.79999999999998,
+      "z": 118.39999999999998,
       "rotationY": -0.4636476090008061
     },
-    "estimatedArrival": "2026-06-17T09:51:16.758Z",
+    "estimatedArrival": "2026-06-17T09:56:08.536Z",
     "nextStation": "亦庄站",
     "onboardStudents": [
       {
@@ -791,20 +791,20 @@
     "currentOccupancy": 43,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.9348,
-      "lng": 116.39508,
-      "timestamp": "2026-06-17T09:46:11.958Z",
-      "speed": 19,
-      "heading": 161.56505117707798
+      "lat": 39.9322,
+      "lng": 116.39612,
+      "timestamp": "2026-06-17T09:52:54.136Z",
+      "speed": 34,
+      "heading": 341.565051177078
     },
     "position3D": {
-      "x": 39.599999999999994,
+      "x": 34.4,
       "y": 0,
-      "z": -128.79999999999998,
-      "rotationY": 2.8198420991931514
+      "z": -113.2,
+      "rotationY": -0.3217505543966422
     },
-    "estimatedArrival": "2026-06-17T09:49:26.358Z",
-    "nextStation": "西二旗站",
+    "estimatedArrival": "2026-06-17T10:22:32.536Z",
+    "nextStation": "途中",
     "onboardStudents": [
       {
         "studentId": "f88bf7dd-507a-47c4-88fe-97165c66e3a1",
@@ -1207,19 +1207,19 @@
     "currentOccupancy": 35,
     "status": "ON_ROUTE",
     "currentPosition": {
-      "lat": 39.910399999999996,
-      "lng": 116.41260000000001,
-      "timestamp": "2026-06-17T09:46:11.958Z",
-      "speed": 33,
-      "heading": 135
+      "lat": 39.90052,
+      "lng": 116.39920000000001,
+      "timestamp": "2026-06-17T09:52:54.136Z",
+      "speed": 34,
+      "heading": 146.30993247402023
     },
     "position3D": {
-      "x": 23.999999999999986,
+      "x": -13.200000000000006,
       "y": 0,
-      "z": -43.999999999999986,
-      "rotationY": 2.356194490192345
+      "z": 14.800000000000011,
+      "rotationY": 2.5535900500422257
     },
-    "estimatedArrival": "2026-06-17T10:00:59.958Z",
+    "estimatedArrival": "2026-06-17T10:27:51.736Z",
     "nextStation": "途中",
     "onboardStudents": [
       {
